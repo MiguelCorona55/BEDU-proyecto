@@ -1,16 +1,25 @@
-setwd(r'{C:\Users\migue\Documents\Curso DA BEDU\Modulo 2\proyecto}')
+wd <- dirname(rstudioapi::getSourceEditorContext()$path)
+setwd(wd)
+
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
 
-runnin2018 <- read.csv('RUNNIN2018.csv', sep = ';')
-runnin2018 <- runnin2018 %>%
+df_runnin <- lapply(list.files('data', full.names = TRUE, pattern = 'RUNNIN*'), read.csv, sep = ';')
+df_runnin <- do.call(rbind, df_runnin)
+
+
+#runnin2018 <- read.csv('RUNNIN2018.csv', sep = ';')
+df_runnin <- df_runnin %>%
                 select(DATE, RUNNING_HOURS) %>%
                 mutate(DATE = as.Date(DATE, '%d/%m/%Y')) %>%
-                rename(FECHA = DATE) 
+                rename(FECHA = DATE)
 
-df2018 <- read.csv('FALLAS2018.csv', sep = ';')
-df2018 <- df2018 %>%
+df_fallas <- lapply(list.files('data', full.names = TRUE, pattern = 'FALLAS*'), read.csv, sep = ';')
+df_fallas <- do.call(rbind, df_fallas)
+
+#df2018 <- read.csv('FALLAS2018.csv', sep = ';')
+df_fallas <- df_fallas %>%
             mutate(PARO = tolower(PARO),
                    ï..FECHA = as.Date(ï..FECHA, '%d/%m/%Y'),
                    DIA = strftime(ï..FECHA, '%d'),
@@ -21,7 +30,7 @@ df2018 <- df2018 %>%
             drop_na(FECHA) %>%
             select(FECHA, AÑO, SEMANA, DIA,  ENCARGADO:PARO)
 
-df2018 <- merge(df2018, runnin2018, by = 'FECHA')
+df_fallas <- merge(df_fallas, df_runnin, by = 'FECHA')
 
 
 #Distribucion del tiempo
@@ -56,23 +65,21 @@ ggplot(equipo_freq, aes(x = reorder(EQUIPO, -FREQ), y = FREQ)) +
         plot.title = element_text(hjust = 0.5))
 
 # Indicadores
-fallas_semana_2018 <- df2018 %>%
-                        count(SEMANA, name = 'FALLAS')
+fallas_semana_2018 <- df_fallas %>%
+                        group_by(AÑO, SEMANA) %>%
+                        tally(name = 'FALLAS')
 
-indicadores2018 <- df2018 %>%
-                     group_by(SEMANA, DIA) %>%
+indicadores <- df_fallas %>%
+                     group_by(AÑO, SEMANA, DIA) %>%
                      summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-                     group_by(SEMANA) %>%
+                     group_by(AÑO, SEMANA) %>%
                      summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
-                     add_column(MBTF = .$RUNNING_HOURS / fallas_semana_2018$FALLAS, 
-                               MTTR = .$TIEMPO_DE_FALLAS / fallas_semana_2018$FALLAS, 
+                     add_column(MBTF = .$RUNNING_HOURS / fallas_semana_2018$FALLAS,
+                               MTTR = .$TIEMPO_DE_FALLAS / fallas_semana_2018$FALLAS,
                                BREAKDOWN = (.$TIEMPO_DE_FALLAS/60) / .$RUNNING_HOURS)
 
+indicadores <- indicadores %>%
+                replace(is.na(.) | . == Inf, 0)
 
-df2018[df2018$EQUIPO == 'BRCODCR - Encoder',]
-summary(df2018$TIEMPO)
-str(df2018)
 
-mean(df2018$TIEMPO)
 
-list.files('data', full.names = TRUE, pattern = 'FALLAS*')
