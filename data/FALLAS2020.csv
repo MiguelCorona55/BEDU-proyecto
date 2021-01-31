@@ -1,0 +1,378 @@
+﻿FECHA;ENCARGADO;GRUPO;EQUIPO;TURNO;TIPO_FALLA;TIPO_MTTO;CAUSA;TIEMPO;PARO
+06/01/2020;Jorge Ramirez;Compresores;Compresor 1 Quincy;2;Maquina;Correctivo curativo;Baja presion en cabinas;20;SI
+06/01/2020;Jorge Ramirez;Conveyor;HT 670 TK 671;2;Maquina;Correctivo curativo;SkId choca con mesa;10;SI
+06/01/2020;Jorge Ramirez;Conveyor;HT 670 TK 671;2;Maquina;Correctivo curativo;Error de ocupacion;10;SI
+06/01/2020;Jorge Ramirez;Robots Flameo ;FL1 - Robot de Flama;2;Maquina;Preventivo condicional;defecto de flama;10;SI
+06/01/2020;Humberto Barraza;Robots Flameo ;FL1 - Robot de Flama;3;Maquina;Correctivo paulatino;Se alarma por defecto de flama.;15;SI
+06/01/2020;Humberto Barraza;Robots Flameo ;FL1 - Robot de Flama;3;Maquina;Correctivo paulatino;Se alarma por defecto de flama cuando robot regresa a casa.;20;SI
+06/01/2020;Humberto Barraza;Robots Flameo ;FL2 - Robot de Flama;3;Maquina;Correctivo paulatino;Se alarma en en 3 ocasiones por collision detect.;15;SI
+06/01/2020;Humberto Barraza;Robots Flameo ;FL1 - Robot de Flama;3;Maquina;Correctivo paulatino;Defecto de flama, vuelve a perder calibracion.;15;SI
+08/01/2020;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;1;Maquina;Correctivo paulatino;alarma constante de shapping;60;SI
+10/01/2020;Jesus Villa Guerrero;Robots CO2;Tablero ACP;1;Maquina;Correctivo paulatino;alta concentracion de co2;10;SI
+11/01/2020;Jesus Villa Guerrero;Compresores;Otro;1;Humano;Apoyo;robots alarmados por baja presion de aire;10;SI
+07/01/2020;fernando rosales;Compresores;Otro;mixto;Maquina;Correctivo paulatino;alarma de flujo alto y bajo de shaping ;15;si
+07/01/2020;jorge Ramirez;Robots Flameo ;FL1 - Robot de Flama;2;Maquina;Correctivo paulatino;Defecto de flama;20;si
+07/01/2020;Humberto Barraza;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive 14.1.;5;si
+08/01/2020;Jesus Villa Guerrero;conveyor;SK 680 SP 681;1;Material;Apoyo;error de monitoreo;5;SI
+08/01/2020;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;1;Maquina;Correctivo paulatino;defecto de flama;5;SI
+08/01/2020;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo paulatino;Falla de speed drive 14.1.;5;si
+08/01/2020;Humberto Barraza;Robots Flameo ;FL1 - Robot de Flama;3;Maquina;Correctivo paulatino;Se alarma por defecto de flama.;50;SI
+08/01/2020;Humberto Barraza;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;speed drive 14.1;5;SI
+09/01/2020;fernando rosales;Compresores;Compresor 1 Quincy;Mixto;Maquina;Apoyo;ANACOVI viene arealizar analisis de vibracion;15;SI
+09/01/2020;Jorge Ramirez;Conveyor;HT 180 TK 181;2;Maquina;Correctivo curativo;Sensor de ruptura de cadena ;10;SI
+09/01/2020;Jorge Ramirez;Conveyor;HT 070 TK 071;2;Maquina;Correctivo paulatino;Linea no se mueve;25;SI
+09/01/2020;Jorge Ramirez;conveyor;HT 070 TK 071;2;Maquina;Apoyo;Skid no llega a poscion;5;SI
+09/01/2020;Humberto Barraza;Conveyor;HS 160 TK 161;3;Maquina;Preventivo condicional;Sensor de monitoreo de cadena de elevador 160-S82F1 activado.;5;SI
+09/01/2020;Humberto Barraza;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;Alarma por speed drive 14.1. en 2 ocasiones.;5;SI
+09/01/2020;Humberto Barraza;Robots Base Coat;BC3 - Robot de Base;3;Maquina;Correctivo paulatino;Falla de shaping robots 3 y 4.;10;SI
+10/01/2020;jorge Ramirez;Robots Flameo ;FL1 - Robot de Flama;2;Maquina;Correctivo paulatino;defecto de flama;20;SI
+10/01/2020;jorge Ramirez;Conveyor;HT 180 TK 181;2;Maquina;Apoyo;barrera interrumpida;20;SI
+10/01/2020;Humberto Barraza;Robots Base Coat;BC3 - Robot de Base;3;Maquina;Apoyo;Falla de shaping robots 3 y 4.;5;SI
+13/01/2020;Fernando Rosales;Conveyor;SK 680 SP 681;2;Material;Apoyo;piezas caida DT variant ;15;SI
+13/01/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;skid no entrana cabina de bc;10;SI
+13/01/2020;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;3;Material;Apoyo;solo aplican 3 aspersores de herramienta;30;SI
+14/01/2020;jorge Ramirez;Robots Flameo ;FL1 - Robot de Flama;1;Maquina;Preventivo condicional;Cable se jala;15;SI
+14/01/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;skid 179 no entra a cabina de bc;10;SI
+14/01/2020;Jesus Villa Guerrero;Robots Base Coat;BC3 - Tablero eléctrico/neumático;3;Maquina;Correctivo paulatino;Shapping air;5;SI
+15/01/2020;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;2;Maquina;Correctivo paulatino;speed driver error 14.1, se tiene 2 eventos;5;SI
+15/01/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;skid no entra a cabina de bc;10;SI
+15/01/2020;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo curativo;Shapping air;15;SI
+15/01/2020;Jesus Villa Guerrero;Conveyor;HS 160 TK 161;3;Maquina;Correctivo paulatino;barrera interrumpida;5;SI
+16/01/2020;jorge Ramirez;PLC;CFP - CO2 Flame Primer;1;Maquina;Apoyo;PLC a stop;30;SI
+16/01/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;falla de bc pulsos de encoder ;15;SI
+16/01/2020;Fernando Rosales;Robots Primer;PR2 - Robot de Primer;2;Maquina;Correctivo curativo;robot se apaga;20;SI
+16/01/2020;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo curativo;falla shapping ;25;SI
+16/01/2020;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;3;Maquina;Correctivo curativo;pieza caida;90;SI
+17/01/2020;Fernando Rosales;Conveyor;TK 080 LS 080;2;Maquina;Apoyo;se alarma no reset hanshake win cc;10;si
+20/01/2020;Jorge Ramirez;Chiller;;1;Maquina;Correctivo paulatino;Corto circuito;100;SI
+20/01/2020;Jorge Ramirez;CPA 622 - Clara;622C - Heck;1;Maquina;Correctivo paulatino;Equipo apagado;100;SI
+20/01/2020;Fernando Rosales;Robots Primer;PR2 - Tablero elétrica/neumático;2;Maquina;Correctivo curativo;baja presion de aire en bosster;30;SI
+20/01/2020;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;3;Maquina;Correctivo curativo;fuga de solvente;30;SI
+20/01/2020;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;3;Maquina;Correctivo curativo;manguera dañada;30;SI
+21/01/2020;Jesus Villa Guerrero;Robots CO2;Tablero ACP;3;Maquina;Apoyo;reportan linea parada ;30;SI
+22/01/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;Mixto;Maquina;Preventivo condicional;Falla de speed drive 14.1.;20;SI
+22/01/2020;Fernando Rosales;Conveyor;TK 540;2;Maquina;Correctivo paulatino;falla de cc incoherence running conveyor  and encoder;15;SI
+22/01/2020;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;speed drive alarma resin 14.1;45;si
+23/01/2020;Fernando Rosales;Compresores;Compresor 2 Quincy;2;Maquina;Correctivo paulatino;linea se alama por baja presion de aire;20;SI
+23/01/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC4 - Robot de Clara;3;Maquina;Correctivo curativo;Se alarma por baja revoluciones turbina. ;20;SI
+27/01/2020;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;1;Maquina;Correctivo curativo;defecto de flama;20;SI
+27/01/2020;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;2;Metodo;Correctivo curativo;Cable de electro muy holgado que enpieza a quemar.;15;SI
+28/01/2020;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo paulatino;speed drive alarm;40;SI
+28/01/2020;Fernando Rosales;Robots Base Coat;BC1 - Robot de Base;1;Maquina;Correctivo curativo;shapping air alarm;30;SI
+28/01/2020;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;Mixto;Maquina;Correctivo curativo;shapping air alarm;20;SI
+28/01/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Metodo;Correctivo paulatino;Se alarma en 9 ocasiones ;15;SI
+28/01/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Metodo;Correctivo curativo;Durante la limpieza se realiza el cambio de valvulas pontava de resina y microvalvula PV11.;20;SI
+29/01/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Metodo;Correctivo paulatino;Se alarma en 4 ocasiones ;15;SI
+30/01/2020;Fernando Rosales;Conveyor;HS 160 TK 161;1;Maquina;Correctivo paulatino;se alarma constantemente por barrera interrumpida;20;SI
+30/01/2020;Jorge Ramirez;Servidor - Win CC;;3;Maquina;Apoyo;no reset of handshake;5;SI
+31/01/2020;Fernando Rosales;Conveyor;HS 160 TK 161;1;Maquina;Correctivo curativo;barrera interrumpida;15;SI
+05/02/2020;Fernando Rosales;Compresores;Todos;1;Maquina;Correctivo paulatino;se alarman cabinas por baja presion de aire;40;SI
+05/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Maquina;Correctivo paulatino;Se alarma en 2 ocasiones por speed drive.;5;Si
+07/02/2020;Humberto Barraza Villanueva;Conveyor;HS 660 TK 661;2;Maquina;Correctivo paulatino; Se alarma micro de cadena rota de elevador. 660 S82F2.;10;SI
+10/02/2020;Jorge Ramirez;Compresores;Todos;1;Maquina;Correctivo paulatino;baja presion de aire en robot;35;SI
+10/02/2020;Fernando Rosales;Robots Base Coat;BC4 - Robot de Base;3;Maquina;Correctivo curativo;se alarma constantemente por alto voltaje;45;SI
+13/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo paulatino;Falla de speed drive.;5;SI
+14/02/2020;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;3;Maquina;Correctivo paulatino;fuga de material a la salida de la oruga color pure gray;10;SI
+15/02/2020;Humberto Barraza Villanueva;Conveyor;HT 180 TK 181;1;Maquina;Apoyo;No entran skids a la cabina.;5;SI
+17/02/2020;Jesus Villa Guerrero;Robots Primer;PR2 - Robot de Primer;2;Material;Correctivo paulatino;Reportan gotas en varios postes.;30;SI
+18/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo paulatino;Falla de  speed drive 14.1.;5;SI
+19/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo paulatino;Falla de speed drive de resina;5;SI
+19/02/2020;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;1;Maquina;Preventivo condicional;reportan que no hay salida de solvente cuando realizan el flush.;10;SI
+19/02/2020;Jesus Villa Guerrero;Conveyor;TK 030;2;Maquina;Preventivo condicional;cadena truena mucho;10;SI
+19/02/2020;Fernando Rosales;Robots CO2;Todos;3;Maquina;Correctivo paulatino;alta concentracion de co2;30;SI
+20/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo paulatino;Falla de speed drive.;5;SI
+21/02/2020;Fernando Rosales;Conveyor;TK 650;3;Maquina;Correctivo curativo;cadena desfasada;90;SI
+22/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo paulatino;Falla de speed drive 14.1;5;SI
+22/02/2020;Humberto Barraza Villanueva;Conveyor;TK 400;1;Maquina;Correctivo paulatino;No entran skids a cabinas por falla de Hand shake.;5;SI
+24/02/2020;Fernando Rosales;Compresores;Otro;Mixto;Maquina;Apoyo;baja presison de aire;20;SI
+24/02/2020;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;3;Maquina;Preventivo condicional;Por tema del shaping low en limpieza se realiza cambio de proporcional.;15;SI
+24/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive 14.1.;5;SI
+25/02/2020;Jesus Villa Guerrero;Conveyor;HT 670 TK 671;1;Maquina;Correctivo curativo;mesa alarmada;5;SI
+25/02/2020;Jesus Villa Guerrero;Otro;;1;Maquina;Apoyo;apagon;45;SI
+25/02/2020;Jesus Villa Guerrero;Robots Primer;PR2 - Robot de Primer;1;Maquina;Apoyo;pantalla teach congelada;5;SI
+25/02/2020;Jorge Ramirez;Conveyor;SK 680 SP 681;2;Maquina;Correctivo paulatino;error de monitoreo;10;SI
+25/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo paulatino;Se alarma por speed drive 14.1, falla en tres ocasiones durante turno.;5;Si
+25/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo paulatino;Se alarma por speed drive 14.1;5;Si
+26/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive 14.1. en 2 ocasiones.;2;SI
+26/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive ;3;SI
+26/02/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed rive en 2 ocasiones.;3;SI
+27/02/2020;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo curativo;fuga de resina a media oruga;40;SI
+02/03/2020;Jorge Ramirez;Compresores;Otro;2;Maquina;Correctivo curativo;Valvula de control dañada;30;SI
+02/03/2020;Jorge Ramirez;Robots Base Coat;BC1 - Robot de Base;2;Maquina;Correctivo paulatino;No carga color;12;SI
+02/03/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive en 2 ocasiones 14.1.;5;SI
+02/03/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive en 2 ocasiones 14.1.;5;SI
+02/03/2020;Humberto Barraza Villanueva;Conveyor;TK 420;3;Maquina;Apoyo;Error de ocupacion.;5;SI
+03/03/2020;Jorge Ramirez;Conveyor;HT 180 TK 181;2;Maquina;Apoyo;no reset handshake;10;SI
+03/03/2020;Jorge Ramirez;Compresores;Otro;2;Maquina;Apoyo;Baja presion de aire;15;SI
+03/03/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Preventivo condicional;Falla de speed drive en 2 ocasiones 14.1.;5;SI
+04/03/2020;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;1;Maquina;Correctivo curativo;variador dañado;60;si
+04/03/2020;Jorge Ramirez;Robots Flameo ;FL2 - Robot de Flama;2;Maquina;Correctivo curativo;Defecto de flama.;30;SI
+04/03/2020;Jorge Ramirez;Conveyor;HT 180 TK 181;2;Maquina;Correctivo curativo;No entran skid a cabinas;10;SI
+04/03/2020;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;3;Maquina;Preventivo condicional;Defecto de flama.;15;SI
+04/03/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive 14.1 en 7 ocasiones.;10;SI
+05/03/2020;Jorge Ramirez;Robots Clear Coat;CC1 - Robot de Clara;2;Maquina;Correctivo curativo;Alto voltaje;33;si
+05/03/2020;Jorge Ramirez;Robots Clear Coat;CC4 - Robot de Clara;2;Maquina;Correctivo curativo;Alta presion en resina;28;SI
+05/03/2020;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;3;Maquina;Correctivo curativo;Se alarma por collision detect.;40;SI
+05/03/2020;Humberto Barraza Villanueva;Sistema recuperador de solvente;;3;Humano;Apoyo;Alarma high level base dump tank.;5;SI
+10/03/2020;Jesus Villa Guerrero;Conveyor;TK 440;3;Humano;Correctivo paulatino;Barrera interrupida;15;si
+10/03/2020;Jesus Villa Guerrero;Conveyor;VW 090 TK 091;3;Maquina;Correctivo curativo;Barrera interrupida;5;si
+10/03/2020;Jesus Villa Guerrero;Conveyor;TK 400;3;Maquina;Correctivo paulatino;no reset of hand shake;5;si
+12/03/2020;Fernando Rosales;Robots Primer;PR2 - Robot de Primer;2;Maquina;Correctivo curativo;teach pendal congelado;10;si
+20/03/2020;Jorge Ramirez;Compresores;Compresor 1 Quincy;1;Maquina;Correctivo curativo;Falla por alta temp en salida;120;SI
+23/03/2020;Humberto Barraza Villanueva;Conveyor;TK 540;2;Maquina;Apoyo;Se alarma en varias ocasiones.;5;Si
+23/03/2020;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;2;Maquina;Preventivo condicional;Se alarma por defecto de flama, se apaga en trayectoria.;15;Si
+23/03/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Maquina;Correctivo paulatino;Falla de speed drive.;3;Si
+23/03/2020;Jorge Ramirez;Conveyor;TK 540;3;Maquina;Correctivo curativo;No entran los skid a base;7;Si
+24/03/2020;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;1;Maquina;Correctivo curativo;Se alarma por defecto de flama;10;SI
+24/03/2020;Fernando Rosales;Robots Base Coat;BC2 - Robot de Base;1;Maquina;Correctivo curativo;etel:no motor pressurization;15;SI
+24/03/2020;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;1;Maquina;Correctivo curativo;rotula rotativa dañada;30;SI
+24/03/2020;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;2;Maquina;Correctivo curativo;Se alarma por No motor pressurization. Y se encuentra alarmado modulo de control pilz del etel. ;20;SI
+26/03/2020;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;3;Maquina;Correctivo curativo;barrera interrumpida;55;Si
+27/03/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Maquina;Correctivo paulatino;Se alarma por speed drive.;5;Si
+22/06/2020;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo curativo;baja presion  del material de bajo brillo;90;si
+22/06/2020;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;2;Humano;Correctivo curativo;mesa se alarma constantemente;35;si
+23/06/2020;Jesus Villa Guerrero;Conveyor;TK 400;2;Maquina;Preventivo condicional;no reset de handshake;10;si
+26/06/2020;Isay Sánchez Mejía;Conveyor;HT 240 TK 241;Mixto;Material;Correctivo curativo;Se atora skid al bajar la mesa levadiza;3;si
+26/06/2020;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;2;Maquina;Correctivo paulatino;error de ocupacion;10;si
+26/06/2020;Jesus Villa Guerrero;Conveyor;SK170 SP171 LS170;2;Maquina;Correctivo curativo;tope alarmado;30;si
+26/06/2020;Jorge Ramirez;Conveyor;TK 230;3;Maquina;Preventivo condicional;cortina alarmada;10;si
+29/06/2020;Fernando Rosales;Robots CO2;CL1 - Robot de CO2;1;Maquina;Correctivo paulatino;se cae yoyo;20;si
+01/07/2020;Jesus Villa Guerrero;Conveyor;VW 640 TK 641;2;Maquina;Correctivo curativo;Falla de mesa TK 640-;380;Si
+01/07/2020;Humberto Barraza Villanueva;Conveyor;VW 640 TK 641;3;Maquina;Correctivo curativo;Falla de mesa TK 640-;10;Si
+02/07/2020;Humberto Barraza Villanueva;Conveyor;TK 400;3;Maquina;Preventivo condicional;No entran skids a cabina de base por No reset of hand shake.;5;Si
+03/07/2020;Fernando Rosales;Conveyor;SK170 SP171 LS170;1;Maquina;Correctivo curativo;tope neumatico no llega a posicion;20;Si
+03/07/2020;Jorge Ramirez;Robots CO2;Todos;3;Maquina;Correctivo paulatino;Se activa alarma de CO2;13;Si
+06/07/2020;Jesus Villa Guerrero;Conveyor;HT 670 TK 671;1;Humano;Correctivo curativo;mesa alarmada;20;Si
+06/07/2020;Jorge Ramirez;Conveyor;TK 420;2;Maquina;Correctivo paulatino;No entran skids a cabina de base por No reset of hand shake.;10;Si
+07/07/2020;Fernando Rosales;Conveyor;HT 110 TK 111;3;Humano;Correctivo curativo;mesa alarmada;50;Si
+08/07/2020;Fernando Rosales;Conveyor;HS 490 TK 491;3;Maquina;Correctivo paulatino;alarma group 410-531,450-491 floor error fuse monitoring 400v;150;Si
+09/07/2020;Isay Sánchez Mejía;Servidor - Win CC;;Mixto;Maquina;Correctivo paulatino;Marca falla el WinCC y se cierra aplicacion perdiente aplicacion con los clientes;10;Si
+09/07/2020;Isay Sánchez Mejía;Servidor - Win CC;;Mixto;Maquina;Correctivo curativo;No hay comunicacion con los clientes;22;Si
+09/07/2020;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Maquina;Preventivo condicional;Error de monitoreo;10;Si
+09/07/2020;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;3;Maquina;Correctivo curativo;robot se apaga ;15;Si
+09/07/2020;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;3;Maquina;Correctivo curativo;alta presion ala salida de la bomba de resina;30;Si
+10/07/2020;Jesus Villa Guerrero;Robots Base Coat;BC6 - Robot de Base;1;Maquina;Correctivo curativo;alta presion a la salida de la bomba;10;Si
+08/07/2020;Jorge Ramirez;Conveyor;VW 090 TK 091;2;Maquina;Apoyo;Driver no ready (6);15;Si
+13/07/2020;Isay Sánchez Mejía;Conveyor;HT 670 TK 671;Mixto;Maquina;Apoyo;Pieza caida trasera tiguan posicion medio;5;SI
+13/07/2020;Jorge Ramirez;Conveyor;HT 180 TK 181;2;Maquina;Correctivo curativo;Sensor B12 se alarma;12;Si
+13/07/2020;Jorge Ramirez;Robots Flameo ;FL2 - Robot de Flama;2;Maquina;Correctivo paulatino;se apaga en trayectoria;12;Si
+13/07/2020;Fernando Rosales;Conveyor;DT 055 TK 056;3;Humano;Apoyo;skid no llega a posicion;15;SI
+13/07/2020;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;3;Maquina;Correctivo paulatino;robot se apaga estando en home;10;Si
+14/07/2020;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;1;Maquina;Correctivo curativo;defecto de flama;10;Si
+14/07/2020;Jesus Villa Guerrero;Robots Base Coat;BC5 - Robot de Base;1;Humano;Apoyo;reportan barrera interrumpida;15;Si
+14/07/2020;Jesus Villa Guerrero;Conveyor;TK 400;1;Maquina;Correctivo paulatino;no reset of handshake;10;Si
+14/07/2020;Fernando Rosales;Robots Base Coat;Todos;3;Humano;Apoyo;Tanque recuperacion de solvente lleno;10;SI
+17/07/2020;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;3;Maquina;Correctivo paulatino;robot se apaga;10;SI
+20/07/2020;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;2;Maquina;Correctivo curativo;CO2 siempre activo.;32;Si
+20/07/2020;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Apoyo;pantalla del teachpendal congelada;10;Si
+21/07/2020;Isay Sánchez Mejía;Servidor - Win CC;;Mixto;Maquina;Correctivo paulatino;Se cierra runtime y proyecto;25;SI
+21/07/2020;Jorge Ramirez;Robots Primer;PR1 - Robot de Primer;1;Maquina;Correctivo paulatino;Alta presion salida de la bomba;12;SI
+21/07/2020;Humberto Barraza Villanueva;Compresores;Otro;2;Maquina;Correctivo paulatino;Se dispara interruptor principal de compresor de renta.;10;SI
+21/07/2020;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;2;Maquina;Correctivo curativo;Valvula trigger de CO2 no abre. ;23;SI
+21/07/2020;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;3;Maquina;Correctivo paulatino;alta presion a la salida de la bomba de resina;15;SI
+22/07/2020;Jorge Ramirez;Robots Primer;PR1 - Robot de Primer;1;Maquina;Correctivo curativo;alta presion a la salida de la bomba de resina;10;SI
+23/07/2020;Jorge Ramirez;Robots Flameo ;FL2 - Robot de Flama;1;Maquina;Correctivo curativo;Defecto de flama;10;Si
+23/07/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC2 - Robot de Clara;2;Maquina;Correctivo paulatino;Se alarma por alto voltaje.;10;Si
+23/07/2020;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo curativo;Se alarma por alto voltaje.;45;Si
+25/07/2020;Jorge Ramirez;Robots Base Coat;BC6 - Robot de Base;1;Maquina;Correctivo curativo;parpadeo en aplicacion;32;Si
+26/07/2020;Jorge Ramirez;Robots Base Coat;BC4 - Robot de Base;1;Maquina;Correctivo curativo;validacion shapping en 0;33;Si
+27/07/2020;Fernando Rosales;Conveyor;TK 400;Mixto;Maquina;Correctivo paulatino;skids no entran a cabna de base por no reset hanshake ;10;Si
+27/07/2020;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;2;Maquina;Correctivo paulatino;parpadeo en aplicacion;25;Si
+27/07/2020;Jesus Villa Guerrero;Conveyor;SK170 SP171 LS170;3;Maquina;Apoyo;tope alarmado;5;Si
+30/07/2020;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;2;Maquina;Correctivo paulatino;Se apaga robot de base.;10;Si
+30/07/2020;Fernando Rosales;Conveyor;TK 400;3;Maquina;Correctivo paulatino;skids no entran a cabna de base por no reset hanshake ;10;SI
+01/08/2020;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Apoyo;baja presion a la entrada;10;SI
+03/08/2020;Isay Sánchez Mejía;Conveyor;HT 710 TK 711;mixto;Maquina;Correctivo paulatino;No avance skid, se queda atorado;10;SI
+03/08/2020;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;mixto;Maquina;Correctivo curativo;baja presion a la entrada de la bomba;90;SI
+03/08/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;se alarma por the variable gap is too long;15;SI
+04/08/2020;Humberto Barraza Villanueva;Conveyor;HT 180 TK 181;2;Maquina;Preventivo condicional;Se alarma mesa por piston neumatico.;5;SI
+04/08/2020;Fernando Rosales;Conveyor;DT 040 TK 041;2;Maquina;Correctivo curativo;skid se queda a media tranferencia;5;SI
+04/08/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;se alarma por hanshake win cc;10;SI
+05/08/2020;Humberto Barraza Villanueva;Conveyor;SK170 SP171 LS170;2;Maquina;Correctivo paulatino;Se alarma en 2 ocasiones.;5;SI
+06/08/2020;Jorge Ramirez;Conveyor;SK170 SP171 LS170;3;Maquina;Correctivo curativo;tope se alarma ;24;SI
+06/08/2020;Jorge Ramirez;Conveyor;VW 090 TK 091;3;Maquina;Correctivo curativo;Skids amontanados;22;SI
+07/08/2020;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;1;Maquina;Preventivo condicional;Parpadeo.;20;SI
+07/08/2020;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;1;Maquina;Correctivo paulatino;Vuelve a fallar bomba comienza aparpadear.;10;SI
+07/08/2020;Isay Sánchez Mejía;PLC;PT - Process;mixto;Maquina;Correctivo paulatino;Se va Stop y no rearrancar;110;SI
+07/08/2020;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;2;Maquina;Correctivo curativo;parpadeo en aplicacion;60;SI
+07/08/2020;Fernando Rosales;Servidor - Win CC;;2;Maquina;Correctivo paulatino;se alarma por ordenes - No reset Handshake;30;SI
+09/08/2020;Jorge Ramirez;Conveyor;TK 540;3;Humano;Correctivo curativo;Sensor no detecta;40;SI
+09/08/2020;Jorge Ramirez;Conveyor;HT 180 TK 181;3;Maquina;Correctivo curativo;Cadena dañada;95;SI
+09/08/2020;Jorge Ramirez;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;Alarma de bajo flujo hardener;25;SI
+10/08/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo curativo;Baja presion a la entrada de bomba de hardener.;35;SI
+10/08/2020;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Rising Box;1;Maquina;Preventivo condicional;No hay señal de box position.;10;SI
+11/08/2020;Fernando Rosales;Conveyor;VW 090 TK 091;2;Maquina;Correctivo paulatino;Barrera interrumpida;5;SI
+11/08/2020;Fernando Rosales;Conveyor;HS 660 TK 661;2;Material;Apoyo;pieza caida dt tiguan invertida;15;SI
+11/08/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;skids no entran a cabina de base;15;SI
+11/08/2020;Jorge Ramirez;Conveyor;TK 140 LS 140;3;Maquina;Apoyo;No hay lectura del RFID;10;SI
+12/08/2020;Humberto Barraza Villanueva;Robots Base Coat;BC5 - Robot de Base;1;Maquina;Correctivo curativo;Bomba amarrada de material;30;SI
+12/08/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;skids no entran a cabina de base;15;SI
+12/08/2020;Jorge Ramirez;Conveyor;HS 660 TK 661;3;Maquina;Apoyo;pieza caida;15;SI
+12/08/2020;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;1;Maquina;Correctivo paulatino;parpadeo en aplicacion;30;SI
+13/08/2020;Fernando Rosales;Conveyor;TK 400;2;Maquina;Correctivo paulatino;skids no entran a cabina de base;15;SI
+13/08/2020;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;2;Maquina;Correctivo curativo;se apaga quemador en trayectoria;15;SI
+13/08/2020;Fernando Rosales;Conveyor;SK 680 SP 681;2;Material;Apoyo;piezas urgentes;10;SI
+14/08/2020;Fernando Rosales;Conveyor;SK170 SP171 LS170;2;Maquina;Correctivo paulatino;se alarman topes neumaticos;10;SI
+17/08/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;falla en 2 ocasiones por speed driver 14.1 resina.;5;SI
+18/08/2020;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo curativo;alto voltaje;20;SI
+18/08/2020;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;1;Maquina;Apoyo;teach congelado;5;SI
+18/08/2020;Humberto Barraza Villanueva;Conveyor;SK170 SP171 LS170;3;Maquina;Correctivo paulatino;No deja restablecer por sensores 171 B2.1 y B2.2 activos.;10;SI
+19/08/2020;Fernando Rosales;Conveyor;SK170 SP171 LS170;1;Maquina;Correctivo paulatino;topes alarmados;30;SI
+25/08/2020;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Maquina;Correctivo paulatino;alta presion a la salida de la bomba de resina y hardener;15;SI
+25/08/2020;Jorge Ramirez;Conveyor;Otro;2;Maquina;Correctivo curativo;Corto cicuito en H35;65;SI
+26/08/2020;Fernando Rosales;Compresores;Otro;1;Maquina;Correctivo paulatino;baja presion de aire;90;SI
+26/08/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;falla de speed driver 14.1;2;SI
+26/08/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;3;Maquina;Correctivo paulatino;falla de speed driver 14.1;3;SI
+27/08/2020;Fernando Rosales;Conveyor;HT 270 TK 271;1;Material;Apoyo;pieza caida;10;SI
+27/08/2020;Humberto Barraza Villanueva;Conveyor;SK170 SP171 LS170;3;Maquina;Correctivo paulatino;Se alarma en varias ocaciones tope.;10;SI
+27/08/2020;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;3;Maquina;Preventivo condicional;Valvula AGMD de maniful de solvente presenta goteo por el pilotaje de la valvula.;5;SI
+28/08/2020;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;3;Maquina;Correctivo paulatino;Alarma de alto voltaje.;90;SI
+31/08/2020;Isay Sánchez Mejía;Conveyor;TK 190;mixto;Maquina;Correctivo paulatino;No controla pitch algunos skids;25;SI
+31/08/2020;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;2;Maquina;Correctivo curativo;no transfiere material de docking a sprayer;10;SI
+31/08/2020;Jesus Villa Guerrero;Conveyor;VW 090 TK 091;2;Humano;Apoyo;barrera interrumpida;5;SI
+31/08/2020;Jesus Villa Guerrero;Conveyor;TK 190;2;Maquina;Correctivo paulatino;pintch varia;15;SI
+31/08/2020;Fernando Rosales;Conveyor;TK 190;3;Maquina;Correctivo curativo;No controla pitch algunos skids;30;SI
+01/09/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;M;Maquina;Correctivo curativo;Fuga de herdener en zona de la horuga.;20;Si
+02/09/2020;Fernando Rosales;Servidor - Win CC;;3;Maquina;Apoyo;se desfasa linea;30;si
+03/09/2020;Isay Sánchez Mejía;Servidor - Win CC;;mixto;Maquina;Correctivo curativo;No reset de handshake y se desafa ordenes;40;Si
+08/09/2020;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;2;Humano;Correctivo curativo;mesa alarmada;15;Si
+10/09/2020;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;3;Maquina;Correctivo curativo;fuga de material puregray;60;si
+11/09/2020;Humberto Barraza Villanueva;Conveyor;TK 100;3;Maquina;Correctivo paulatino;Barrera interrumpida;3;Si
+12/09/2020;Jorge Ramirez;Conveyor;TK 610;mixto;Maquina;Correctivo curativo;Cadena con desfase;260;SI
+07/09/2020;Jesus Villa Guerrero;Robots Flameo ;Tablero IPROS;2;Maquina;Correctivo paulatino;Olor a gas;60;SI
+07/09/2020;Jesus Villa Guerrero;Robots Primer;PR2 - Caja de purga;2;material;Correctivo curativo;caja de purga tapada;15;SI
+15/09/2020;Jesus Villa Guerrero;Conveyor;HS 160 TK 161;2;Material;Correctivo paulatino;sew not ready;30;SI
+17/09/2020;Jorge Ramirez;Conveyor;TK 080 LS 080;3;Maquina;Correctivo curativo;No hay lectura del RFID;16;SI
+18/09/2020;Humberto Barraza Villanueva;Conveyor;TK 400;2;Maquina;Correctivo paulatino;Se alarma por hand shake, no entran skids.;5;SI
+21/09/2020;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;2;Maquina;Apoyo;Robot se queda en el docking, no hay alarmas. ;20;SI
+25/09/2020;Jesus Villa Guerrero;Conveyor;HS 730 TK 731;1;Maquina;Correctivo paulatino;Error de monitoreo;5;SI
+25/09/2020;Jorge Ramirez;Robots Base Coat;BC4 - Robot de Base;3;Maquina;Correctivo curativo;Alarma ¨Low Limit turbine¨;10;SI
+25/09/2020;Jorge Ramirez;Robots Base Coat;BC5 - Tablero eléctrico/neumático;3;Maquina;Correctivo paulatino;Alarma ¨Booster pressure aiur¨;10;SI
+17/09/2020;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;2;Maquina;Preventivo condicional;Se alarma cada que se va a casa por falla por deteccion de flama.;5;SI
+17/09/2020;Jorge Ramirez;Robots Flameo ;FL1 - Robot de Flama;3;Maquina;Correctivo curativo;"Alarma ""Deteccion de flama""";10;SI
+26/09/2020;Jesus Villa Guerrero;Robots Base Coat;BC5 - Tablero eléctrico/neumático;1;Maquina;Correctivo paulatino;color contaminado;25;si
+26/09/2020;Humberto Barraza Villanueva;Robots Base Coat;BC5 - Robot de Base;2;Maquina;Correctivo paulatino;Se alarma por baja presion de aire, boster siempre trabajando pero nunca alcanza la presion de 10 bares.;30;SI
+21/09/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC2 - Robot de Clara;2;Maquina;Correctivo paulatino;Reportan en la limpieza una fuga de material en zona de la muñeca.;10;SI
+21/09/2020;Jorge Ramirez;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo curativo;Reportan en la limpieza una fuga de material en zona de la muñeca.;40;SI
+22/09/2020;Humberto Barraza Villanueva;PLC;CFP - CO2 Flame Primer;2;Maquina;Correctivo curativo;Se va stop PLC primer durante limpieza con los robots de primer en posicion de purga;90;SI
+22/09/2020;Jorge Ramirez;PLC;CFP - CO2 Flame Primer;3;Maquina;Correctivo curativo;Se va stop PLC primer durante limpieza con los robots de primer en posicion de purga;90;SI
+22/09/2020;Jesus Villa Guerrero;PLC;CFP - CO2 Flame Primer;2;Maquina;Correctivo curativo;Se va stop PLC primer.;30;SI
+22/09/2020;Jesus Villa Guerrero;Robots Primer;Todos;3;Maquina;Correctivo curativo;no responde cuando solicitan ciclos de limpieza o carga de material en robots;30;SI
+23/09/2020;Fernando Rosales;PLC;CFP - CO2 Flame Primer;mixto;Maquina;Apoyo;plc se va a falla;20;SI
+28/09/2020;Fernando Rosales;Conveyor;HS 660 TK 661;2;Maquina;Correctivo curativo;skid se queda media transferencia;15;si
+28/09/2020;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;2;Maquina;Correctivo paulatino;material purewrite contaminado con tendencia azul;180;si
+28/09/2020;Jesus Villa Guerrero;Conveyor;HT 670 TK 671;3;Maquina;Preventivo condicional;Error de monitoreo;5;SI
+30/09/2020;Jesus Villa Guerrero;Robots Base Coat;BC5 - Robot de Base;3;Maquina;Correctivo curativo;gotas en piezas;10;si
+30/09/2020;Jesus Villa Guerrero;Robots Base Coat;BC5 - Robot de Base;3;Maquina;Correctivo curativo;variacion de aire atom;25;si
+18/09/2020;Humberto Barraza Villanueva;Conveyor;HT 180 TK 181;2;Maquina;Apoyo;Se alarma por error de ocupacion.;5;SI
+23/09/2020;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;2;Maquina;Apoyo;Reporta alfonso que robot no va cargar y realiza trayectorias vacio.;10;SI
+28/09/2020;Jesus Villa Guerrero;Zona de Carga 330;Luminarias;3;Humano;Correctivo paulatino;reportan lamparas apagadas;15;SI
+25/09/2020;Jesus Villa Guerrero;Conveyor;HT 130 TK 131;1;Maquina;Apoyo;sensor marca ocupacion sin skid presente;5;SI
+26/09/2020;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;2;Metodo;Apoyo;Reporta Alfonso que teach se queda congelado y no deja realizar ninguna operacion.;30;SI
+01/10/2020;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;1;Maquina;Apoyo;Se queda conectado sin transferir material y no marca alarma.;10;si
+01/10/2020;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;1;Maquina;Preventivo condicional;Se alarma por SERVO 365 DCS ejes 4 y 5.;10;si
+01/10/2020;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;1;Maquina;Apoyo;Se alarma por error de ocupacion en varias ocasiones.;15;si
+01/10/2020;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;2;Maquina;Correctivo curativo;transductor no manda lectura ala salida de la bomba;30;si
+02/10/2020;Humberto Barraza Villanueva;Conveyor;HT 110 TK 111;1;Maquina;Correctivo paulatino;Se atora skid al realizar transferencia.;15;si
+02/10/2020;Jorge Ramirez;Conveyor;HT 110 TK 111;3;Maquina;Correctivo curativo;Error de monitoreo;10;si
+03/10/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo paulatino;Se alarma por speed drive 14.1.;2;si
+06/10/2020;Jorge Ramirez;Servidor - Win CC;;3;Maquina;Correctivo paulatino;no reset of hand shake;5;si
+07/10/2020;Jesus Villa Guerrero;Servidor - Win CC;;3;Maquina;Correctivo paulatino;no reset of hand shake zona 60;30;si
+08/10/2020;Jesus Villa Guerrero;Servidor - Win CC;;3;Maquina;Correctivo paulatino;no reset of handshake;10;si
+09/10/2020;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;1;Maquina;Correctivo paulatino;Se queda conectado en docking sin alarma.;5;si
+09/10/2020;Fernando Rosales;Servidor - Win CC;;2;Maquina;Correctivo paulatino;no reset hanshake win cc;50;si
+09/10/2020;Jesus Villa Guerrero;Servidor - Win CC;;3;Maquina;Correctivo paulatino;no reset of handshake;15;si
+09/10/2020;Humberto Barraza Villanueva;Servidor - Win CC;;1;Maquina;Correctivo paulatino;no reset of handshake;10;si
+10/10/2020;Fernando Rosales;Servidor - Win CC;;2;Maquina;Correctivo paulatino;no reset hanshake win cc;10;si
+13/10/2020;Humberto Barraza Villanueva;Servidor - Win CC;;3;Maquina;Correctivo paulatino;Se alarma servidor  en 5 ocasiones durante el turno.;15;Si
+13/10/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;Se alarma por speed drive 14.1.;5;Si
+15/10/2020;Jorge Ramirez;Robots Flameo ;FL2 - Robot de Flama;2;Maquina;Correctivo curativo;Defecto de flama.;10;Si
+16/10/2020;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Maquina;Correctivo curativo;se alarma por defecto de flama;15;SI
+16/10/2020;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo curativo;alarma de booster;15;SI
+16/10/2020;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;3;Maquina;Correctivo curativo;alarma de booster;20;SI
+16/10/2020;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;1;Maquina;Correctivo curativo;alarma de booster;40;SI
+17/10/2020;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;1;Maquina;Correctivo paulatino;fuga de aire en conexion del multitubo;40;si
+19/10/2020;Jorge Ramirez;Robots Base Coat;BC1 - Robot de Base;2;Maquina;Correctivo curativo;Fuga de solvente;150;SI
+20/10/2020;Humberto Barraza Villanueva;Robots Primer;PR2 - Robot de Primer;3;Maquina;Correctivo paulatino;Reportan gotas de solvente.;7;SI
+22/10/2020;Jesus Villa Guerrero;Conveyor;VW 640 TK 641;2;Maquina;Preventivo condicional;llanta caida;20;SI
+22/10/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Maquina;Correctivo paulatino;Falla de speed drive.;5;SI
+26/10/2020;Jesus Villa Guerrero;Robots Primer;PR2 - Caja de purga;2;Material;Apoyo;caja de purga tapada;15;SI
+29/10/2020;Humberto Barraza Villanueva;Conveyor;HS 600 TK 601;3;Maquina;Correctivo paulatino;Skid se pasa de posicion obstruye barrera.;5;Si
+05/11/2020;Fernando Rosales;Conveyor;TK 590;3;Maquina;Correctivo curativo;se alarma por barrera interrumpida en 5 ocasiones;15;SI
+06/11/2020;Jorge Ramirez;Conveyor;TK 540;1;Maquina;Correctivo paulatino;se alarma por barrera interrumpida en 3 ocasiones;10;SI
+09/11/2020;Humberto Barraza Villanueva;Estación de Gas Natural;;2;Humano;Correctivo curativo;Baja presion de gas, se apagan hornos.;10;SI
+10/11/2020;Jesus Villa Guerrero;PLC;CFP - CO2 Flame Primer;1;Humano;Correctivo curativo;plc en stop;10;SI
+10/11/2020;Isay Sánchez Mejía;Conveyor;SK 700 SP 701;Mixto ;Maquina;Correctivo paulatino;Error monitoring;5;SI
+10/11/2020;Isay Sánchez Mejía;Conveyor;SK 700 SP 701;Mixto ;Maquina;Correctivo paulatino;Error monitoring;5;SI
+12/11/2020;Isay Sánchez Mejía;Conveyor;HT 710 TK 711;Mixto ;Maquina;Correctivo paulatino;Sube la mesa levadiza sin dejar que terminara de pasar  skid;5;SI
+17/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;1;Maquina;Correctivo paulatino;robots se apaga;15;SI
+17/11/2020;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;1;Humano;Correctivo curativo;codo de aire fuera de posicion;5;SI
+17/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;1;Maquina;Correctivo curativo;robots se apaga;15;SI
+18/11/2020;Isay Sánchez Mejía;Conveyor;SK 700 SP 701;Mixto ;Maquina;Correctivo paulatino;Error monitoring;5;SI
+18/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;1;Maquina;Correctivo paulatino;no termina transferencia de pintura;10;SI
+18/11/2020;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;2;Maquina;Correctivo paulatino;Se alarma por alto voltaje.;10;SI
+18/11/2020;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Docking/Booster;2;Maquina;Preventivo condicional;Tanque pulmon se encuentra en 22 bares y valvula de alivio enpieza a desfogar aire. ;10;SI
+18/11/2020;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;2;Maquina;Correctivo curativo;Se vuelve alarmar por alto voltaje, no deja restablecer.;85;SI
+19/11/2020;Jesus Villa Guerrero;Robots CO2;Otro;1;Maquina;Correctivo paulatino;alta concentracion de co2;10;SI
+19/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;1;Maquina;Correctivo paulatino;alarma alto voltaje;10;SI
+19/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;1;Maquina;Correctivo curativo;alarma alto voltaje;30;SI
+19/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;1;Maquina;Correctivo curativo;alarma alto voltaje;30;SI
+19/11/2020;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Docking/Booster;2;Metodo;Correctivo paulatino;Valvula de alivio de regulador vencido, fuga de aire.;5;SI
+20/11/2020;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;1;Maquina;Correctivo curativo;Defecto de flama.;15;SI
+20/11/2020;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;1;Maquina;Correctivo curativo;Defecto de flama.;30;SI
+23/11/2020;Fernando Rosales;Robots Clear Coat;CC3 - Caja de Purga ;2;Maquina;Correctivo curativo;cepillo no gira;15;SI
+24/11/2020;Humberto Barraza Villanueva;Robots Primer;PR2 - Robot de Primer;1;Maquina;Correctivo curativo;Se apaga robot.;12;SI
+24/11/2020;Fernando Rosales;Robots Primer;PR2 - Robot de Primer;2;Maquina;Correctivo curativo;Se apaga robot.;15;SI
+25/11/2020;Humberto Barraza Villanueva;Horno Clara;Otro;1;Maquina;Preventivo condicional;Se dispara termomagnetico que alimenta transformador que alimenta zona de Oficinas, comedor, almacen y vigilancia. Valvula de gas natural se cierra.;10;SI
+25/11/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo paulatino;Falla de speed drive 14.1-;3;SI
+27/11/2020;Jorge Ramirez;Robots Base Coat;BC6 - Robot de Base;3;Maquina;Correctivo curativo;ppcm con gotas;10;SI
+27/11/2020;Jorge Ramirez;Conveyor;HT 270 TK 271;3;Maquina;Apoyo;skid no llega a posicion;10;SI
+28/11/2020;Fernando Rosales;CPA 622 - Clara;622C - Heck;2;Maquina;Correctivo paulatino;heck alarmado por temperatura;15;SI
+29/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;3;Maquina;Correctivo curativo;baja presion a la entrada de la bomba;25;SI
+29/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;3;Maquina;Correctivo curativo;baja presion a la salida de la bomba;20;SI
+29/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;3;Maquina;Correctivo curativo;sandwich flojo;5;SI
+29/11/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;3;Humano;Correctivo curativo;turbina alarma por bajo limite;40;SI
+30/11/2020;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;1;Maquina;Preventivo condicional;Reporte de gotas de solvente lado B.;5;SI
+30/11/2020;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;1;Maquina;Preventivo condicional;Reporte de gotas de solvente lado B.;5;SI
+30/11/2020;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;1;Maquina;Preventivo condicional;Reporte de gotas de solvente lado B.;15;SI
+02/12/2020;Jesus Villa Guerrero;CPA 621 - Base;Otro;3;Maquina;Apoyo;cabina alarmada;10;SI
+04/12/2020;Humberto Barraza Villanueva;Horno Clara;BRN017 - Quemador;1;Metodo;Correctivo paulatino;Se alarma no hay flama al finalizar tiempo de seguridad.;15;SI
+02/12/2020;Jorge Ramirez;Compresores;Otro;2;Maquina;Apoyo;compresor de renta parado;40;SI
+02/12/2020;Jesus Villa Guerrero;Compresores;Otro;3;Maquina;Apoyo;compresor de renta parado;60;SI
+04/12/2020;Jesus Villa Guerrero;Horno Clara;BRN017 - Quemador;3;Maquina;Correctivo paulatino;horno apagado;10;SI
+01/12/2020;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Rising Box;1;Maquina;Correctivo curativo;Se encuentra manguera de solvente dañada en bloque de alta presion.;15;SI
+02/12/2020;Jorge Ramirez;Robots Clear Coat;CC3 - Robot de Clara;2;Maquina;Apoyo;grasa en los ejes;10;SI
+04/12/2020;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Maquina;Correctivo curativo;Alta presion a la entrada y salida de la bomba. ;10;SI
+02/12/2020;Jesus Villa Guerrero;Robots Primer;Todos;3;Humano;Apoyo;robots alarmados;10;SI
+04/12/2020;Humberto Barraza Villanueva;Robots Primer;PR1 - Robot de Primer;1;Maquina;Preventivo condicional;Reportan grasa en ejes menores delrobot.;5;SI
+01/12/2020;Jesus Villa Guerrero;Servidor - Win CC;;3;Maquina;Correctivo paulatino;no reset of hand shake;5;SI
+11/12/2020;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;3;Maquina;Correctivo paulatino;Shaping no controla, aire se va al doble del set.;25;SI
+08/12/2020;Jorge Ramirez;Conveyor;DT 200 TK 201;1;Maquina;Apoyo;Mesa pierde posicion;20;SI
+10/12/2020;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;2;Humano;Apoyo;defecto de flama;5;SI
+10/12/2020;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;3;Maquina;Preventivo condicional;Defecto de flama.;5;SI
+10/12/2020;Humberto Barraza Villanueva;Compresores;Otro;3;Maquina;Correctivo paulatino;Se alarma por temperatura elevada de aceite.;180;SI
+11/12/2020;Jorge Ramirez;Compresores;Otro;1;Maquina;Apoyo;falla compresor;60;SI
+11/12/2020;Jorge Ramirez;Compresores;Otro;1;Maquina;Apoyo;falla compresor;60;SI
+07/12/2020;Humberto Barraza Villanueva;Robots Primer;PR1 - Robot de Primer;3;Maquina;Correctivo curativo;Reporta path del segundo turno fuga de robot 1 en zona de ejes menores.;27;SI
+08/12/2020;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;2;Maquina;Correctivo curativo;fuga de material;25;SI
+10/12/2020;Jesus Villa Guerrero;Robots Primer;PR2 - Robot de Primer;2;Maquina;Apoyo;reportan teach congelado;5;SI
+07/12/2020;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;2;Maquina;Correctivo paulatino;error de monitoreo;5;SI
+08/12/2020;Humberto Barraza Villanueva;Conveyor;SK 680 SP 681;3;Maquina;Correctivo paulatino;Se atora skid en transferencia. No repiten.;5;SI
+09/12/2020;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;2;Maquina;Correctivo paulatino;Se atora skid, alarma por error de ocupacion.;5;SI
+09/12/2020;Humberto Barraza Villanueva;Conveyor;SK 680 SP 681;3;Maquina;Apoyo;Se atora skid, alarma por error de ocupacion.;5;SI
+10/12/2020;Humberto Barraza Villanueva;Conveyor;SK 680 SP 681;3;Material;Correctivo paulatino;Error de ocupacion.;5;SI
+07/12/2020;Jesus Villa Guerrero;Conveyor;TK 100;2;Maquina;Correctivo paulatino;mangueras se atoran con skid;10;SI
+07/12/2020;Jesus Villa Guerrero;Robots Base Coat;Todos;2;Maquina;Apoyo;reportan baja presion en cabinas;5;SI
+13/12/2020;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;3;Maquina;Apoyo;Pieza frontal golf refaccion obstruye barrera.;10;SI
+14/12/2020;Jesus Villa Guerrero;Conveyor;VW 640 TK 641;2;Humano;Apoyo;barrera alarmada;10;SI
+15/12/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;1;Maquina;Correctivo paulatino;codo dañado;180;SI
+15/12/2020;Jesus Villa Guerrero;Transtacker;Estación 9;1;Maquina;Apoyo;levas desajustadas;10;SI
+16/12/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;2;Maquina;Preventivo condicional;robot apagado;10;SI
+16/12/2020;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;2;Maquina;Correctivo paulatino;fuga de solvente;10;SI
+16/12/2020;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;3;Maquina;Preventivo condicional;Durante limpieza se realiza cambio de codo del aplicador PPH 707.;20;SI
+16/12/2020;Humberto Barraza Villanueva;Conveyor;HT 070 TK 071;3;Maquina;Correctivo paulatino;Error de ocupacion.;2;SI
+16/12/2020;Humberto Barraza Villanueva;Conveyor;TK 140 LS 140;3;Maquina;Preventivo condicional;Sensor no detecta numero de skid.;5;SI
+17/12/2020;Jorge Ramirez;Robots Clear Coat;CC1 - Robot de Clara;1;Maquina;Correctivo curativo;Robot se apaga a media trayectoria;100;SI
+17/12/2020;Humberto Barraza Villanueva;Conveyor;HT 530 TK 531;3;Maquina;Correctivo curativo;Se alarma motor no deja restablecer.;55;SI
+19/12/2020;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;2;Maquina;Apoyo;reportan que robot no responde;15;SI
+20/12/2020;Fernando Rosales;Robots Base Coat;BC3 - Robot de Base;3;Maquina;Correctivo curativo;se alarma en varias ocasiones por shaping air;30;SI
