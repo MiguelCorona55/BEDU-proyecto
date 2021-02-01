@@ -1,0 +1,1293 @@
+﻿FECHA;ENCARGADO;GRUPO;EQUIPO;TURNO ;TIPO_FALLA;TIPO_MTTO;CAUSA;TIEMPO;PARO
+09/01/2017;Humberto Barraza Villanueva;Conveyor;HT 180 TK 181;2;Operacion;Apoyo;No entran skid a cabina Co2;15;SI
+09/01/2017;Fernando Rosales;RTO;RTO;3;Electrica;Apoyo;se van condiciones de cabinas;15;SI
+10/01/2017;Jesus Villa Guerrero;PLC;PT - Process;1;PLC/Automatizacion;Correctivo ;No hay condiciones de proceso;50;SI
+10/01/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;no respeta calibracion;180;SI
+10/01/2017;Jesus Villa Guerrero;Conveyor;TK 065;1;otra;Correctivo ;Mesa alarmada;11;SI
+10/01/2017;Isay Sanchez Mejia;PLC;CV - Conveyor;1;PLC/Automatizacion;Correctivo ;No tiene datos los skids;15;SI
+10/01/2017;Jesus Villa Guerrero;Conveyor;TK 030;1;otra;Correctivo ;Mesa alarmada;11;SI
+10/01/2017;Jesus Villa Guerrero;Conveyor;HT 710 TK 711;1;otra;Correctivo ;Mesa alarmada;11;SI
+10/01/2017;Isay Sanchez Mejia;Conveyor;TK 120;1;otra;Correctivo ;Mesa alarmada;11;SI
+10/01/2017;Isay Sanchez Mejia;Conveyor;HS 160 TK 161;1;otra;Correctivo ;Mesa alarmada;10;SI
+10/01/2017;Isay Sanchez Mejia;Conveyor;TK 150;1;otra;Correctivo ;Mesa alarmada;10;SI
+10/01/2017;Fernando Rosales;Conveyor;DT 040 TK 041;3;Mecanica;Correctivo ;skid se queda amedia transferencia;5;SI
+10/01/2017;Fernando Rosales;Conveyor;HS 730 TK 731;3;Mecanica;Correctivo ;skid cae mal en la mesa 730;5;SI
+10/01/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Neumatica;Correctivo ;se alarma tope neumatico en varias ocasiones ;15;SI
+11/01/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;1;PLC/Automatizacion;Correctivo ;mesa gira siempre hacia cabina y chocan skids;15;SI
+11/01/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;1;otra;Correctivo ;barrera interrumpida por pieza caida;15;SI
+11/01/2017;Humberto Barraza Villanueva;Conveyor;VW 640 TK 641;2;Otra;Correctivo ;Pieza se cae mesa de treansferencia, trasera Rline.;15;SI
+11/01/2017;Humberto Barraza Villanueva;Conveyor;HS 660 TK 661;2;Mecanica;Correctivo ;Pieza atora skid impidiendo el paso.;10;SI
+11/01/2017;Humberto Barraza Villanueva;Conveyor;HT 110 TK 111;2;Electrica;Correctivo ;Barrera interrumpida ;5;SI
+12/01/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Correctivo ;se alarma cv a media transferencia;5;SI
+12/01/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;1;PLC/Automatizacion;Correctivo ;cadena gira en sentido opuesto;10;SI
+12/01/2017;Humberto Barraza Villanueva;Conveyor;TK 420;2;Mecanica;Correctivo ;Skid fuera de posicion. Alarma por error de ocupacion.;5;SI
+12/01/2017;Fernando Rosales;Conveyor;HT 550 TK 551;3;Mecanica;Correctivo ;skid cae mal en la mesa ;15;SI
+12/01/2017;Fernando Rosales;Conveyor;VW 620 TK 621;2;Electrica;Correctivo ;se alarma por fotocelda interrumpida;15;SI
+12/01/2017;Isay Sanchez Mejia;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Correctivo ;se alarma cv a media transferencia;5;SI
+13/01/2017;Jesus Villa Guerrero;Conveyor;HT 130 TK 131;2;otra;Correctivo ;barrera interrumpida;5;SI
+16/01/2017;Fernando Rosales;Robots Clear Coat;CC4 - Robot de Clara;3;Mecanica;Correctivo ;gotas de solvente en la frontal NB-RLINE;120;SI
+16/01/2017;Fernando Rosales;Robots Flameo ;Tablero IPROS;3;Electrica;Correctivo ;se alarman por comunicacion ethernet;10;SI
+17/01/2017;Jesus Villa Guerrero;Conveyor;TK 100;1;Problemas con tacky;Correctivo ;barrera interrumpida;10;SI
+17/01/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;1;Otra;Correctivo ;skid se sale de mesa;5;SI
+17/01/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;1;Otra;Correctivo ;tope alarmado;5;SI
+17/01/2017;Jesus Villa Guerrero;Robots Clear Coat;CC4 - Caja de Purga ;1;Otra;Correctivo ;no tiene venturi;20;SI
+17/01/2017;Jesus Villa Guerrero;Robots Base Coat;BC2 - Docking/Booster;1;Otra;Correctivo ;escupe solvente;10;SI
+17/01/2017;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;2;Neumatica;Correctivo ;Se apaga robot 6.;13;SI
+17/01/2017;Fernando Rosales;Conveyor;HT 410 TK 411;3;Mecanica;Correctivo ;skid cae mal en la mesa;10;SI
+17/01/2017;Fernando Rosales;Conveyor;TK 740;3;Mecanica;Correctivo ;skid cae mal en la mesa;10;SI
+18/01/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;1;Otra;Correctivo ;skids pegados;5;SI
+18/01/2017;Fernando Rosales;Conveyor;HT 020 TK 021;3;Electrica;Correctivo ;se alarma por error de ocupasion;5;SI
+18/01/2017;Fernando Rosales;Conveyor;HT 130 TK 131;3;Electrica;Correctivo ;se alarma por fotocelda interrumpida;5;SI
+18/01/2017;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;3;Neumatica;Correctivo ;Se apaga robot 6.;15;SI
+19/01/2017;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;1;Electrica;Correctivo ;no abre valvula de co2 ;30;SI
+19/01/2017;Humberto Barraza Villanueva;Robots CO2;CL2 - Robot de CO2;2;Mecanica;Correctivo ;Yoyo de sujecion de mangueras se cae, se daña la argolla que lo sujeta.;20;SI
+19/01/2017;Fernando Rosales;Robots Base Coat;BC1 - Docking/Booster;3;Mecanica;Correctivo ;docking tiene fuga de material cuando el robot hace cambio de color;15;SI
+19/01/2017;Fernando Rosales;Conveyor;VW 620 TK 621;3;Electrica;Apoyo;se alarma por fotocelda interrumpida;20;SI
+20/01/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;1;Otra;Correctivo ;estacion de lectura alarmada;10;SI
+20/01/2017;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;3;Neumatica;Correctivo ;Se apaga robot 6.;20;SI
+20/01/2017;Fernando Rosales;Conveyor;HT 670 TK 671;3;Electrica;Correctivo ;se larma por barrera interrumpida;10;SI
+23/01/2017;Fernando Rosales;Conveyor;HS 160 TK 161;2;Electrica;Correctivo ;se alarma por fotocelda interrumpida;15;SI
+23/01/2017;Fernando Rosales;RTO;13KL10 - Compuerta de apertura de aire;2;Neumatica;Correctivo ;se van condiones de cabinas;15;SI
+23/01/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Problemas con tacky;Apoyo;Se atoran en 5 ocaciones los skids, pos exceso de taky.;10;SI
+24/01/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;1;Otra;Apoyo;mesa alarmada;5;SI
+25/01/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;1;Otra;Correctivo ;mesa alarmada;5;SI
+25/01/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;bujia dañada;10;SI
+25/01/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;driver de bomba alarmado;5;SI
+25/01/2017;Fernando Rosales;RTO;13KL10 - Compuerta de apertura de aire;1;Mecanica;Correctivo ;se van condiones de cabinas;15;SI
+25/01/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;3;Mecanica;Correctivo ;Detectan procesos fuga de gas en manguera que llega a la herramienta en zona de eje 4.5.6. ;90;SI
+25/01/2017;Humberto Barraza Villanueva;Robots Base Coat;BC5 - Robot de Base;3;Neumatica;Correctivo ;Problema en cambio de color habanero, Tarda en realizar el cambio de color.;15;SI
+26/01/2017;Fernando Rosales;Robots Base Coat;BC1 - Rising Box;2;Neumatica;Correctivo ;fuga de solvente a la salida del bloque de alta presion;15;SI
+26/01/2017;Fernando Rosales;Conveyor;HT 550 TK 551;2;Mecanica;Apoyo;skid cae mal en la mesa ;15;SI
+26/01/2017;Fernando Rosales;Tanque de Agua 522 - Clara;PP021 - Bomba cascada lado A;2;Mecanica;Correctivo ;reportan que no tienen condiciones en la cabina de clara, se encuentra alarmado el motor PP021;45;SI
+26/01/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;3;Electrica;Correctivo ;Defecto de flama.;15;SI
+26/01/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;Cadena comienza con problemas en transferencia ocacionando que se atore en 4 ocasiones durante el turno.;15;SI
+27/01/2017;Jesus Villa Guerrero;Conveyor;TK 190;1;Otra;Correctivo ;mesa alarmada;5;SI
+27/01/2017;Fernando Rosales;Conveyor;HT 020 TK 021;2;Electrica;Correctivo ;se alarma por error de ocupasion;10;SI
+27/01/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;Cadena comienza con problemas en transferencia ocacionando que se atore en 4 ocasiones durante el turno.;15;SI
+27/01/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;Sigue problema en cadena, se atoran skid a media transferencia.;15;SI
+27/01/2017;Humberto Barraza Villanueva;RTO;13KL10 - Compuerta de apertura de aire;3;Neumatica;Apoyo;Falla de RTO se pierden condiciones de cabinas.;10;SI
+30/01/2017;Fernando Rosales;Robots Base Coat;Robots Base Coat;3;Neumatica;Correctivo ;se alarman robots de primer,base y flama por baja presion de aire;30;SI
+30/01/2017;Fernando Rosales;Conveyor;TK 740;3;Operacion;Apoyo;skid cae mal en la mesa ;5;SI
+31/01/2017;Isay Sanchez Mejia;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;Pruebas para validar defecto quemar;30;SI
+31/01/2017;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;1;Neumatica;Correctivo ;Robot se alarma por baja presion. Tarda en recuperar presion.;15;SI
+31/01/2017;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;1;Neumatica;Correctivo ;Cabezal de docking lo arrancan al resetear  falla y cabezal estaba conectado.;20;SI
+31/01/2017;Fernando Rosales;Conveyor;Conveyor;2;HMI;Correctivo ;se para conveyor porque en sistema aparece  que no hay ordenes pero esta cargada la vuelta;30;SI
+31/01/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;3;Operacion;Correctivo ;se alarma por valvula de gas abierta al 100%  ;15;SI
+01/02/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;2;Mecanica;Correctivo ;Durante el turno se alarma en 2 ocasiones robot por el ratio demaciado alto, marcando defecto de flama.;15;SI
+01/02/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;3;Mecanica;Correctivo ;se alarma por defecto de flama solo en la DDA7 BASICA;15;SI
+01/02/2017;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;1;Operacion;Preventivo ;Procesos detecta piezas que no bajaron de skids, revisan visulamente el horno y encuentran piezas tiradas a la vista. ;10;SI
+01/02/2017;Humberto Barraza Villanueva;RTO;13KL10 - Compuerta de apertura de aire;1;Mecanica;Correctivo ;Se van condiciones de cabinas.;11;SI
+02/02/2017;Fernando Rosales;Robots Base Coat;BC1 - Robot de Base;3;Neumatica;Correctivo ;se alarma por shaping air;15;SI
+02/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Correctivo ;Se Atoran skid en transferencia de mesa. Se nota que es por rozamiento de skid con extructura Guias del conveyor.;20;SI
+02/02/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;1;Operacion;Correctivo ;Robot de flama se sigue  alarmando, el fliujo de gas va decresiendo hasta llegas a 0 % y se alarma.;20;SI
+07/02/2017;Jesus Villa Guerrero;Conveyor;VW 640 TK 641;2;Mecanica;Correctivo ;mesa se alarma en tranferencia ;110;SI
+07/02/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;2;Mecanica;Correctivo ;alarma flameador uno;20;SI
+07/02/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;2;Otra;Correctivo ;alarma por ocupacion;11;SI
+08/02/2017;Fernando Rosales;Conveyor;TK 370;1;Mecanica;Correctivo ;skid se cae en mal posicion;20;SI
+08/02/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;Otra;Correctivo ;oprimen paro de emergencia;30;SI
+08/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Correctivo ;Se quedan atorados los skids a media transferencia.;23;SI
+08/02/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;3;Mecanica;Correctivo ;Robot no quiere encender flama.;11;SI
+09/02/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;robot se alarma por valvula de gas abierta al 100%;15;SI
+09/02/2017;Fernando Rosales;Robots Base Coat;BC1 - Robot de Base;1;Neumatica;Correctivo ;se alarma robot por baja presion de aire cuando va cargar material;15;SI
+09/02/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;3;Mecanica;Correctivo ;robot se alarma por valvula de gas abierta al 100%;15;SI
+09/02/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Correctivo ;mesa alarmada  ;5;SI
+09/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Apoyo;Se atoran skids en transferencia por desgaste de cadenas, se restablecen en 4 ocasiones.;25;SI
+10/02/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Electrica;Apoyo;se alarma por resin A y hardener A pomp-outlet high pressure en varias ocasiones;15;SI
+10/02/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Operacion;Apoyo;Se atoran skids en transferencia por desgaste de cadenas, se restablecen en varias ocasiones;30;SI
+10/02/2017;Jesus Villa Guerrero;Robots Base Coat;BC2 - Docking/Booster;2;Mecanica;Correctivo ;cabezal escupe;30;SI
+10/02/2017;Jesus Villa Guerrero;Conveyor;TK 010;2;PLC/Automatizacion;Correctivo ;no avanza, no hay alarmas, en posicion ok;20;SI
+10/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Apoyo;Se atoran skids en transferencia de mesa.;10;SI
+13/02/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;2;Electrica;Correctivo ;DAL alarms tracking encoder 1;20;SI
+13/02/2017;Jesus Villa Guerrero;Conveyor;TK 610;2;Electrica;Correctivo ;barrera alarmada;30;SI
+13/02/2017;Jesus Villa Guerrero;Conveyor;HS 600 TK 601;2;Otra;Correctivo ;motor alarmado;45;si
+13/02/2017;Jesus Villa Guerrero;Conveyor;VW 690 TK 691;2;Otra;Apoyo;se cae pieza;5;SI
+13/02/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;3;Electrica;Correctivo ;DAL alarms tracking encoder 2;30;SI
+13/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Apoyo;mesa se alarma por error de ocupacion en transferencia en varias ocasiones..;20;SI
+13/02/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC4 - Robot de Clara;3;Neumatica;Correctivo ;Reportan que piezas salen con escurridos del lado b. Observa ariel que no la aplicacion del robot 3 es diferente con respecto a la del robot 4.;60;SI
+13/02/2017;Humberto Barraza Villanueva;Conveyor;HS 600 TK 601;3;Mecanica;Correctivo ;Final de turno se alarma conveyor, choca el elevador con mecanismo de seguridad de la parte superior del horno.;30;SI
+14/02/2017;Fernando Rosales;Horno Clara;Horno Clara;1;Mecanica;Correctivo ;se alarma quemadores por baja presion de gas;15;SI
+14/02/2017;Fernando Rosales;Conveyor;HS 600 TK 601;1;Mecanica;Correctivo ;inicio de turno se encuentra alarmo conveyor, choca el elevador con mecaismo de seguridad de la parte superior del horno.;30;SI
+14/02/2017;Fernando Rosales;Conveyor;TK 740;1;Mecanica;Correctivo ;skid se cae en mal posicion;5;SI
+14/02/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Correctivo ;se alarma mesa;11;SI
+14/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Apoyo;Atoramiento de skids en transferencia.;10;SI
+15/02/2017;Fernando Rosales;Conveyor;VW 640 TK 641;1;Electrica;Correctivo ;se alarma por fotocelda interrumpida;13;SI
+15/02/2017;Jesus Villa Guerrero;Conveyor;HS 730 TK 731;2;Otra;Apoyo;mesa alarmada;11;SI
+15/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Correctivo ;mesa se alarma por error de ocupacion en transferencia en varias ocasiones..;11;SI
+16/02/2017;Jesus Villa Guerrero;Conveyor;VW 640 TK 641;2;Otra;Correctivo ;cortina interrumpida;15;SI
+16/02/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;alto voltaje;90;SI
+16/02/2017;Jesus Villa Guerrero;Conveyor;HS 600 TK 601;2;Otra;Correctivo ;se alarma a la subida;5;SI
+16/02/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Correctivo ;se alarma mesa;5;SI
+16/02/2017;Humberto Barraza Villanueva;Conveyor;TK 740;3;Mecanica;Correctivo ;Skid fuera de posicion en la mesa.;5;SI
+16/02/2017;Jesus Villa Guerrero;Robots Base Coat;BC5 - Robot de Base;2;Operacion;Correctivo ;colision detectada;10;SI
+17/02/2017;Jesus Villa Guerrero;Conveyor;HS 160 TK 161;2;Electrica;Correctivo ;barrera alarmada;5;SI
+17/02/2017;Jesus Villa Guerrero;Conveyor;TK 030;2;Operacion;Apoyo;oprimen paro de emergencia;5;SI
+20/02/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;3;Neumatica;Correctivo ;cuando termina ciclo de purgado y el robot va a casa va tirando unas gotas de solvente;15;SI
+21/02/2017;Jesus Villa Guerrero;Conveyor;TK 030;1;Otra;Correctivo ;skid 33 no llega a mesa 40;5;SI
+21/02/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Correctivo ;Se alarma en tranferencia.;5;SI
+21/02/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;skids no avanzan hacia la sigueinete mesa;5;SI
+21/02/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;3;Mecanica;Correctivo ;robot tiene problemas en la aplicacion de hardener;60;SI
+21/02/2017;Humberto Barraza Villanueva;Mixing Room;Mixing Room;2;Neumatica;Apoyo;Reportan que tanque de solvente sucio se encuentra lleno y para cabina de base.;10;SI
+22/02/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;1;PLC/Automatizacion;Correctivo ;no avanza cv, no hay fallas,;11;SI
+22/02/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Apoyo;se alarma mesa;5;SI
+22/02/2017;Jesus Villa Guerrero;Mixing Room;PIG 1/1 - PIGABLE 1 STATION 1;1;Operacion;Apoyo;no carga color;20;SI
+22/02/2017;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;2;Neumatica;Correctivo ;Fin de turno reportan que se contamina color habanero con rojo tornado.;20;SI
+22/02/2017;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;3;Neumatica;Correctivo ;contaminacion de color habanero con rojo tornado;90;SI
+23/02/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Apoyo;mesa alarmada;10;SI
+23/02/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;1;Otra;Correctivo ;skid se sale de mesa;5;SI
+23/02/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;skids no avanzan hacia la sigueinete mesa;5;SI
+24/02/2017;Jesus Villa Guerrero;Conveyor;HT 130 TK 131;1;Electrica;Correctivo ;barrera alarmada;5;SI
+24/02/2017;Jesus Villa Guerrero;Conveyor;TK 010;1;Otra;Correctivo ;oprimen paro de emergencia;20;SI
+24/02/2017;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;1;Otra;Apoyo;colision detectada;10;SI
+24/02/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Correctivo ;skids no avanzan hacia la sigueinete mesa ;15;SI
+24/02/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;se alarma por defecto de flama;15;SI
+24/02/2017;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;3;Neumatica;Correctivo ;no se activa valvula amg de material ;15;SI
+27/02/2017;Humberto Barraza Villanueva;Conveyor;HT 530 TK 531;2;PLC/Automatizacion;Correctivo ;Skids en cabina de clara no entran.;5;SI
+27/02/2017;Humberto Barraza Villanueva;Robots Base Coat;Robots Base Coat;2;Operacion;Preventivo ;Reportan que robots 3 y 4 se alarman por alto voltaje, se sugiere validar durante lotes de refaccion.;15;SI
+27/02/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;skid se queda a media transferencia;10;SI
+28/02/2017;Fernando Rosales;Conveyor;TK 740;3;Mecanica;Correctivo ;skid cae mal en la mesa 740;10;SI
+28/02/2017;Fernando Rosales;Otro;Otro;3;Electrica;Correctivo ;se alarma red contra incendio;60;SI
+01/03/2017;Jesus Villa Guerrero;Otro;Otro;1;Electrica;apoyo;caida de voltaje;90;SI
+01/03/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;1;Mecanica;Correctivo ;mesa fuera de posicion;150;SI
+01/03/2017;Humberto Barraza Villanueva;Otro;Otro;2;Electrica;Apoyo;Se apoya para restablecer condiciones de proceso.;40;SI
+01/03/2017;Humberto Barraza Villanueva;Robots CO2;CL2 - Robot de CO2;2;Neumatica;Correctivo ;Manguera de alta presion se daño.;11;SI
+01/03/2017;Fernando Rosales;Conveyor;TK 740;3;Mecanica;Correctivo ;skid  cae mal en la mesa ;11;SI
+01/03/2017;Fernando Rosales;Conveyor;VW 620 TK 621;3;Electrica;Correctivo ;se alarma por barrera interrumpida;11;SI
+02/03/2017;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;1;otra;apoyo;se cae pieza;5;SI
+02/03/2017;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;1;otra;apoyo;piden apoyo para sacar pieza;5;SI
+03/03/2017;Jesus Villa Guerrero;Conveyor;HS 730 TK 731;1;otra;apoyo;se cae pieza;5;SI
+06/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;Mecanica;apoyo;mesa alarmada;11;SI
+06/03/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;3;otra;Correctivo ;skid  cae mal en la mesa ;5;SI
+06/03/2017;Jesus Villa Guerrero;Conveyor;HT 130 TK 131;3;otra;apoyo;barrera alarmada;5;SI
+06/03/2017;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;3;otra;apoyo;barrera alarmada;25;SI
+06/03/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;3;otra;apoyo;order not allowed;5;SI
+07/03/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Apoyo;Mesa se alarma.;4;SI
+07/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Operacion;Apoyo;skid se queda a media transferencia;5;SI
+07/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;otra;apoyo;mesa alarmada;5;SI
+08/03/2017;Fernando Rosales;Conveyor;TK 650;2;Operacion;Correctivo ;se alarma por barrera interrumpida;11;SI
+08/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Operacion;Apoyo;skid se queda a media transferencia;11;SI
+08/03/2017;Isay Sanchez Mejia;Conveyor;VW 690 TK 691;2;Operacion;;se alarma por barrera interrumpida;11;SI
+08/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;Mecanica;apoyo;mesa alarmada;11;SI
+09/03/2017;Fernando Rosales;Conveyor;DT 040 TK 041;2;Mecanica;Correctivo ;skid no llega a posicion;5;SI
+09/03/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;2;Mecanica;Correctivo ;robot colisiona, se daña bujia;15;SI
+09/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;Mecanica;apoyo;mesa alarmada;5;SI
+10/03/2017;Humberto Barraza Villanueva;Otro;Otro;1;Operacion;Apoyo;Se alarma la red contra incendio en cabina de flama por detector calor de flammeo.;60;SI
+13/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;skid se queda a media transferencia;5;SI
+13/03/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;2;Mecanica;Correctivo ;robot colisiona, se daña bujia;30;SI
+13/03/2017;Fernando Rosales;Robots Base Coat;BC4 - Robot de Base;2;Mecanica;Correctivo ;pide supervisor en turno que se regresen las bombas de engranes a su robot original;30;SI
+13/03/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;2;Mecanica;Correctivo ;parpadeo pr1;30;SI
+13/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;mesa alarmada;10;SI
+14/03/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;3;otra;Correctivo ;flame defect;5;SI
+14/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;skid se queda a media transferencia;5;SI
+14/03/2017;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;2;Mecanica;Correctivo ;robot colisiona;20;SI
+14/03/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;3;otra;Correctivo ;skid fuera de posicion;5;SI
+15/03/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;1;Electrica;Correctivo ;Colision de robot en spoiler golf PA, se dobla bujia y se alarma al encendido.;10;SI
+15/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;Mecanica;apoyo;mesa alarmada;10;SI
+16/03/2017;Humberto Barraza Villanueva;Conveyor;HT 410 TK 411;1;Mecanica;Correctivo ;Skid no cae en posicion, se alarma zona.;5;SI
+16/03/2017;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Robot de Base;1;Neumatica;Correctivo ;Fuga de material en zona de oruga color stone wash.;50;SI
+16/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;skid se queda a media transferencia;5;SI
+16/03/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;2;Neumatica;Correctivo ;se alarma por atomizacion baja;15;SI
+17/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Correctivo ;skid se queda a media transferencia;10;SI
+17/03/2017;Fernando Rosales;RTO;RTO;2;Electrica;Correctivo ;RTO no enciende;15;SI
+17/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;Mecanica;apoyo;mesa alarmada;10;SI
+17/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;otra;apoyo;piden apoyo para sacar pieza;5;SI
+21/03/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;mesa alarmada;10;SI
+21/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;mesa alarmada;10;SI
+21/03/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;Se atoran skids a media transferencia.;22;SI
+22/03/2017;Fernando Rosales;Conveyor;VW 620 TK 621;1;Mecanica;Correctivo ;se cae pieza ;30;SI
+22/03/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma el variador omron de bomba de engranes;15;SI
+22/03/2017;Fernando Rosales;Robots Clear Coat;CC4 - Robot de Clara;1;Neumatica;Correctivo ;fuga de barniz en el zotano;30;SI
+22/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;mesa alarmada;20;SI
+22/03/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;shapping no controla;10;SI
+22/03/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;2;Otra;Apoyo;barrera alarmada;20;SI
+23/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Correctivo ;skid se queda a media transferencia;5;SI
+23/03/2017;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;1;Neumatica;Correctivo ;gotas de solvente en la DD-RLINE;15;SI
+23/03/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;otra;Correctivo ;error de ocupacion;5;SI
+23/03/2017;Jesus Villa Guerrero;Conveyor;TK 540;2;Electrica;Correctivo ;no arranca mesa 550;10;SI
+23/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;mesa alarmada;10;SI
+23/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;otra;Apoyo;sacar piezas de enfriamiento;10;SI
+23/03/2017;Humberto Barraza Villanueva;Conveyor;VW 640 TK 641;3;Otra;Apoyo;Se cae pieza en zona de teransferencia obstruyendo barrera.;10;SI
+23/03/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;Atoramiento de skid en mesa de transferencia.;10;SI
+23/03/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC4 - Robot de Clara;3;Neumatica;Correctivo ;Se apaga robot.;15;SI
+24/03/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma variador de la bomba ;15;SI
+24/03/2017;Fernando Rosales;Conveyor;TK 010;1;Mecanica;Correctivo ;skid se atora con una pieza;15;SI
+24/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Predictivo;skid se queda a media transferencia;15;SI
+24/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;mesa alarmada;10;SI
+24/03/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;Otra;Correctivo ;mesa alarmada;5;SI
+24/03/2017;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;2;Otra;Correctivo ;manguera de co2 rota;15;SI
+25/03/2017;Fernando Rosales;Conveyor;TK 100;1;Electrica;Correctivo ;oprimen paro de emergencia ;15;SI
+25/03/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Correctivo ;skid se queda a media transferencia;5;SI
+27/03/2017;Fernando Rosales;Robots Clear Coat;CC4 - Robot de Clara;1;Mecanica;Correctivo ;robot no purga material de worbag;15;SI
+27/03/2017;Jesus Villa Guerrero;Robots CO2;SQPTHR - Puertas de seguridad;2;Electrica;Correctivo ;puerta de seguridad abierta;20;SI
+27/03/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Apoyo;Se pegan skids en zona de mecanismos neumaticos en zona de enfriamiento.;15;SI
+28/03/2017;Fernando Rosales;Conveyor;TK 590;1;Mecanica;Correctivo ;skid no hace transferencia hacia la mesa 600;15;SI
+28/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;mesa alarmada;5;SI
+28/03/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;mesa alarmada;5;SI
+28/03/2017;Jesus Villa Guerrero;Robots CO2;CL1 - Robot de CO2;2;Neumatica;Apoyo;feedback no corresponde con set point;10;SI
+28/03/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;2;Otra;Correctivo ;colison de robot daña bujia;10;SI
+28/03/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;2;Otra;Apoyo;no reset of hand shake;5;SI
+28/03/2017;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;3;Neumatica;Correctivo ;Manguera de aire en zona del eje 3 se encuentra rota, presenta fuga de aire.;15;SI
+29/03/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;robot colisiona y daña la bujia;15;SI
+29/03/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;se larma por fuera de parametros;15;SI
+29/03/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skiids se quedan pegados;20;SI
+29/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;se alarma mesa;5;SI
+29/03/2017;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;3;Neumatica;Correctivo ;Robot 4 presenta fuga de solvente.;70;SI
+30/03/2017;Fernando Rosales;RTO;RTO;1;Operacion;Correctivo ;RTO en bypass;15;SI
+30/03/2017;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;1;Mecanica;Correctivo ;jig se atora con manguera de alta presion;15;SI
+30/03/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;mesa alarmada;5;SI
+31/03/2017;Jesus Villa Guerrero;Conveyor;TK 065;2;Otra;Apoyo;oprimen paro de emergencia;5;si
+01/04/2017;Fernando Rosales;Conveyor;TK 140 LS 140;1;Electrica;Apoyo;estacion de lectura alarmada;15;SI
+01/04/2017;Jesus Villa Guerrero;Conveyor;TK 590;2;otra;Correctivo ;mesa alarmada;5;SI
+01/04/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;otra;Correctivo ;mesa alarmada;5;SI
+03/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;10;SI
+03/04/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Apoyo;no hace transferencia;5;SI
+03/04/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;1;Problemas con tacky;Apoyo;skids pegados;10;SI
+03/04/2017;Jesus Villa Guerrero;Robots Base Coat;BC5 - Robot de Base;1;Otra;Apoyo;se estira mucho el robot y no deja mover;10;SI
+03/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;no hace transferencia;15;SI
+03/04/2017;Fernando Rosales;Robots Base Coat;BC4 - Robot de Base;3;Neumatica;Correctivo ;comenta que hay contaminacion con el platinum grey;30;SI
+03/04/2017;Fernando Rosales;Otro;Otro;3;Electrica;Apoyo;se alarma red contra incendio;40;SI
+04/04/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;1;Problemas con tacky;Apoyo;skids pegados;5;SI
+04/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;10;SI
+04/04/2017;Humberto Barraza Villanueva;RTO;RTO;2;Electrica;Apoyo;Rto se alarma por presostato 13 UED09, Se van condiciones de cabinas.;5;SI
+04/04/2017;Humberto Barraza Villanueva;Conveyor;HT 110 TK 111;2;Electrica;Correctivo ;Se interumpe barrera electrica. ;8;SI
+04/04/2017;Humberto Barraza Villanueva;Conveyor;SK 680 SP 681;2;Problemas con tacky;Apoyo;Se pegan skids, se alarma mesa.;5;SI
+04/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skids pegados;15;SI
+04/04/2017;Fernando Rosales;Conveyor;TK 570;3;Electrica;Correctivo ;se alarma por fotocelda interrumpida;15;SI
+05/04/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;1;otra;Correctivo ;mesa alarmada;5;SI
+05/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;5;SI
+05/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skids pegados;15;SI
+06/04/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;1;otra;Apoyo;REPORTAN PARO DE LINEA Y ALARMAS ACTIVAS;5;SI
+06/04/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;1;otra;Correctivo ;skid se sale de mesa;10;SI
+06/04/2017;Jesus Villa Guerrero;Conveyor;TK 140 LS 140;1;Operacion;Correctivo ;oprimen paro de emergencia;5;SI
+06/04/2017;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;2;Otra;Correctivo ;Se cae pieza trasera variant y un spoiler en transferencia de mesa.;20;SI
+06/04/2017;Fernando Rosales;Conveyor;HT 130 TK 131;3;Electrica;Correctivo ;se alarma por fotocelda interrumpida;10;SI
+06/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Otra;Apoyo;se apoya para parar el conveyor ya que urgen piezas;15;SI
+06/04/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Neumatica;Correctivo ;contaminacion con alto brillo y worwag;15;SI
+07/04/2017;Jesus Villa Guerrero;Otro;Otro;1;Otra;Correctivo ;red contra incendio alarmada;60;SI
+07/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Otra;Apoyo;piden abrir para sacar piezas;5;SI
+07/04/2017;Humberto Barraza Villanueva;Otro;Otro;2;Operacion;Apoyo;Red contra incendios alarmada por cabina de flama, se activa sensor lado A.;50;SI
+07/04/2017;Fernando Rosales;Conveyor;DT 040 TK 041;3;Mecanica;Correctivo ;skid no llega a posicion en 2 ocasiones;15;SI
+07/04/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;skid se quedan a media tranferencia;10;SI
+08/04/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;srv67;10;SI
+08/04/2017;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;2;Electrica;Apoyo;Se alarma robot por alto voltaje, no deja resablecer falla. ;15;SI
+08/04/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;2;Electrica;Correctivo ;Se alarma a cada rato robot de flama, flujo de gas se va a cero y se apaga quemador.;15;SI
+10/04/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;2;Operacion;Correctivo ;Se apaga robot de flama por valvula de gas abierta.;45;SI
+10/04/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;2;Electrica;Correctivo ;Alarma de robot por defecto de flama.;35;SI
+10/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;se atoran skid por tema de exceso de tacky;20;SI
+10/04/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Mecanica;Apoyo;skids se quedan a media transferencia;10;SI
+10/04/2017;Fernando Rosales;RTO;RTO;3;Operacion;Correctivo ;se encuentra rto apagado;15;SI
+10/04/2017;Fernando Rosales;Conveyor;HT 130 TK 131;3;Electrica;Correctivo ;se alarma por fotocelda interrumpida;5;SI
+10/04/2017;Fernando Rosales;Conveyor;HT 670 TK 671;3;Electrica;Correctivo ;se alarma por fotocelda interrumpida;5;SI
+11/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;10;SI
+11/04/2017;Jesus Villa Guerrero;RTO;RTO;1;Otra;Correctivo ;se  apaga rto;5;SI
+11/04/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;2;Problemas con tacky;Apoyo;Se pegan skids en zona de enfriamiento por taky.;15;SI
+11/04/2017;Fernando Rosales;Conveyor;DT 040 TK 041;3;Electrica;Correctivo ;se alarma por error de ocupasion en 2 ocasiones;15;SI
+11/04/2017;Fernando Rosales;Conveyor;DT 055 TK 056;3;Electrica;Correctivo ;skids no avanzan;15;SI
+11/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skids se quedan pegados;30;SI
+11/04/2017;Fernando Rosales;Conveyor;TK 010;3;Electrica;Correctivo ;oprimen paro de emergencia por accidente de paulino;15;SI
+11/04/2017;Fernando Rosales;Robots Base Coat;BC1 - Docking/Booster;3;Mecanica;Correctivo ;docking escupe solvente;15;SI
+12/04/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;1;Problemas con tacky;Apoyo;skids pegados;5;SI
+12/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;5;SI
+12/04/2017;Fernando Rosales;Conveyor;HT 710 TK 711;3;Problemas con tacky;Apoyo;skids pegados;15;SI
+17/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;Mixto ;Problemas con tacky;Apoyo;skids pegados;15;SI
+17/04/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;Mixto ;Problemas con tacky;Apoyo;skids pegados;15;SI
+17/04/2017;Jesus Villa Guerrero;Robots Flameo ;Robots Flameo ;Mixto ;Otra;Correctivo ;defecto de flama;20;SI
+17/04/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;Mixto ;Electrica;Correctivo ;defecto de flama;30;SI
+17/04/2017;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;Mixto ;Problemas con tacky;Correctivo ;mesa alarmada;5;SI
+17/04/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;Mixto ;Mecanica;Correctivo ;estacion de lectura alarmada;20;SI
+17/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;Mixto ;Problemas con tacky;Apoyo;skids se quedan pegados;15;SI
+17/04/2017;Fernando Rosales;Conveyor;HT 020 TK 021;Mixto ;Neumatica;Apoyo;se alarma por error de ocupasion;5;SI
+17/04/2017;Fernando Rosales;Robots Base Coat;BC2 - Docking/Booster;Mixto ;Neumatica;Correctivo ;gotas de solvente;15;SI
+17/04/2017;Fernando Rosales;Robots Base Coat;BC2 - Robot de Base;Mixto ;Neumatica;Predictivo;comentan que el emplaye  del aplicador tiene solvente;30;SI
+18/04/2017;Humberto Barraza Villanueva;Conveyor;SK 680 SP 681;1;Mecanica;Apoyo;Se apoya para despegar skids pegados en zona de enfriamiento;30;SI
+18/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;skids pegados;10;SI
+18/04/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;2;Electrica;Apoyo;defecto de flama;10;SI
+18/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skids pegados;20;SI
+18/04/2017;Fernando Rosales;Robots Primer;PR1 - Caja de purga;3;Mecanica;Correctivo ;en la placa hay un charco de solvente;15;SI
+18/04/2017;Fernando Rosales;Robots Base Coat;BRCODBR - Encoder;3;Electrica;Correctivo ;se alarma por conveyor encoder pulse stopped en varias ocasiones ;10;SI
+19/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Otra;Apoyo;skids se quedan pegados;5;SI
+20/04/2017;Isay Sanchez Mejia;Conveyor;TK 610;3;Skids ;Apoyo;Se cae pieza difusor e interrumpe la fotocelda;15;SI
+21/04/2017;Humberto Barraza Villanueva;Conveyor;DT 055 TK 056;1;Mecanica;Correctivo ;Skid se atora, se brinca el tope de cadena.;10;SI
+21/04/2017;Jesus Villa Guerrero;Conveyor;TK 140 LS 140;3;Otra;Correctivo ;skid reading not plausible;10;SI
+21/04/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;3;Otra;Correctivo ;error de ocupacion;5;SI
+21/04/2017;Jesus Villa Guerrero;CPA 621 - Base;UED031 - Diferencial de presion etapa C;3;Otra;Apoyo;apagar cpa;15;SI
+22/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Otra;Apoyo;mesa alarmada;5;SI
+24/04/2017;Humberto Barraza Villanueva;Robots Base Coat;BC5 - Robot de Base;1;Neumatica;Correctivo ;Proporcional de atomizacion se queda pegada no cierra ni abre, se queda en 270.;30;SI
+24/04/2017;Humberto Barraza Villanueva;Robots Flameo ;Robots Flameo ;1;Electrica;Apoyo;Alarma de la red contra incendios por detector de flama 1.;60;SI
+24/04/2017;Fernando Rosales;Conveyor;HS 660 TK 661;2;Electrica;Correctivo ;oprimen paro de emergencia cuando mueven carrito donde tienen piezas;15;SI
+24/04/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;3;Otra;Apoyo;Barrera interrumpida.;15;SI
+24/04/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;SKIDS pegados;5;SI
+25/04/2017;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;1;Electrica;Correctivo ;Alarma por baja presion a la entrada de la bomba.;20;SI
+25/04/2017;Jesus Villa Guerrero;Conveyor;HT 180 TK 181;3;Mecanica;Correctivo ;mesa denivelada;25;SI
+26/04/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;3;Otra;Correctivo ;skid sobre guias ;5;SI
+26/04/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;3;PLC/Automatizacion;Correctivo ;no orders;20;SI
+27/04/2017;Humberto Barraza Villanueva;RTO;RTO;1;Electrica;Correctivo ;Falla del sensor 13UED09 en 2 ocasiones;15;SI
+27/04/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;skid se quedan pegados;10;SI
+28/04/2017;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;1;Electrica;Correctivo ;Robot se alarma por baja presion.;10;SI
+28/04/2017;Humberto Barraza Villanueva;Conveyor;TK 065;1;Electrica;Correctivo ;Mesa no lee el sensor (tag). ;5;SI
+28/04/2017;Fernando Rosales;Conveyor;SK 680 SP 681;2;Operacion;Apoyo;piezas urgentes;10;SI
+28/04/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;2;Electrica;Correctivo ;se alarma por defecto de flama;30;SI
+29/04/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;1;PLC/Automatizacion;Correctivo ;Conveyor se alarma por no reset off hand sake y no deja cargar ordenes.;35;SI
+29/04/2017;Humberto Barraza Villanueva;Robots Flameo ;Robots Flameo ;1;Otra;Correctivo ;Se alarma sensor de temperatura de flama, se van condiciones.;60;SI
+29/04/2017;Fernando Rosales;Conveyor;Conveyor;2;PLC/Automatizacion;Correctivo ;Conveyor se alarma por no reset off hand sake y no deja cargar ordenes.;35;SI
+29/04/2017;Fernando Rosales;Robots Flameo ;Robots Flameo ;2;Otra;Correctivo ;Se alarma sensor de temperatura de flama, se van condiciones.;60;SI
+01/05/2017;Humberto Barraza Villanueva;Conveyor;TK 030;3;Mecanica;Correctivo ;Cadena de reductor se brina eslabon.;20;SI
+02/05/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;Skid se queda pegado;5;SI
+02/05/2017;Jesus Villa Guerrero;Conveyor;TK 100;2;Otra;Correctivo ;skids chocan despues de alarma de fuego;20;SI
+02/05/2017;Jesus Villa Guerrero;Otro;Otro;2;Otra;Correctivo ;se alarma red contra incendio;60;SI
+02/05/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;3;PLC/Automatizacion;Apoyo;Alarma en conveyor por No reset of handsake. No llen las ordenes.;25;SI
+02/05/2017;Humberto Barraza Villanueva;Conveyor;TK 050;3;Mecanica;Correctivo ;Se brinca skid y se atora con leva de cadena. ;17;SI
+02/05/2017;Humberto Barraza Villanueva;Conveyor;VW 640 TK 641;3;Otra;Correctivo ;Se cae pieza delantera rline tiguan, se interrumpe barrera electrica.;10;SI
+03/05/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Problemas con tacky;Apoyo;Skid se queda pegado;5;SI
+03/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed drive fault variador de la bomba de resina;15;SI
+03/05/2017;Fernando Rosales;Robots Base Coat;BC5 - Caja de Purga;1;Mecanica;Correctivo ; se nota una fuga de solvente y al parecer es del paramuros de recuperacion de solvente;15;SI
+03/05/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Electrica;Apoyo;proveedor ipaf viene a revisar sensor de flama;15;SI
+03/05/2017;Humberto Barraza Villanueva;RTO;RTO;3;Electrica;Apoyo;Se alarma rto por presostato 13 UED09. Se van condiciones.;5;SI
+04/05/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Apoyo;robot se apaga durante la limpieza;10;SI
+04/05/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma driver, solo una vez en el truno;5;SI
+04/05/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;2;Otra;Apoyo;barrera interrumpida;10;SI
+04/05/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;3;PLC/Automatizacion;Correctivo ;Se queda conveyor sin leer las ordenes con la alarma de no rest of hand sake.;10;SI
+04/05/2017;Humberto Barraza Villanueva;Horno Clara;BRN027 - Quemador;3;Otra;Correctivo ;Durante el paro de limpieza, se apaga quemador y se alarma en encendido.;5;SI
+05/05/2017;Fernando Rosales;Conveyor;TK 590;1;Mecanica;Correctivo ;skid no avanza;15;SI
+05/05/2017;Fernando Rosales;Conveyor;Conveyor;1;PLC/Automatizacion;Correctivo ;servidor no lee ordenes;30;SI
+05/05/2017;Jesus Villa Guerrero;Horno Clara;BRN017 - Quemador;2;Otra;Correctivo ;por paro en cc se apaga horno;10;SI
+05/05/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC2 - Robot de Clara;3;Neumatica;Correctivo ;Se alarma por baja presion de aire.;10;SI
+05/05/2017;Humberto Barraza Villanueva;Horno Clara;BRN017 - Quemador;3;Electrica;Correctivo ;Se apaga quemador y se alarma al encender por cadena de seguridad abierta.;10;SI
+06/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;se larma drive speed fault error 12.1;15;SI
+08/05/2017;Fernando Rosales;RTO;RTO;1;Operacion;Correctivo ;se van condiciones de canibas;15;SI
+08/05/2017;Fernando Rosales;Tanque de Agua 512 - Base;PP021 - Bomba cascada lado A;1;Mecanica;Correctivo ;motor hace mucho ruido;40;SI
+08/05/2017;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;2;Otra;Apoyo;pieza atorada ;10;SI
+08/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;2;Otra;Correctivo ;falla 14.1;30;SI
+08/05/2017;Jesus Villa Guerrero;Horno Clara;BRN027 - Quemador;2;Otra;Correctivo ;horno apagado;10;SI
+08/05/2017;Humberto Barraza Villanueva;Horno Clara;BRN017 - Quemador;3;Electrica;Correctivo ;A inicio de turno se encuentra quemador alarmado.;10;SI
+08/05/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;3;PLC/Automatizacion;Correctivo ;Se alarma conveyor por no reset ofa hansake y no deja restablecer falla.;20;SI
+09/05/2017;Fernando Rosales;Robots CO2;CL1 - Robot de CO2;1;Electrica;Correctivo ;robot no aplica co2;15;SI
+09/05/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids se quedan pegados;15;SI
+09/05/2017;Jesus Villa Guerrero;Conveyor;HT 550 TK 551;2;Otra;Correctivo ;skid no llega a posicion;5;SI
+09/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;2;Mecanica;Correctivo ;alarma driver 14.1;25;SI
+09/05/2017;Jesus Villa Guerrero;Robots CO2;CL1 - Robot de CO2;2;Electrica;Correctivo ;cable se atora con pieza;15;SI
+09/05/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;3;Mecanica;Correctivo ;Por tema de alarma de variador del robot, durante la limpieza coincide en cambio de turno deciden cambio de servomotor.;25;SI
+09/05/2017;Humberto Barraza Villanueva;Horno Clara;BRN017 - Quemador;3;Operacion;Correctivo ;Quemador se apaga en 2 ocasiones.;15;SI
+09/05/2017;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;3;Mecanica;Correctivo ;Reportan pieza lado B con solvente.;7;SI
+09/05/2017;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Caja de Purga;3;Neumatica;Apoyo;Caja de purga salpica mucho solvente.;5;SI
+09/05/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;3;PLC/Automatizacion;Correctivo ;Se queda conveyor sin leer las ordenes con la alarma de no rest of hand shake.;24;SI
+10/05/2017;Fernando Rosales;Horno Clara;BRN017 - Quemador;1;Operacion;Correctivo ;Quemador se apaga en 2 ocasiones.;15;SI
+10/05/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Correctivo ;robot se apaga durante la limpieza;15;SI
+10/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;se alarma por drive error 14.1 en 2 ocasiones;15;SI
+10/05/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;1;Electrica;Correctivo ;se alarma por drive ;15;SI
+10/05/2017;Humberto Barraza Villanueva;Otro;Otro;3;Electrica;Apoyo;personal de ISECCSA realiza pruebas de megueo a apartarayos de las subestaciones.;180;SI
+10/05/2017;Humberto Barraza Villanueva;PLC;PLC;3;PLC/Automatizacion;Apoyo;Se pide apoyo a Isay para carga de programa de Plc del proceso y conveyor;120;SI
+11/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;se alarma por driver, error 14.1 ;15;SI
+11/05/2017;Fernando Rosales;Conveyor;TK 590;1;Mecanica;Correctivo ;skid no hace la transferencia hacia la mesa 600, en dos ocasiones;15;SI
+11/05/2017;Fernando Rosales;Horno Clara;BRN017 - Quemador;1;Mecanica;Correctivo ;se apaga quemador en varias ocasiones;30;SI
+11/05/2017;Fernando Rosales;RTO;13KL10 - Compuerta de apertura de aire;1;Electrica;Correctivo ;se van condiciones de canibas;15;SI
+11/05/2017;Humberto Barraza Villanueva;Robots Flameo ;Tablero IPROS;3;PLC/Automatizacion;Correctivo ;Inicio de turno falla paro de emergencia en tablero de co2 y no hay comunicacion de tablero Ipros.;15;SI
+11/05/2017;Humberto Barraza Villanueva;Robots Base Coat;BC6 - Caja de Purga;3;Mecanica;Correctivo ;Reportan que sale solvente de caja de purga manchando zona.;10;SI
+11/05/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;3;PLC/Automatizacion;Correctivo ;Se alarman por No reset of hand shake signal a 3 ocasiones no dejando mover el conveyor.;20;SI
+12/05/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;1;Electrica;Correctivo ;se alarma por driver, error 14.1 ;15;SI
+12/05/2017;Fernando Rosales;Robots Primer;PR2 - Robot de Primer;1;Electrica;Correctivo ;se alarma por driver, error 14.1 ;15;SI
+12/05/2017;Fernando Rosales;RTO;13KL10 - Compuerta de apertura de aire;1;Electrica;Correctivo ;se van condiciones de canibas;15;SI
+12/05/2017;Fernando Rosales;Robots CO2;CL1 - Robot de CO2;1;Electrica;Correctivo ;cable  de alto voltaje le pega las piezas ;15;SI
+12/05/2017;Fernando Rosales;Conveyor;Conveyor;1;PLC/Automatizacion;Predictivo;se alarma por  No reset of hand shake en dos ocasiones;30;SI
+12/05/2017;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;1;Neumatica;Correctivo ;se detecta fuga de color en la oruga del robot 6;20;SI
+12/05/2017;Humberto Barraza Villanueva;Robots CO2;CL2 - Robot de CO2;3;Mecanica;Correctivo ;Manguera de co2 se enrredan en aplicador.;15;SI
+12/05/2017;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;3;Electrica;Apoyo;Se alarma variador por falla 14.1.;5;SI
+13/05/2017;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;1;Mecanica;Correctivo ;Manguera de co2 se enrredan en aplicador.;15;SI
+13/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;se alarma por driver, error 14.1 ;15;SI
+15/05/2017;Jesus Villa Guerrero;Robots Primer;PR2 - Robot de Primer;1;Otra;Correctivo ;fuga de aire;20;SI
+15/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Apoyo;alarma de driver;5;SI
+15/05/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;2;Mecanica;Correctivo ;Robot se alarma por cierre de flujo de gas.;15;SI
+15/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;3;Electrica;Apoyo;se alarma driver por el error 14.1, falla 5 veces en el turno;15;SI
+16/05/2017;Jesus Villa Guerrero;Conveyor;TK 230;1;Mecanica;Correctivo ;mesa no termina de hacer transferencia;20;SI
+16/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Apoyo;driver alarmado 14.1;10;SI
+16/05/2017;Jesus Villa Guerrero;RTO;RTO;1;Otra;Correctivo ;se pierden condiciones en cabinas;5;SI
+16/05/2017;Fernando Rosales;Robots Clear Coat;CC3 - Tablero electrico/neumatico;3;Electrica;Correctivo ;variador se alarma 3 ocasiones por driver speed fault. Error 14.1;30;SI
+16/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Tablero electrico/neumatico;3;Electrica;Correctivo ;se alarma driver por  error 14.1;5;SI
+16/05/2017;Fernando Rosales;Robots Base Coat;BC1 - Rising Box;3;Mecanica;Correctivo ;platos del resing box caidos;20;SI
+17/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Correctivo ;alarma de driver;5;SI
+17/05/2017;Humberto Barraza Villanueva;Conveyor;HT 070 TK 071;2;Operacion;Apoyo;Error de ocupacion.;5;SI
+17/05/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;2;Electrica;Correctivo ;Robot se alarma por defecto de flama.;20;SI
+17/05/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC4 - Robot de Clara;2;Neumatica;Correctivo ;Reportan fuga de material en eje 5.;45;SI
+17/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;3;Otra;Correctivo ;alarma de driver;5;SI
+17/05/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;3;Otra;Correctivo ;alarma de driver;5;SI
+17/05/2017;Fernando Rosales;Robots Base Coat;BC4 - Robot de Base;3;Electrica;Correctivo ;robot parpadea;20;SI
+17/05/2017;Fernando Rosales;Conveyor;HT 410 TK 411;3;Mecanica;Correctivo ;skid cae mal en la mesa 410;15;SI
+18/05/2017;Jesus Villa Guerrero;Conveyor;TK 590;1;Otra;Correctivo ;mesa alarmada;5;SI
+18/05/2017;Jesus Villa Guerrero;RTO;13BRN016 - Quemador;1;Otra;Correctivo ;quemador alarmado;5;SI
+18/05/2017;Jesus Villa Guerrero;Horno Clara;Horno Clara;1;Otra;Correctivo ;horno apagado (en la grafica se ve disminucion de temperatura al mismo tiempo que se apago el rto);10;si
+18/05/2017;Humberto Barraza Villanueva;Conveyor;HT 070 TK 071;2;Operacion;Apoyo;Error de ocupacion ;5;SI
+18/05/2017;Humberto Barraza Villanueva;Mixing Room;PIG 1/1 - PIGABLE 1 STATION 1;2;Operacion;Correctivo ;Reportan que cargaron pigable en estacion 1 y no tenian presion en los robots.;25;SI
+18/05/2017;Fernando Rosales;Conveyor;DT 055 TK 056;3;Mecanica;Correctivo ;skid se queda amedia transferencia en 2 ocasiones;15;SI
+18/05/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skid se queda pegado;15;SI
+19/05/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;1;Otra;Correctivo ;skids juntos (skid 186);5;SI
+19/05/2017;Jesus Villa Guerrero;Conveyor;HT 550 TK 551;1;Otra;Correctivo ;skid no llega a posicion;5;SI
+19/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;alarma de shaping;50;SI
+19/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Correctivo ;alarma de driver;10;SI
+19/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;alarma de driver;5;SI
+19/05/2017;Jesus Villa Guerrero;Conveyor;HT 110 TK 111;1;Otra;Correctivo ;barrera alarmada;5;SI
+19/05/2017;Fernando Rosales;Conveyor;HT 110 TK 111;3;Electrica;Correctivo ;se alarma por barrera interrumpida;10;SI
+19/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;3;Electrica;Correctivo ;se alarma 2 ocasiones por driver speed error 14.1;15;SI
+22/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Apoyo;driver alarmado 14.1;5;SI
+22/05/2017;Jesus Villa Guerrero;RTO;RTO;1;otra;Correctivo ;se alarma por 13UEDO9;5;SI
+22/05/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;2;PLC/Automatizacion;Apoyo;Se desfasa la linea, En la orden se sobreescriben 3 posiciones de skids mas que no coinciden.;30;SI
+22/05/2017;Humberto Barraza Villanueva;RTO;RTO;2;Electrica;Correctivo ;Se van condiciones de la linea.;5;SI
+22/05/2017;Humberto Barraza Villanueva;Robots CO2;CL2 - Robot de CO2;2;Neumatica;Correctivo ;Se enrreda manguera de CO2 en trasera Tiguan;15;SI
+22/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;3;Electrica;Correctivo ;driver alarmado 14.1, se alarma en 2 ocasiones;15;SI
+22/05/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;3;Electrica;Correctivo ;driver alarmado 14.1, se alarma en 2 ocasiones;15;SI
+22/05/2017;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;3;Neumatica;Correctivo ;tuberia de 90 grados se desconecta;15;SI
+23/05/2017;Isay Sanchez Mejia;Robots Clear Coat;CC1 - Robot de Clara;1;PLC/Automatizacion;Correctivo ;driver de resin alarmado 14.1, se cambian parametros;15;SI
+23/05/2017;Jesus Villa Guerrero;Conveyor;TK 050;1;Otra;Correctivo ;error de ocupacion;5;SI
+23/05/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;1;Mecanica;Correctivo ;despues de colision se deforma base;20;SI
+23/05/2017;Jesus Villa Guerrero;RTO;RTO;1;Otra;Correctivo ;se apaga por valvula reguladora;5;SI
+23/05/2017;Isay Sanchez Mejia;Conveyor;DT 055 TK 056;1;Operacion;Correctivo ;No termina transferencia por cambiar bolsas y jigs con skids en movimiento;20;SI
+23/05/2017;Isay Sanchez Mejia;RTO;13BRN016 - Quemador;2;Operacion;Correctivo ;Falla central del controlador del quemador;10;SI
+23/05/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;2;Mecanica;Correctivo ;robot colisiona dañando la base del flameador durante el turno . Se desmonta pero se sigue pintando del lado A.;30;SI
+23/05/2017;Fernando Rosales;Conveyor;DT 055 TK 056;3;Electrica;Correctivo ;skid se queda a media tranferencia de la mesa 50 a la 55 en varias ocasiones;10;SI
+23/05/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;3;Electrica;Correctivo ;se alarma por defecto de flama;10;SI
+24/05/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;1;Otra;Correctivo ;error de ocupacion;10;SI
+24/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Tablero electrico/neumatico;1;Otra;Correctivo ;driver alarmado 14.1 dos veces;5;si
+24/05/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;2;Electrica;Correctivo ;Alarma por defecto de flama.;10;SI
+24/05/2017;Fernando Rosales;Robots Clear Coat;CC1 - Tablero electrico/neumatico;3;Otra;Correctivo ;driver de resina alarmado 14.1;10;si
+24/05/2017;Fernando Rosales;Robots Clear Coat;CC2 - Tablero electrico/neumatico;3;Otra;Correctivo ;driver alarmado 14.1 dos veces resina;10;si
+24/05/2017;Fernando Rosales;Horno Clara;BRN017 - Quemador;3;Electrica;Correctivo ;se alarma por defecto de flama;10;SI
+25/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Tablero electrico/neumatico;1;Otra;Correctivo ;alarma 14.1 dos veces speed drive de resina;5;SI
+25/05/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Otra;Correctivo ;tope alarmado;5;si
+25/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Tablero electrico/neumatico;1;Otra;Correctivo ;alarma 14.1 speed drive de resina;10;SI
+25/05/2017;Humberto Barraza Villanueva;Conveyor;TK 560;2;Operacion;Apoyo;Error de ocupacion.;5;SI
+25/05/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Tablero electrico/neumatico;2;Electrica;Correctivo ;Se alarma variador de resina  14.1;10;SI
+25/05/2017;Fernando Rosales;Robots Clear Coat;CC2 - Tablero electrico/neumatico;3;Otra;Correctivo ;driver alarmado 14.1 dos veces de resina;10;SI
+25/05/2017;Fernando Rosales;Conveyor;TK 370;3;Mecanica;Correctivo ;skid se cae de la mesa ;20;SI
+26/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Tablero electrico/neumatico;1;Electrica;Correctivo ;driver alarm 14.1 se alarma en dos ocaciones;5;SI
+26/05/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;1;Otra;Correctivo ;error de ocupacion;5;SI
+27/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;Mixto ;Otra;Correctivo ;alarma 14.1 resina en dos ocaciones;5;SI
+27/05/2017;Jesus Villa Guerrero;CPA 621 - Base;CPA 621 - Base;Mixto ;Otra;Apoyo;apoyo apagar cpa bc;10;SI
+27/05/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;Mixto ;otra;Correctivo ;barrera interrumpida;5;SI
+27/05/2017;Jesus Villa Guerrero;Conveyor;TK 030;Mixto ;Operacion;Correctivo ;oprimen paro de emergencia;10;SI
+29/05/2017;Fernando Rosales;Conveyor;TK 650;2;Mecanica;Correctivo ;se alarma por barrera interrumpida por pieza caida;10;SI
+29/05/2017;Fernando Rosales;Robots Base Coat;BC1 - Robot de Base;2;Neumatica;Correctivo ;fuga de solvente manguera rasgada;40;SI
+29/05/2017;Jesus Villa Guerrero;CPA 620 - Primer;CPA 620 - Primer;3;Otra;Apoyo;apagar cpa;10;SI
+30/05/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;1;Electrica;Correctivo ;Robot se alarma por defecto de flama.;20;SI
+30/05/2017;Humberto Barraza Villanueva;Robots CO2;CL2 - Robot de CO2;1;Otra;Mejora;Se enrreda manguera de co2 en trasera tiguan y se sale el tudo en codo de aire.;10;si
+30/05/2017;Humberto Barraza Villanueva;Conveyor;TK 740;1;Otra;Correctivo ;Pieza se cae en elevador.;5;si
+30/05/2017;Humberto Barraza Villanueva;Conveyor;VW 640 TK 641;1;Otra;Correctivo ;Pieza trasera NB Rline se cae en tranferencia.;10;Si
+30/05/2017;Fernando Rosales;Conveyor;DT 055 TK 056;2;Mecanica;Correctivo ;skid se queda a media tranferencia de la mesa 50 a la 55 ;10;SI
+30/05/2017;Jesus Villa Guerrero;Conveyor;TK 220 LS220;3;Otra;Correctivo ;error de ocupacion;5;SI
+30/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;driver alarm 14-1 resina;5;si
+30/05/2017;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;3;Mecanica;Correctivo ;codo de aire se sale de herramienta;10;si
+30/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;3;Otra;Correctivo ;driver alarm 14.1 resina;5;si
+31/05/2017;Humberto Barraza Villanueva;Conveyor;VW 640 TK 641;1;Otra;Correctivo ;Barrera interrumpida se cae pieza rejilla PA.;15;si
+31/05/2017;Humberto Barraza Villanueva;Horno Clara;BRN017 - Quemador;1;Otra;Correctivo ;Se apaga horno.;25;si
+31/05/2017;Fernando Rosales;Conveyor;Conveyor;2;Electrica;Correctivo ;se alarma por no reset hanshake ;5;si
+31/05/2017;Jesus Villa Guerrero;RTO;13KL14 - Compuerta proporcional de aire;3;Otra;Correctivo ;se alarma compuerta;5;si
+31/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;3;Otra;Correctivo ;reporan problemas de estructura y acumulacion de material en muñeca;60;si
+31/05/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;3;Otra;Correctivo ;no corren ordenes;5;SI
+31/05/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;otra;Correctivo ;driver alarm 14.1 resina;5;SI
+01/06/2017;Jesus Villa Guerrero;Conveyor;TK 590;3;otra;Correctivo ;skid transportation active;5;si
+01/06/2017;Jesus Villa Guerrero;Conveyor;HT 550 TK 551;3;otra;Correctivo ;skid no llega a posicion;5;si
+01/06/2017;Jesus Villa Guerrero;RTO;RTO;3;otra;Correctivo ;13UED09 se alarma y se pierden condiciones de cabinas;5;si
+01/06/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;otra;Correctivo ;speed driver resin alarma 14.1;5;si
+01/06/2017;Jesus Villa Guerrero;Robots CO2;CL1 - Robot de CO2;3;otra;Correctivo ;manguera CO2 dañada;10;si
+01/06/2017;Jesus Villa Guerrero;Conveyor;HT 710 TK 711;3;otra;Apoyo;paro en enfriamiento;10;si
+01/06/2017;Jesus Villa Guerrero;CPA 621 - Base;CPA 621 - Base;3;otra;Apoyo;apagar cpa;20;si
+02/06/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;1;Operacion;Correctivo ;Depues de realizar la limpieza, se alarma quemador por gas apartura maxima.;10;Si
+02/06/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;3;otra;Correctivo ;skid no llega a posicion;5;si
+02/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;3;Operacion;Correctivo ;colision por jig chueco;10;si
+02/06/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;otra;Apoyo;piden abrir zona enfriamiento;5;si
+05/06/2017;Fernando Rosales;Conveyor;HT 710 TK 711;2;Problemas con tacky;Correctivo ;skid se queda pegado en 3 ocasiones;15;SI
+05/06/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;3;otra;Correctivo ;error de ocupacion;5;si
+05/06/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;otra;Correctivo ;speed driver resin alarma 14.1;5;si
+06/06/2017;Fernando Rosales;Conveyor;TK 100;2;Electrica;Apoyo;oprimen paro de emergencia por error;10;SI
+06/06/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;2;Mecanica;Correctivo ;base del flameador se le cae tornillo;30;SI
+06/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;3;Mecanica;Correctivo ;base de flameador chueca;30;si
+06/06/2017;Jesus Villa Guerrero;RTO;13KL14 - Compuerta proporcional de aire;3;Neumatica;Correctivo ;se van condiciones de cabinas;5;si
+06/06/2017;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;3;Skids ;Correctivo ;barrera interrumpida;20;si
+06/06/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;Problemas con tacky;Correctivo ;tope alarmado;5;si
+06/06/2017;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;3;Operacion;Apoyo;manguera de co2 se atora ;10;si
+07/06/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;1;PLC/Automatizacion;Correctivo ;No avanza conveyor se alarma por no reset of handsake signal.;25;SI
+07/06/2017;Humberto Barraza Villanueva;Robots CO2;CL2 - Robot de CO2;1;Otra;Correctivo ;Se atora manguera de CO2.;15;SI
+07/06/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;skid se queda pegado ;5;SI
+07/06/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;otra;Correctivo ;speed driver resin alarma 14.1;5;si
+08/06/2017;Humberto Barraza Villanueva;Robots CO2;CL2 - Robot de CO2;1;Mecanica;Correctivo ;Se enrreda manguera de C02 en herramienta y con presion.;6;SI
+08/06/2017;Humberto Barraza Villanueva;Conveyor;HT 390 TK 391;1;Operacion;Correctivo ;Mesa se alarma por error de ocupacion.;5;SI
+08/06/2017;Humberto Barraza Villanueva;Conveyor;TK 560;1;Operacion;Correctivo ;Skid en mala posicion. ;5;SI
+08/06/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;3;otra;Apoyo;piden abrir zona enfriamiento;5;si
+08/06/2017;Jesus Villa Guerrero;Conveyor;TK 140 LS 140;3;Operacion;Apoyo;oprimen paro de emergencia;5;si
+08/06/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;3;otra;Apoyo;error de ocupacion;5;si
+09/06/2017;Fernando Rosales;Ensambles;Ensambles;2;Neumatica;Correctivo ;fuga de aire en una de las valvulas del tanque pulmon de ensambles;20;SI
+09/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;3;Mecanica;Correctivo ;colision de robot;40;Si
+10/06/2017;Fernando Rosales;Conveyor;HT 550 TK 551;2;Mecanica;Correctivo ;skid cae mal en la mesa ;15;SI
+10/06/2017;Fernando Rosales;Conveyor;HT 110 TK 111;2;Electrica;Correctivo ;se alarma por barrera interrumpida;15;SI
+12/06/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;1;Otra;Correctivo ;quemador saca flama muy amarilla en ocasiones;17;SI
+12/06/2017;Fernando Rosales;Conveyor;TK 230;1;Mecanica;Correctivo ;skid se atora con las aeroventilas lamina;17;SI
+12/06/2017;Fernando Rosales;Horno Clara;BRN027 - Quemador;1;Electrica;Correctivo ;se alarma por defecto de flama;17;SI
+12/06/2017;Fernando Rosales;Conveyor;VW 640 TK 641;1;Electrica;Predictivo;se alarma por barrera interrumpida;17;SI
+13/06/2017;Fernando Rosales;Conveyor;HT 070 TK 071;1;Problemas con tacky;Correctivo ;interrumpen fotocelda ya que estaba barriendo el area;5;SI
+13/06/2017;Fernando Rosales;Conveyor;HT 550 TK 551;1;Mecanica;Correctivo ;skid se cae mal en la mesa ;15;SI
+13/06/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver fault  en 3 ocasiones;17;SI
+13/06/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;Otra;Correctivo ;error de ocupacion;5;SI
+13/06/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Problemas con tacky;Correctivo ;tope alarmado;5;SI
+14/06/2017;Fernando Rosales;Conveyor;VW 620 TK 621;1;Electrica;Correctivo ;se alarma por barrera interrumpida;17;SI
+14/06/2017;Fernando Rosales;Robots Flameo ;Robots Flameo ;1;Otra;Correctivo ;se alarman por baja presion de gas en 2 ocasiones;25;SI
+14/06/2017;Fernando Rosales;Robots Primer;Robots Primer;1;Mecanica;Correctivo ;cepillos de la caja de purga no giran;25;SI
+14/06/2017;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;2;Otra;Apoyo;funda en mangueras;15;si
+14/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;2;Electrica;Correctivo ;cable de bujia roto ;40;si
+14/06/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;3;PLC/Automatizacion;Correctivo ;Se alarma conveyor por no reset of handsake signal.;5;SI
+15/06/2017;Fernando Rosales;Conveyor;Conveyor;1;PLC/Automatizacion;Correctivo ;Se alarma conveyor por no reset of handsake signal.;5;SI
+15/06/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Apoyo;se alarma por speed driver fault  ;5;SI
+15/06/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;se alarma por defecto de flama;25;SI
+15/06/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;1;Mecanica;Correctivo ;piezas llevan golpes de lado B;25;SI
+15/06/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;2;otra;Correctivo ;error de ocupacion;5;si
+15/06/2017;Humberto Barraza Villanueva;Conveyor;TK 650;3;Operacion;Correctivo ;error de ocupacion;10;SI
+15/06/2017;Humberto Barraza Villanueva;Conveyor;HT 390 TK 391;3;Operacion;Correctivo ;No entran skid a base.;5;SI
+16/06/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver fault;5;SI
+16/06/2017;Fernando Rosales;Conveyor;HT 410 TK 411;1;Mecanica;Apoyo;skid cae mal montado en la mesa ;15;SI
+16/06/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;1;Mecanica;Correctivo ;piezas llevan golpes de lado B;20;SI
+16/06/2017;Jesus Villa Guerrero;Otro;Otro;2;otra;Correctivo ;falla de voltaje;30;SI
+16/06/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;2;Neumatica;Correctivo ;shapping no controla;90;SI
+16/06/2017;Jesus Villa Guerrero;Conveyor;TK 140 LS 140;2;otra;Correctivo ;no avanzan skids no hay alarmas;10;SI
+16/06/2017;Humberto Barraza Villanueva;Conveyor;TK 140 LS 140;3;Operacion;Correctivo ;Por tema de apagon de luz conveyor no avanza.;10;SI
+17/06/2017;Fernando Rosales;Conveyor;HT 070 TK 071;1;Electrica;Correctivo ;interrumpen fotocelda ya que estaba barriendo el area;10;SI
+17/06/2017;Fernando Rosales;Conveyor;DT 040 TK 041;1;Electrica;Correctivo ;oprimen paro de emergencia por error;10;SI
+17/06/2017;Fernando Rosales;Robots Base Coat;BC4 - Robot de Base;1;Electrica;Correctivo ;se la fuente de alto voltaje se alarma por sobrecorriente;50;SI
+17/06/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Neumatica;Correctivo ;shapping no controla;100;SI
+17/06/2017;Fernando Rosales;Conveyor;Conveyor;1;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake;30;SI
+18/06/2017;Humberto Barraza Villanueva;Conveyor;HT 390 TK 391;3;PLC/Automatizacion;Correctivo ;No entran Skids a cabina de base.;5;SI
+19/06/2017;Fernando Rosales;Conveyor;VW 640 TK 641;1;Electrica;Correctivo ;se alarma por barrera interrumpida;20;SI
+19/06/2017;Fernando Rosales;Conveyor;VW 690 TK 691;1;Problemas con tacky;Correctivo ;Se pegan las piezas (Takin);5;SI
+19/06/2017;Isay Sanchez Mejia;Conveyor;HS 660 TK 661;Mixto ;Operacion;Correctivo ;Se cae pieza en el elevador e interrumpe fotocelda;10;si
+19/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;2;Mecanica;Correctivo ;le falta tornillo a flameador;15;SI
+19/06/2017;Jesus Villa Guerrero;Conveyor;HS 450 TK 451;2;Problemas con tacky;Correctivo ;se interrumpe barrera;5;SI
+19/06/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Problemas con tacky;Correctivo ;Taky ocasiona se peguen skids en zona de enfriamiento en 2 ocasiones.;10;SI
+19/06/2017;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;3;Mecanica;Correctivo ;Argolla del yoyo de sujecion de manguera dañado.;10;SI
+19/06/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;3;Operacion;Correctivo ;Alarma por baja presion de gas.;5;SI
+19/06/2017;Humberto Barraza Villanueva;Conveyor;TK 080 LS 080;3;Mecanica;Correctivo ;Se alarma conveyor en zona.;20;SI
+20/06/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Correctivo ;se apaga robot durante la limpieza;15;SI
+20/06/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;se alarma por driver speed fault, error 14.1;10;SI
+20/06/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;otra;Apoyo;piden abrir zona de enfriamiento;10;SI
+20/06/2017;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;2;Electrica;Correctivo ;alto voltaje;10;SI
+20/06/2017;Jesus Villa Guerrero;Conveyor;HS 730 TK 731;2;otra;Apoyo;barrera interrumpida;5;SI
+21/06/2017;Fernando Rosales;Conveyor;TK 590;1;Operacion;Apoyo;produccion pide apoyo para parar zona de enfriamineto por piezas urgentes;10;SI
+21/06/2017;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;2;Electrica;Correctivo ;alto voltaje;15;SI
+21/06/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Otra;Apoyo;tope alarmado;5;SI
+21/06/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Otra;Apoyo;piden apoyo para abrir zona de enfriamiento;5;SI
+22/06/2017;Fernando Rosales;Conveyor;TK 590;1;Operacion;Apoyo;produccion pide apoyo para parar zona de enfriamineto por piezas urgentes;10;SI
+22/06/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver fault ;10;SI
+22/06/2017;Humberto Barraza Villanueva;Conveyor;TK 590;3;Otra;Apoyo;Se alarma zona por interrupcion por taky.;5;SI
+22/06/2017;Jesus Villa Guerrero;Conveyor;HT 110 TK 111;2;Otra;Apoyo;skid no llega a posicion;5;SI
+22/06/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Otra;Apoyo;urgen piezas;5;SI
+22/06/2017;Jesus Villa Guerrero;Robots Base Coat;BC3 - Robot de Base;2;Electrica;Correctivo ;alto voltaje;60;SI
+22/06/2017;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;1;Mecanica;Correctivo ;codo de aire se sale del aplicador;15;SI
+22/06/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;3;Mecanica;Correctivo ;Defecto de flama.;5;SI
+23/06/2017;Fernando Rosales;PLC;CFP - CO2 Flame Primer;1;PLC/Automatizacion;Correctivo ;comentan que hubo un parpadeo lo cual apago los equipos de mixing y el plc de primer;60;SI
+24/06/2017;Fernando Rosales;Conveyor;DT 040 TK 041;1;Electrica;Apoyo;oprimen paro de emergencia;10;SI
+24/06/2017;Fernando Rosales;Robots Base Coat;BC2 - Robot de Base;1;Neumatica;Apoyo;se alarma por bajas revolciones en al turbina cuando esta aplicando;15;SI
+24/06/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Problemas con tacky;Correctivo ;skids se quedan pegados;10;SI
+26/06/2017;Jesus Villa Guerrero;Robots Base Coat;BC5 - Tablero electrico/neumatico;1;otra;Correctivo ;paro de servicio;5;SI
+26/06/2017;Fernando Rosales;Conveyor;HT 410 TK 411;3;Mecanica;Correctivo ;skid cae mal en la mesa;10;SI
+26/06/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids se quedan pegados;5;SI
+27/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;se cae yoyo;15;SI
+27/06/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids se quedan pegados;5;SI
+27/06/2017;Fernando Rosales;Conveyor;TK 590;3;Mecanica;Correctivo ;skid no hace transferencia  hacia la mesa 600;10;SI
+27/06/2017;Fernando Rosales;Conveyor;HT 710 TK 711;3;Problemas con tacky;Apoyo;skid se quedan pegados;5;SI
+28/06/2017;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;3;Electrica;Correctivo ;Final de turno se alarma robot por alto voltaje.;80;SI
+28/06/2017;Fernando Rosales;Robots Base Coat;BC3 - Robot de Base;3;Electrica;Correctivo ;se alarma por alto voltaje;90;SI
+29/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;1;Mecanica;Correctivo ;Defecto de flama.;5;SI
+29/06/2017;Jesus Villa Guerrero;RTO;13KL10 - Compuerta de apertura de aire;1;Otra;Correctivo ;se alarma;5;SI
+29/06/2017;Jesus Villa Guerrero;Conveyor;TK 250;1;Otra;Correctivo ;skid no llega a posicion final;5;SI
+29/06/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;2;Otra;Correctivo ;Alarma por baja presion de gas ;5;SI
+29/06/2017;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;2;Neumatica;Correctivo ;Se alarma robot por turbina no alcanza su velocidad requerida.;30;SI
+30/06/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;1;Otra;Correctivo ;skid no llega a posicion;5;SI
+30/06/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;1;Otra;Correctivo ;order not allowed;5;SI
+30/06/2017;Jesus Villa Guerrero;Robots CO2;CL1 - Robot de CO2;1;Operacion;Apoyo;colision;15;SI
+30/06/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;1;Otra;Correctivo ;abrazadera de manguera dañada se cae de yoyo;25;SI
+30/06/2017;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;1;Otra;Correctivo ;alto voltaje;70;SI
+30/06/2017;Humberto Barraza Villanueva;Conveyor;HS 660 TK 661;2;Otra;Correctivo ;Pieza se cae a la bajada de horno.;5;SI
+01/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;5;SI
+01/07/2017;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;1;Otra;Correctivo ;Manguera de material dañada en la oruga;20;SI
+02/07/2017;Fernando Rosales;Conveyor;HT 710 TK 711;3;Problemas con tacky;Apoyo;skid se quedan pegados;5;SI
+02/07/2017;Fernando Rosales;Horno Clara;BRN017 - Quemador;3;Operacion;Correctivo ;se apaga quemador por baja presion de gas;10;SI
+02/07/2017;Fernando Rosales;Conveyor;VW 580 TK 581;3;Mecanica;Correctivo ;skid no hace la trensferencia hacia la mesa 600;15;SI
+03/07/2017;Jesus Villa Guerrero;Otro;Otro;1;Otra;Correctivo ;robot de primer colisiona;10;SI
+03/07/2017;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;2;Electrica;Correctivo ;Se alarma motor motor y no deja restablecer.;180;SI
+03/07/2017;Isay Sanchez Mejia;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;"Al abrir la pantalla de ordenes se queda ""loading"" pero no despliega el listado";15;SI
+03/07/2017;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;3;Mecanica;Correctivo ;tuberia del eje 6 se sale del aplicador;15;SI
+03/07/2017;Fernando Rosales;Conveyor;HT 710 TK 711;3;Problemas con tacky;Apoyo;skid se quedan pegados;5;SI
+03/07/2017;Fernando Rosales;Conveyor;TK 590;3;Electrica;Correctivo ;se alarma por fotocelda interrumpida;5;SI
+04/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;se pegan skids una vez;5;SI
+04/07/2017;Fernando Rosales;Conveyor;HT 710 TK 711;3;Problemas con tacky;Apoyo;skid se quedan pegados;15;SI
+04/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed drive fault, error 14.1;15;SI
+04/07/2017;Fernando Rosales;Conveyor;HT 410 TK 411;3;Mecanica;Correctivo ;skid se va de lado en la mesa;15;SI
+05/07/2017;Jesus Villa Guerrero;Conveyor;TK 590;1;Otra;Apoyo;skid transportation active;5;SI
+05/07/2017;Humberto Barraza Villanueva;Conveyor;HT 020 TK 021;2;Operacion;Correctivo ;Colocan accidentalmente paro de emergencia se queda linea desfasada.;20;SI
+05/07/2017;Fernando Rosales;Conveyor;HT 410 TK 411;3;Mecanica;Correctivo ;skid se va de lado en la mesa;15;SI
+05/07/2017;Fernando Rosales;Conveyor;HT 710 TK 711;3;Problemas con tacky;Apoyo;skid se quedan pegados;15;SI
+05/07/2017;Fernando Rosales;Robots Base Coat;BC2 - Docking/Booster;3;Electrica;Correctivo ;robot no carga material, se revisa y el variador parker esta alarmado pero no manda ninguna alarma;15;SI
+06/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;5;SI
+06/07/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed driver alarm 14.1 resin;5;SI
+06/07/2017;Jesus Villa Guerrero;CPA 620 - Primer;CPA 620 - Primer;1;Operacion;Correctivo ;reportan cascadas intermitentes;10;SI
+06/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed drive fault, error 14.1;5;SI
+07/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Otra;Apoyo;skids pegados;5;SI
+07/07/2017;Humberto Barraza Villanueva;Conveyor;TK 740;2;Operacion;Apoyo;Pieza trasera NB Rline se cae en mesa, se alarma zona.;5;SI
+08/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Otra;Apoyo;mesa alarmada;5;SI
+10/07/2017;Humberto Barraza Villanueva;Robots Flameo ;FL1 - Robot de Flama;1;Electrica;Correctivo ;Robot se alarma por defecto de flama.;11;SI
+10/07/2017;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;1;PLC/Automatizacion;Correctivo ;Robot 1 se desfasa con respecto al Conveyor.;20;SI
+10/07/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake ;11;SI
+10/07/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;2;Neumatica;Correctivo ;robot aplica solvente en las piezas;30;SI
+10/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Correctivo ;mesa alarmada;5;SI
+10/07/2017;Jesus Villa Guerrero;Conveyor;HT 110 TK 111;3;Otra;Apoyo;mesa alarmada;5;SI
+11/07/2017;Fernando Rosales;Conveyor;HT 710 TK 711;2;Problemas con tacky;Correctivo ;skid se queda pegado;10;SI
+11/07/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake;11;SI
+11/07/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;2;Mecanica;Correctivo ;se alarma por baja presion de gas;30;SI
+11/07/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;orders not allowed;5;SI
+11/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;mesa alarmada;10;SI
+11/07/2017;Jesus Villa Guerrero;Robots Clear Coat;CC4 - Robot de Clara;3;Neumatica;Correctivo ;no controla proporcional de shaping;20;SI
+12/07/2017;Jesus Villa Guerrero;Robots Flameo ;FL2 - Robot de Flama;3;Operacion;Correctivo ;colision daña bujia;10;SI
+12/07/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;3;Otra;Apoyo;error de ocupacion;5;SI
+12/07/2017;Jesus Villa Guerrero;RTO;13KL14 - Compuerta proporcional de aire;3;Otra;Correctivo ;se van condiciones de cabinas;5;SI
+12/07/2017;Jesus Villa Guerrero;Conveyor;TK 030;3;Operacion;Apoyo;oprimen paro de emergencia;5;SI
+13/07/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;Paro de emergencia en cabina de clara.;10;SI
+13/07/2017;Fernando Rosales;Conveyor;SK 680 SP 681;2;Problemas con tacky;Correctivo ;skid se quedan pegados;10;SI
+13/07/2017;Fernando Rosales;Conveyor;HT 410 TK 411;2;Mecanica;Correctivo ;skid se va de lado en la mesa;11;SI
+13/07/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;2;Mecanica;Correctivo ;se alarma por defecto de flama;11;SI
+13/07/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;orders not allowed;20;SI
+13/07/2017;Jesus Villa Guerrero;Conveyor;HT 180 TK 181;3;Otra;Apoyo;error de ocupacion;5;SI
+13/07/2017;Jesus Villa Guerrero;Conveyor;HT 530 TK 531;3;Electrica;Correctivo ;sew not ready en TK531;240;SI
+13/07/2017;Jesus Villa Guerrero;Robots CO2;CL2 - Robot de CO2;3;Operacion;Correctivo ;manguera de co2 desconectada;11;SI
+14/07/2017;Humberto Barraza Villanueva;Otro;Otro;1;Operacion;Apoyo;Apagon de energia electrica en planta externa.;60;SI
+14/07/2017;Fernando Rosales;Conveyor;VW 690 TK 691;2;Problemas con tacky;Apoyo;skid se queda pegado;10;SI
+14/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;mesa alarmada;10;SI
+15/07/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;skid se queda pegado;10;SI
+15/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;mesa alarmada;5;SI
+16/07/2017;Fernando Rosales;Conveyor;SK 680 SP 681;2;Problemas con tacky;Apoyo;skid se queda pegado;10;SI
+16/07/2017;Fernando Rosales;Conveyor;HS 600 TK 601;2;Electrica;Correctivo ;Se alarma motor motor ;11;SI
+16/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;mesa alarmada, rodamientos plasticos gastados;11;SI
+17/07/2017;Fernando Rosales;Conveyor;SK 680 SP 681;1;Problemas con tacky;Correctivo ;skid se queda pegado;10;SI
+17/07/2017;Fernando Rosales;Conveyor;HT 410 TK 411;1;Mecanica;Correctivo ;skid se va de lado en la mesa;15;SI
+17/07/2017;Jesus Villa Guerrero;RTO;13KL10 - Compuerta de apertura de aire;2;Otra;Correctivo ;rto alarmado se pierden condisiones;5;SI
+18/07/2017;Fernando Rosales;Conveyor;SK 680 SP 681;1;Problemas con tacky;Correctivo ;skid se queda pegado;10;SI
+18/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed drive fault, error 14.1;10;SI
+18/07/2017;Jesus Villa Guerrero;Conveyor;HT 110 TK 111;2;Otra;Correctivo ;celda interrumpida;5;SI
+19/07/2017;Fernando Rosales;RTO;13KL10 - Compuerta de apertura de aire;1;Operacion;Correctivo ;se van condiciones de cabinas ya que hubo un paro en cabina de primer;15;SI
+19/07/2017;Fernando Rosales;Conveyor;TK 610;1;Electrica;Correctivo ;marca mesa ocupada pero no hace la transferencia hacia la mesa 620;15;SI
+19/07/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Electrica;Correctivo ;se alarma por defecto de flama;15;SI
+19/07/2017;Jesus Villa Guerrero;Tanque de Agua 512 - Base;Tanque de Agua 512 - Base;2;Otra;Apoyo;reportan gotera en sotano en cabina bc;10;SI
+19/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;mesa alarmada;5;SI
+19/07/2017;Jesus Villa Guerrero;Conveyor;TK 590;3;Otra;Apoyo;skid transportation active;5;SI
+20/07/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Otra;Apoyo;piezas urgentes;11;SI
+20/07/2017;Fernando Rosales;Conveyor;TK 590;2;Mecanica;Correctivo ;skid no hace la trensferencia hacia la mesa 600;15;SI
+20/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Apoyo;se alarma por speed drive fault, error 14.1;10;SI
+20/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Correctivo ;mesa alarmada;10;SI
+21/07/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;skid se queda pegado;5;SI
+21/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Correctivo ;mesa alarmada;10;SI
+22/07/2017;Fernando Rosales;Conveyor;HT 110 TK 111;2;Electrica;Correctivo ;se alarma por barrera interrumpida;11;SI
+24/07/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Problemas con tacky;Apoyo;Se pegan skid en zona de enfriamiento.;11;SI
+24/07/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;Ordenes se quedan congelados, no abre maquina.;14;SI
+24/07/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;Otra;Correctivo ;error de ocupacion;5;SI
+25/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed drive fault, error 14.1;5;SI
+25/07/2017;Fernando Rosales;Conveyor;SK 680 SP 681;1;Problemas con tacky;Apoyo;skids pegados;11;SI
+25/07/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Otra;Apoyo;mesa alarmada;5;SI
+25/07/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;2;Otra;Correctivo ;skid no llega a posicion;5;SI
+25/07/2017;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;2;Otra;Apoyo;shapping no abre;11;SI
+25/07/2017;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;3;Otra;Apoyo;Colision en CO2 por mal programacion.;5;SI
+25/07/2017;Humberto Barraza Villanueva;Conveyor;TK 570;3;Electrica;Correctivo ;Mesa se alarma por variador no listo. ;5;SI
+26/07/2017;Jesus Villa Guerrero;Conveyor;TK 140 LS 140;2;Otra;Correctivo ;reading station alarm;11;SI
+27/07/2017;Fernando Rosales;Conveyor;SK 680 SP 681;1;Problemas con tacky;Apoyo;skid se queda pegado;5;SI
+27/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed drive fault, error 14.1;5;SI
+27/07/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;resin speed driver alarm;11;SI
+27/07/2017;Jesus Villa Guerrero;Conveyor;HT 110 TK 111;2;Otra;Apoyo;mesa alarmada;5;SI
+27/07/2017;Jesus Villa Guerrero;Conveyor;HS 730 TK 731;2;Otra;Apoyo;no termina transferencia;10;SI
+28/07/2017;Fernando Rosales;Conveyor;VW 690 TK 691;1;Problemas con tacky;Apoyo;skid se queda pegado;5;SI
+28/07/2017;Fernando Rosales;Conveyor;HT 410 TK 411;1;Mecanica;Correctivo ;skid cae mal en mesa;11;SI
+28/07/2017;Jesus Villa Guerrero;Conveyor;TK 590;2;Otra;Correctivo ;mesa alarmada;11;SI
+28/07/2017;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;3;Electrica;Correctivo ;Problema con alto voltaje, alarma por sobrecorriente.;90;SI
+28/07/2017;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;3;Electrica;Correctivo ;Sigue alarma de alto voltaje por sobrecorriente.;30;SI
+29/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;5;SI
+29/07/2017;Fernando Rosales;Robots Base Coat;BC4 - Robot de Base;1;Electrica;Correctivo ;se alarma por alto voltaje;120;SI
+29/07/2017;Jesus Villa Guerrero;PLC;BCCC - Base Coat Clear Coat;2;PLC/Automatizacion;Correctivo ;skids no entran a cc;5;SI
+29/07/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;2;Electrica;Correctivo ;falla alto voltaje;11;SI
+29/07/2017;Jesus Villa Guerrero;Conveyor;VW 090 TK 091;2;Otra;Correctivo ;barrera interrumpida;5;SI
+31/07/2017;Fernando Rosales;Robots Primer;PR2 - Robot de Primer;1;Mecanica;Correctivo ;valvula de solvente del manifuld dañada;11;SI
+31/07/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Correctivo ;manguera dañada de atom;15;SI
+31/07/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Apoyo;se alarma por speed drive fault, error 14.1;11;SI
+31/07/2017;Jesus Villa Guerrero;RTO;RTO;2;Otra;Correctivo ;se alarma 13ued09;5;SI
+31/07/2017;Humberto Barraza Villanueva;Conveyor;HT 410 TK 411;3;Operacion;Apoyo;Skid fuera de rieles, se alarma por ocupacion. ;5;SI
+31/07/2017;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;3;PLC/Automatizacion;Correctivo ;Reportan que robot no toma la pieza despues de un skid vacio, pero los demas robots si pintan. Y pitch se que contando, no entran skids a base.;15;SI
+03/08/2017;Humberto Barraza Villanueva;Robots Base Coat;Robots Base Coat;3;Neumatica;Apoyo;Reporta Path que se alarman robots 3 y 4 por baja presion de aire. ;15;NO
+05/08/2017;Humberto Barraza Villanueva;Otro;Otro;3;Electrica;Preventivo ;Lamparas se funden en sotano, poco iluminacion y requieren sacar lodos de la tina.;30;NO
+12/08/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;revisar cableado  por tema del alarma del  speed driver;60;NO
+13/08/2017;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;2;Operacion;Correctivo ;Se pide apoyo a Path para realizar para validar robot 2 de base ya que realizaron cambio del servo motor eje 4.;240;NO
+16/08/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;3;Electrica;Correctivo ;se alarma por defecto de flama;60;SI
+16/08/2017;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;3;Mecanica;Correctivo ;aplicador con juego;15;SI
+24/08/2017;Isay Sanchez Mejia;Robots Base Coat;BC3 - Tablero electrico/neumatico;1;PLC/Automatizacion;Mejora;Por recomendaciones de proveedor de falla de speed drive 14.1 se modifican parametros;5;NO
+26/08/2017;Jesus Villa Guerrero;Horno Clara;BRN027 - Quemador;3;Electrica;Correctivo ;llama debil, no hay flama;30;SI
+27/08/2017;Humberto Barraza Villanueva;Otro;Otro;1;Electrica;Preventivo ;Persona de Xique vine a soldar conexiones de 1/2 in para salisdas de aire en zona de compresores para estudio del aire.;60;NO
+28/08/2017;Isay Sanchez Mejia;Horno Clara;BRN027 - Quemador;1;Neumatica;Correctivo ;Baja presion de gas natural;10;NO
+30/08/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;3;otra;Correctivo ;colision daña bujia;10;si
+01/09/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;Falla de speed drive.;10;SI
+01/09/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;1;Neumatica;Correctivo ;Se alarma por baja presion Shaping.;60;SI
+01/09/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;20;SI
+01/09/2017;Fernando Rosales;Conveyor;DT 040 TK 041;2;Mecanica;Correctivo ;cuando la mesa 30 hace la transferencia hacia la mesa 40 choca el skid en ella ;11;SI
+01/09/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;2;Neumatica;Correctivo ;se alarma por baja presion shaping del robot 1 y enseguida se alarma el shaping por alta presion del robot 2;30;SI
+01/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;3;Otra;Correctivo ;alarma por alta presion shapping ;20;SI
+01/09/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;mesa alarmada;5;SI
+02/09/2017;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;1;Neumatica;Correctivo ;aglomerados en color pure white en trasera tiguan;90;SI
+02/09/2017;Fernando Rosales;Robots Base Coat;BC4 - Robot de Base;2;Neumatica;Correctivo ;aglomerados en color pure white en trasera tiguan;30;SI
+02/09/2017;Fernando Rosales;Conveyor;TK 590;2;Electrica;Correctivo ;skid no hace transferencia hacia la mesa 600;5;SI
+04/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;problemas de estructura;65;SI
+04/09/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;no reset of hand shake winCC, pantalla de ordenes congelada;15;SI
+04/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Tablero electrico/neumatico;2;Electrica;Correctivo ;problemas de estructura;55;SI
+04/09/2017;Jesus Villa Guerrero;Conveyor;TK 590;2;Otra;Correctivo ;mesa alarmada;5;SI
+04/09/2017;Humberto Barraza Villanueva;Conveyor;HT 270 TK 271;3;Operacion;Correctivo ;Pieza se cae en flash off, se alarma conveyor.;10;SI
+05/09/2017;Fernando Rosales;Robots CO2;CL2 - Robot de CO2;1;Mecanica;Correctivo ;manguera de alta presion presenta condesado;20;SI
+05/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Electrica;Correctivo ;estacion de lectura de la zona de enfrienmiento no lee skid;15;SI
+05/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;10;SI
+05/09/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC2 - Robot de Clara;3;Neumatica;Correctivo ;Alarma por shaping, no controla los valores.;15;SI
+07/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Electrica;Correctivo ;estacion de lectura de la zona de enfrienmiento no lee skid;15;SI
+07/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Mecanica;Correctivo ;se alarma por speed driver, error 14.1;60;SI
+07/09/2017;Humberto Barraza Villanueva;Robots Primer;PR2 - Robot de Primer;3;Neumatica;Correctivo ;Aplicador se alarma despues de 3 horas de la limpieza por baja presion de aire de atomizado.;15;SI
+07/09/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;Alarma de speed drive.;10;SI
+08/09/2017;Fernando Rosales;Conveyor;VW 090 TK 091;1;Electrica;Correctivo ;se alarma por barrera interrumpida;5;SI
+08/09/2017;Humberto Barraza Villanueva;Robots Primer;PR2 - Robot de Primer;2;Neumatica;Apoyo;Por tema de alarma por atomisacion baja presion se le comenta a programador cambie pistolas para validar alarma.;5;SI
+08/09/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;Alarma de speed drive.;5;SI
+09/09/2017;Fernando Rosales;Conveyor;VW 580 TK 581;1;Electrica;Correctivo ;se alarma motor de la mesa 580;5;SI
+09/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Electrica;Correctivo ;estacion de lectura de la zona de enfrienmiento no lee skid;15;SI
+09/09/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Electrica;Correctivo ;se alarma motor de la mesa 700;11;SI
+11/09/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;2;Otra;Correctivo ;skid no llega a posicion final;5;SI
+11/09/2017;Jesus Villa Guerrero;Conveyor;HT 550 TK 551;2;Otra;Correctivo ;skid no llega a posicion final;5;SI
+11/09/2017;Humberto Barraza Villanueva;RTO;13KL10 - Compuerta de apertura de aire;3;Electrica;Correctivo ;Se van condiciones en cabinas.;5;SI
+11/09/2017;Humberto Barraza Villanueva;Conveyor;HS 660 TK 661;3;Electrica;Correctivo ;Se alarma elevador, uno de los micros.;11;SI
+12/09/2017;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;2;Otra;Correctivo ;reportan que docking tiene fuga;45;SI
+12/09/2017;Fernando Rosales;RTO;13KL10 - Compuerta de apertura de aire;1;Electrica;Correctivo ;Se van condiciones en cabinas.;5;SI
+12/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm;5;SI
+12/09/2017;Jesus Villa Guerrero;Conveyor;HT 550 TK 551;2;Otra;Correctivo ;skid no llega a posicion final;5;SI
+12/09/2017;Jesus Villa Guerrero;Conveyor;HS 600 TK 601;2;Electrica;Correctivo ;switch de  seguridad de cadena rota activo;15;SI
+12/09/2017;Jesus Villa Guerrero;Conveyor;TK 590;2;Otra;Correctivo ;mesa alarmada;5;SI
+12/09/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;speed drive alarm en 2 ocasiones.;20;SI
+13/09/2017;Fernando Rosales;Conveyor;HT 410 TK 411;1;Mecanica;Apoyo;skid cae mal en la mesa 410;11;SI
+13/09/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;pantalla de ordenes congelada 5 veces;60;SI
+14/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;1;Electrica;Apoyo;estacion de lectura de la zona de enfrienmiento no lee skid;15;SI
+14/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alrma por speed driver, errror 14,1;10;SI
+14/09/2017;Fernando Rosales;Conveyor;HT 410 TK 411;1;Mecanica;Correctivo ;skid cae mal en la mesa 410;11;SI
+14/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Neumatica;Correctivo ;valvula trigger electro neumatica;20;SI
+14/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+14/09/2017;Humberto Barraza Villanueva;Conveyor;HS 600 TK 601;3;Electrica;Correctivo ;Fotocelda alarmada, skid se pasa e interrumpe la barrera.;5;SI
+15/09/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skids pegados;5;SI
+18/09/2017;Humberto Barraza Villanueva;Conveyor;HS 660 TK 661;2;Mecanica;Correctivo ;Skid a media transferencia;5;SI
+18/09/2017;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;2;Mecanica;Preventivo ;Se encuentra bloque sujeto en mangueras de CO2 y alto voltaje.;5;SI
+18/09/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;Falla de speed drive en 2 ocaciones.;10;SI
+18/09/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;3;Mecanica;Correctivo ;se alarma por defecto de flama;11;SI
+18/09/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skid se queda pegado;10;SI
+18/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Correctivo ;estacion de lectura de la zona de enfrienmiento no lee skid;11;SI
+18/09/2017;Fernando Rosales;Conveyor;TK 560;3;Mecanica;Correctivo ;skid cae mal en la mesa 560;5;SI
+19/09/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;mesa alarmada;5;SI
+19/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 14.1 resin ;5;SI
+19/09/2017;Humberto Barraza Villanueva;Conveyor;DT 055 TK 056;2;Mecanica;Correctivo ;Se atoran skids en mesa con leva de cadena.;10;SI
+19/09/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;se alarma por servidor no responde;9;SI
+20/09/2017;Isay Sanchez Mejia;Conveyor;VW 090 TK 091;1;Operacion;Apoyo;Se cae Jig de lado B bottom y se atora con barandal durante transferencia;11;SI
+20/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 14.1 resin ;5;SI
+20/09/2017;Fernando Rosales;Conveyor;HT 410 TK 411;3;Mecanica;Correctivo ;skid cae mal en la mesa 410;11;SI
+20/09/2017;Fernando Rosales;Conveyor;TK 590;3;Problemas con tacky;Correctivo ;se alarma por barrera interrumpida;11;SI
+20/09/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skid se queda pegado;5;SI
+20/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;11;SI
+20/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Correctivo ;estacion de lectura de la zona de enfrienmiento no lee skid;9;SI
+21/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 14.1 resin ;30;SI
+21/09/2017;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;1;Otra;Correctivo ;robot apagado en caja de purga;11;SI
+21/09/2017;Humberto Barraza Villanueva;RTO;13KL10 - Compuerta de apertura de aire;2;Electrica;Correctivo ;Se van condiciones de cabinas por apagado de RTO. ;5;SI
+21/09/2017;Humberto Barraza Villanueva;Conveyor;SK 680 SP 681;2;Mecanica;Correctivo ;Se atora skid con mecanismo neumatico.;11;SI
+21/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;11;SI
+21/09/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;3;Neumatica;Correctivo ;en la limpieza reportan que hay material en la base del robot;30;SI
+21/09/2017;Fernando Rosales;Conveyor;SK 680 SP 681;3;Electrica;Correctivo ;se alarma motor 680;11;SI
+21/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Correctivo ;estacion de lectura de la zona de enfrienmiento no lee skid;11;SI
+22/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 14.1 resin ;5;SI
+22/09/2017;Jesus Villa Guerrero;Conveyor;TK 590;1;Problemas con tacky;Correctivo ;barrera interrumpida;5;SI
+22/09/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;mesa alarmada;5;SI
+22/09/2017;Jesus Villa Guerrero;Conveyor;Conveyor;1;Otra;Apoyo;urgen piezas para ensamble ;10;SI
+22/09/2017;Jesus Villa Guerrero;Conveyor;HT 240 TK 241;1;Operacion;Correctivo ;skid no llega a posicion;5;SI
+22/09/2017;Jesus Villa Guerrero;RTO;13BRN016 - Quemador;1;Neumatica;Correctivo ;se pierden condiciones en cabina, se encuentra alarmado 13UED09;5;SI
+22/09/2017;Humberto Barraza Villanueva;Robots Primer;PR1 - Robot de Primer;2;Neumatica;Correctivo ;Fuga de solvente en manguera, se encuentra doblada y se truena provocando fuga.;10;SI
+22/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;11;SI
+22/09/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skid se queda pegado;5;SI
+23/09/2017;Jesus Villa Guerrero;Conveyor;HT 270 TK 271;1;Otra;Correctivo ;skids chocan y se salen de posicion;20;SI
+23/09/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;1;Otra;Correctivo ;reportan que no avanza CV;20;SI
+23/09/2017;Fernando Rosales;Conveyor;Conveyor;3;PLC/Automatizacion;Apoyo;se alarma por no reset hanshake win cc;20;SI
+24/09/2017;Fernando Rosales;Conveyor;Conveyor;3;PLC/Automatizacion;Apoyo;se alarma por no reset hanshake win cc;30;SI
+25/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarma resin 14.1;5;SI
+25/09/2017;Humberto Barraza Villanueva;Robots Base Coat;BC3 - Robot de Base;2;Mecanica;Correctivo ;Robot se alarma por movimiento  maximo de eje 2 en varias ocaciones.;30;SI
+25/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Apoyo;se alarma por speed driver, error 14.1;10;SI
+26/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+26/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;11;SI
+26/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Apoyo;estacion de lectura de la zona de enfrienmiento no lee skid;10;SI
+27/09/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Problemas con tacky;Correctivo ;mesa alarmada;5;SI
+27/09/2017;Jesus Villa Guerrero;Conveyor;HT 070 TK 071;1;Operacion;Correctivo ;interrumpen celda;5;SI
+27/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+27/09/2017;Humberto Barraza Villanueva;Robots Primer;PR1 - Robot de Primer;2;Electrica;Correctivo ;Robot de primer se apaga durante la aplicacion.;11;SI
+27/09/2017;Fernando Rosales;Robots Base Coat;BC3 - Robot de Base;3;Electrica;Correctivo ;speed driver, error 14.1;10;SI
+27/09/2017;Fernando Rosales;Conveyor;VW 090 TK 091;3;Electrica;Apoyo;se alarma por barrera interrumpida;5;SI
+27/09/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;skid se queda pegado;10;SI
+28/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Correctivo ;no controla shapung ;20;SI
+28/09/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;1;Otra;Apoyo;order execution not allowed;5;SI
+29/09/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;5;SI
+29/09/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Correctivo ;skid se queda pegado;10;si
+29/09/2017;Fernando Rosales;Conveyor;DT 055 TK 056;3;Electrica;Correctivo ;oprimen paro de emergencia ;10;SI
+29/09/2017;Fernando Rosales;Conveyor;TK 080 LS 080;3;Mecanica;Correctivo ;reportan que no se mueve conveyor;30;SI
+30/09/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 14.1 resin ;5;SI
+30/09/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Problemas con tacky;Correctivo ;skid se queda pegado;10;SI
+30/09/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Correctivo ;estacion de lectura de la zona de enfrienmiento no lee skid;10;SI
+01/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Otra;Correctivo ;mesa alarmada;5;SI
+01/10/2017;Jesus Villa Guerrero;Conveyor;HT 110 TK 111;3;Otra;Correctivo ;barrera alarmada;5;SI
+01/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+01/10/2017;Jesus Villa Guerrero;Conveyor;HT 110 TK 111;3;Problemas con tacky;Correctivo ;se alarma dos veces mas la barrera;10;SI
+01/10/2017;Jesus Villa Guerrero;Conveyor;VW 090 TK 091;3;Otra;Correctivo ;mesa alarmada;10;SI
+01/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;3;Electrica;Correctivo ;alarma de alto voltaje;80;SI
+01/10/2017;Jesus Villa Guerrero;Conveyor;TK 100;3;Operacion;Apoyo;oprimen paro de emergencia;5;SI
+01/10/2017;Jesus Villa Guerrero;Conveyor;HT 130 TK 131;3;Problemas con tacky;Correctivo ;barrera alarmada;5;SI
+02/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;Se pegan skids en zona de enfriamiento.;10;SI
+02/10/2017;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;1;Neumatica;Preventivo ;Reportan que es intermitente la salida de co2.;5;SI
+02/10/2017;Isay Sanchez Mejia;Servidor - Win CC;Servidor - Win CC;1;PLC/Automatizacion;Correctivo ;Se congela pantalla de ordenes;15;SI
+02/10/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;25;SI
+02/10/2017;Fernando Rosales;Conveyor;VW 690 TK 691;2;Problemas con tacky;Correctivo ;se alarma por barrera interrumpida;5;SI
+02/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Apoyo;skid se queda pegado;5;SI
+02/10/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;2;Neumatica;Correctivo ;robot se apaga cuando va ala caja de purga;15;SI
+02/10/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;3;Otra;Apoyo;no reset of hand shake;5;SI
+02/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Otra;Correctivo ;mesa alarmada;10;SI
+02/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+02/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;speed drive alarm resin 14.1;15;SI
+03/10/2017;Humberto Barraza Villanueva;Conveyor;HT 550 TK 551;1;Otra;Apoyo;Skid no vae en posicion en mesa.;8;SI
+03/10/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Correctivo ;En varisa ocasiones se atora skid a media transferencia.;5;SI
+03/10/2017;Humberto Barraza Villanueva;Robots CO2;CL1 - Robot de CO2;1;Neumatica;Preventivo ;Manguera doblada de aire en zona del eje tres.;10;SI
+03/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;se alarma por speed driver, error 14.1;10;SI
+03/10/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Problemas con tacky;Correctivo ;skid se queda pegado;5;SI
+03/10/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;3;Problemas con tacky;Correctivo ;skids no llegan a posicion final;30;SI
+03/10/2017;Jesus Villa Guerrero;Conveyor;TK 590;3;Otra;Correctivo ;skid transportation active;5;SI
+03/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+03/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Mecanica;Apoyo;mesa alarmada por desgaste de cadena;5;SI
+03/10/2017;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;3;Otra;Correctivo ;robot se apaga en trayectoria;10;SI
+04/10/2017;Fernando Rosales;Robots CO2;CL1 - Robot de CO2;2;Neumatica;Correctivo ;fuga de aire en el eje 5 y 6;50;SI
+04/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;se alarma por speed driver, error 14.1;10;SI
+04/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Otra;Correctivo ;mesa alarmada;5;SI
+04/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Preventivo ;no controla shaping;10;SI
+05/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;Se alarma 4 veces el variador ;10;SI
+05/10/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;2;Neumatica;Correctivo ;robot se apaga durante la limpieza;15;SI
+05/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+05/10/2017;Fernando Rosales;Conveyor;DT 055 TK 056;2;Electrica;Correctivo ;skid se queda a media transferencia;15;SI
+05/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;3;Otra;Correctivo ;no controla shaping;10;SI
+05/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+06/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;Alarma por speed drive;10;SI
+06/10/2017;Isay Sanchez Mejia;Robots Base Coat;BC2- Tablero electrico/neumatico;1;PLC/Automatizacion;Correctivo ;Se queda en el docking el robot y no carga material. No marca falla en IFIX;15;SI
+06/10/2017;Isay Sanchez Mejia;Robots Clear Coat;CC3 - Tablero electrico/neumatico;1;PLC/Automatizacion;Mejora;Se corre el autotunning advance en el driver de resina;11;SI
+06/10/2017;Fernando Rosales;Conveyor;HT 710 TK 711;2;Mecanica;Correctivo ;skid se queda arriba de la guia de la mesa;12;SI
+06/10/2017;Fernando Rosales;Conveyor;DT 055 TK 056;2;Mecanica;Correctivo ;skid se queda a media transferencia de la mesa 60 montado en las pestañas de la cadena;30;SI
+06/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;15;SI
+06/10/2017;Jesus Villa Guerrero;Conveyor;TK 590;3;Otra;Correctivo ;mesa alarmada;5;SI
+06/10/2017;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;3;Otra;Apoyo;no hace cambios de color;10;SI
+07/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;Alarma de speed drive;15;SI
+07/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+07/10/2017;Fernando Rosales;Robots Base Coat;BC1 - Robot de Base;2;Electrica;Correctivo ;no hace cambio de color ;20;SI
+08/10/2017;Jesus Villa Guerrero;Conveyor;Conveyor;3;Otra;Correctivo ;no entra skid a bc;10;SI
+08/10/2017;Jesus Villa Guerrero;Conveyor;DT 040 TK 041;3;Operacion;Correctivo ;oprimen paro de emergencia;5;SI
+08/10/2017;Jesus Villa Guerrero;Conveyor;DT 040 TK 041;3;Otra;Correctivo ;skid se monta en guias y se atora con plataforma;10;SI
+08/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC4 - Robot de Clara;3;Operacion;Correctivo ;reportan falla de baja presion en shaping, turbina, alto voltaje al mismo tiempo;30;SI
+08/10/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;pantalla de ordenes se qeuda congelada;25;SI
+08/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;se escuha un fuerte golpeteo en mesa;15;SI
+08/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC4 - Robot de Clara;3;Otra;Correctivo ;reporta mariano que sistema de hardener se vacia despues de cierto tiempo ;20;SI
+08/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+09/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+09/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Correctivo ;skid se queda pegado;12;SI
+09/10/2017;Fernando Rosales;Conveyor;SK 680 SP 681;2;Mecanica;Correctivo ;comenta que no avanza conveyor en la zona de enfriamiento;20;SI
+09/10/2017;Jesus Villa Guerrero;Robots CO2;Robots CO2;3;Otra;Correctivo ;comentan que visualmente se ve mucho co2 al aplicar;5;SI
+09/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+09/10/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;3;Otra;Correctivo ;barrera alarmada;20;SI
+09/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;mesa alarmada dos veces;5;SI
+10/10/2017;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;1;Mecanica;Correctivo ;Transmision dañada del eje 4.;120;SI
+10/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+10/10/2017;Fernando Rosales;Robots Base Coat;BC1 - Docking/Booster;2;Mecanica;Correctivo ;docking escupe solvente cuando hace cambio de color;15;SI
+10/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Correctivo ;skid se queda pegado;5;SI
+10/10/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;25;SI
+10/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;mesa alarmada por desgaste de cadena;10;SI
+10/10/2017;Jesus Villa Guerrero;Conveyor;TK 380 LS380;3;Otra;Correctivo ;skid reading not plausible;10;SI
+10/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+11/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;1;Operacion;Apoyo;Se atoran skids en zona de enfriamiento.;10;SI
+12/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;Se atoran skids en zona de enfriamiento.;10;SI
+12/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;Se va a falla en 7 ocaciones Speed drive.;15;SI
+12/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;Falla de speed drive ;5;SI
+12/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Apoyo;se alarma po speed driver, error 14.1;10;SI
+12/10/2017;Fernando Rosales;Conveyor;TK 400;2;Mecanica;Correctivo ;acoplamiento de encoder degollado;15;SI
+12/10/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;pantalla de ordenes se queda congelada y esta alarmado conveyor por no reset hanshake win cc;120;SI
+12/10/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;3;Otra;Correctivo ;al llegar hay problemas con SQL;60;SI
+12/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+12/10/2017;Jesus Villa Guerrero;Conveyor;TK 400;3;Mecanica;Correctivo ;alarma de encoder;10;SI
+12/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Correctivo ;mesa alarmada;10;SI
+13/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;Se atoran skids en zona de enfriamiento.;5;SI
+13/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;Falla por speed drive de resina en 5 ocaciones.;15;SI
+13/10/2017;Humberto Barraza Villanueva;Conveyor;TK 420;1;Operacion;Correctivo ;Se alarma conveyor por ocupacion, no pierde la señal de ocupado.;5;SI
+13/10/2017;Jorge Ramirez;Conveyor;SK 700 SP 701;Mixto ;Electrica;Correctivo ;Problemas con taky;5;SI
+13/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Correctivo ;skid se queda pegado;5;SI
+13/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Correctivo ;mesa alarmada;10;SI
+13/10/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;3;Mecanica;Correctivo ;mesa 30 se alarma constantemente por error de ocupacion y se escuha un ruido cuando pasa de 20 a 30;55;SI
+13/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+14/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;2;Problemas con tacky;Correctivo ;skid se queda pegados;10;SI
+14/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+14/10/2017;Jesus Villa Guerrero;Conveyor;TK 050;3;Mecanica;Correctivo ;cadena desfasada;50;SI
+15/10/2017;Humberto Barraza Villanueva;Conveyor;TK 050;3;Mecanica;Correctivo ;Skid se montan en pestañas de cadena provocando se atore y se alarme en varias ocaciones.;5;SI
+15/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;Robots Clear Coat;3;Electrica;Correctivo ;Se alarma cabina por sensor 2 anormal.;15;SI
+15/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;Se alarma por cadena desgastada. En varias ocaciones;20;SI
+16/10/2017;Fernando Rosales;Conveyor;HT 020 TK 021;1;Mecanica;Correctivo ;skid no llega a posicion;10;SI
+16/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Problemas con tacky;Apoyo;skid se queda pegado;5;SI
+16/10/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;1;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;15;SI
+16/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+16/10/2017;Jesus Villa Guerrero;Conveyor;TK 050;2;Mecanica;Correctivo ;skids se traba entre cadena y plataforma;80;SI
+16/10/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;2;Otra;Correctivo ;no reset of hand shake;70;SI
+16/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+17/10/2017;Humberto Barraza Villanueva;Robots Flameo ;FL2 - Robot de Flama;3;Mecanica;Correctivo ;Se alarma por error de Ignicion.;10;SI
+17/10/2017;Humberto Barraza Villanueva;Conveyor;DT 055 TK 056;3;Operacion;Correctivo ;Error de ocupacion.;2;SI
+17/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;3;Operacion;Correctivo ;Se atora en varias ocaciones ;5;SI
+17/10/2017;Fernando Rosales;Conveyor;HS 600 TK 601;1;Mecanica;Correctivo ;skid no hace la tranferencia hacia la mesa 600;5;SI
+17/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+17/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;cadena gastada;5;SI
+17/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+17/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;Se atora skid a media transferencia.;10;SI
+17/10/2017;Humberto Barraza Villanueva;Conveyor;TK 250;3;Operacion;Correctivo ;Skid cae en mala posicion.;5;SI
+18/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se quedan atorados;12;SI
+18/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+18/10/2017;Jesus Villa Guerrero;Conveyor;TK 140 LS 140;2;Operacion;Correctivo ;elevador alarmado;10;SI
+18/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;5;SI
+18/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+18/10/2017;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;2;Otra;Correctivo ;no entra skid a bc;15;SI
+18/10/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;3;Operacion;Correctivo ;Skids se atoran en zona de enfriamiento;5;SI
+18/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;Se alarma en 8 ocasiones speed drive.;12;SI
+19/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;10;SI
+19/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se qeudan atorados por cadena desgastada;12;SI
+19/10/2017;Fernando Rosales;Conveyor;HT 530 TK 531;1;PLC/Automatizacion;Correctivo ;skids no entran en cabina de clara;5;SI
+19/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;10;SI
+19/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+19/10/2017;Jesus Villa Guerrero;Conveyor;HT 550 TK 551;2;Otra;Correctivo ;skid no llega a posicion;10;SI
+19/10/2017;Jesus Villa Guerrero;Conveyor;TK 050;2;Otra;Correctivo ;skid se monta en guias  ;5;SI
+19/10/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;2;Otra;Apoyo;no reset of hand shake;5;SI
+19/10/2017;Humberto Barraza Villanueva;Robots Base Coat;BC1 - Robot de Base;3;Neumatica;Correctivo ;Despues de la limpieza se alarma por Shaping demaciado alto. ;15;SI
+19/10/2017;Humberto Barraza Villanueva;Robots Base Coat;BC4 - Robot de Base;3;Electrica;Correctivo ;Reportan que se alarma por alto voltaje en casa en varias ocaciones.;5;SI
+20/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se quedan atorados por cadena desgastada;15;SI
+20/10/2017;Fernando Rosales;Conveyor;TK 050;1;Mecanica;Correctivo ;skid se queda atorado en la base de la plataforma;20;SI
+20/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Apoyo;cadena gastada;10;SI
+20/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+20/10/2017;Jesus Villa Guerrero;Conveyor;TK 250;2;Mecanica;Correctivo ;skid no llega a posicion;10;SI
+20/10/2017;Jesus Villa Guerrero;Conveyor;TK 590;2;Otra;Correctivo ;barrera interrumpida;5;SI
+20/10/2017;Jesus Villa Guerrero;Robots Flameo ;Tablero IPROS;2;PLC/Automatizacion;Correctivo ;no hay comunicacion;5;SI
+20/10/2017;Humberto Barraza Villanueva;Robots Base Coat;BC5 - Robot de Base;3;Electrica;Correctivo ;Se alarma robot por alta presion a la salida de la bomba, en 2 ocaciones.;120;SI
+20/10/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Apoyo;Se atora pantalla de ordenes. Se alarma en 2 ocaciones.;30;SI
+20/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+21/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+21/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se quedan atorados por cadena desgastada;15;SI
+21/10/2017;Fernando Rosales;Conveyor;HT 020 TK 021;2;Mecanica;Correctivo ;se nota que la mesa sube chueca ;120;SI
+21/10/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;2;Otra;Correctivo ;mesa alarmada;20;SI
+21/10/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;Mecanica;Correctivo ;mesa sube chueca;30;SI
+21/10/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;2;Otra;Correctivo ;no reset of hand shake;20;SI
+21/10/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;2;Mecanica;Correctivo ;mesa truena al bajar;120;SI
+21/10/2017;Jesus Villa Guerrero;Conveyor;TK 080 LS 080;2;Otra;Correctivo ;no reset of hand shake;20;SI
+21/10/2017;Jesus Villa Guerrero;Conveyor;TK 065;2;Otra;Correctivo ;mesa alarmadda por error de ocupacion;10;SI
+22/10/2017;Jesus Villa Guerrero;Conveyor;TK 065;2;Mecanica;Correctivo ;Error de ocupacion.;5;SI
+22/10/2017;Jesus Villa Guerrero;Conveyor;TK 030;2;Mecanica;Correctivo ;skid no llega a posicion;5;SI
+22/10/2017;Jesus Villa Guerrero;Robots Primer;BIEPR-S - Cortina de seguridad;2;Mecanica;Correctivo ;barrera alarmada;5;SI
+23/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se qeudan atorados por cadena desgastada;10;SI
+23/10/2017;Fernando Rosales;Conveyor;SK170 SP171 LS170;1;Mecanica;Correctivo ;se alarma tope neumatico;15;SI
+23/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Otra;Correctivo ;mesa alarmada;10;SI
+23/10/2017;Jesus Villa Guerrero;Conveyor;HT 410 TK 411;2;Otra;Correctivo ;mesa alarmada;5;SI
+23/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;Alarma por speed drive;5;SI
+24/10/2017;Fernando Rosales;Conveyor;HS 600 TK 601;1;Electrica;Correctivo ;motor de la mesa alarmada y sensor 600-S82F;30;SI
+24/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+24/10/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Correctivo ;robot se apaga durante la limpieza;15;SI
+24/10/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;1;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;25;SI
+24/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada por desgaste de cadena;5;SI
+24/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;15;SI
+24/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;3;Operacion;Correctivo ;Conveyor se atora en zona de enfriamiento.;5;SI
+24/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;3 eventos por speed drive ;10;SI
+25/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se quedan pegados por cadena desgastada;10;SI
+25/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+25/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+25/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada ;10;SI
+25/10/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;2;Otra;Correctivo ;no reset of hand shake;5;SI
+25/10/2017;Jesus Villa Guerrero;Conveyor;TK 100;2;Operacion;Apoyo;oprimen paro de emergencia;5;SI
+25/10/2017;Humberto Barraza Villanueva;Conveyor;HT 020 TK 021;3;Mecanica;Correctivo ;Inicio de turno mesa con tornillo de leva dañado.;90;SI
+25/10/2017;Humberto Barraza Villanueva;Conveyor;HT 070 TK 071;3;Mecanica;Correctivo ;Se amontonan skids desajustandose mesa de cambio de skids. ;60;SI
+25/10/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;Se atora pantalla de ordenes por falla de de conveyor por mucho tiempo de paro.;25;SI
+26/10/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Apoyo;se alarma por defecto de flama;10;SI
+26/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;5;SI
+26/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se queda pegado por desgaste de cadena;5;SI
+26/10/2017;Fernando Rosales;Otro;Otro;1;Electrica;Correctivo ;se alarma red contra incendio, sensores del transfer ;50;SI
+26/10/2017;Jorge Ramirez;Conveyor;TK 050;Mixto ;Electrica;Correctivo ;Mesa alarmada;10;SI
+26/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;10;SI
+26/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;speed drive alarm resin 14.1;10;SI
+26/10/2017;Jesus Villa Guerrero;Conveyor;SK 720 SP 721 LS720;2;Otra;Correctivo ;reading not plausive;15;SI
+26/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;Falla por speed drive en 10 ocaciones.;10;SI
+27/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Apoyo;skid se qeudan atorados por cadena desgastada;15;SI
+27/10/2017;Fernando Rosales;Conveyor;SK 680 SP 681;1;Operacion;Apoyo;piezas urgentes;15;SI
+27/10/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Apoyo;robot se apaga durante la limpieza;15;SI
+27/10/2017;Fernando Rosales;Conveyor;TK 080 LS 080;1;PLC/Automatizacion;Apoyo;se alarma por no reset hanshake win cc;15;SI
+27/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Apoyo;se alarma por speed driver, error 14.1;15;SI
+27/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+27/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada ;10;SI
+27/10/2017;Jesus Villa Guerrero;Conveyor;TK 590;2;Otra;Correctivo ;mesa alarmada;5;SI
+27/10/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;3;Operacion;Correctivo ;Se atoran skids en zona de enfriamiento.;10;SI
+27/10/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;5;SI
+28/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se qeudan atorados por cadena desgastada;10;SI
+28/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;se alarma por speed driver, error 14.1;10;SI
+28/10/2017;Fernando Rosales;Conveyor;HS 730 TK 731;1;Electrica;Correctivo ;oprimen paro de emergencia con  rack;11;SI
+28/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;10;SI
+28/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+28/10/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;2;Otra;Correctivo ;skid no en posicion;5;SI
+29/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Apoyo;skid se quedan pegados por cadena desgastada;11;SI
+29/10/2017;Fernando Rosales;Conveyor;HT 070 TK 071;3;Electrica;Apoyo;interrumpen fotocelda personal de jigs;5;SI
+29/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Neumatica;Correctivo ;se alarma por shaping air;30;SI
+29/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;tema de speed driver, cambio de cable transductores;10;SI
+29/10/2017;Jorge Ramirez;Conveyor;HT 710 TK 711;1;Electrica;Correctivo ;skid se atora ;5;SI
+29/10/2017;Jorge Ramirez;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;speed drive alarm resin 14.1;10;SI
+29/10/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;2;Operacion;Apoyo;oprimen paro de emergencia;5;SI
+29/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;5;SI
+29/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+30/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Apoyo;skid se quedan pegados por cadena desgastada;15;SI
+30/10/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Correctivo ;se larma estacion de lectura de la zona de enfriamineto;10;SI
+30/10/2017;Fernando Rosales;Robots Base Coat;BC6 - Robot de Base;3;Electrica;Correctivo ;comentan que salen piezas con gotas de lado B;30;SI
+30/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;5;SI
+31/10/2017;Jorge Ramirez;Horno Clara;Horno Clara;1;Operacion;Apoyo;barrera alarmada;20;SI
+31/10/2017;Jorge Ramirez;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;speed drive alarm resin 14.1;10;SI
+31/10/2017;Jesus Villa Guerrero;Conveyor;TK 560;2;Otra;Correctivo ;skid no llega a posicion;5;SI
+31/10/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Otra;Correctivo ;mesa alarmada;5;SI
+31/10/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm resin 14.1;5;SI
+31/10/2017;Jesus Villa Guerrero;Robots Flameo ;Tablero IPROS;2;Otra;Correctivo ;no hay comunicacion;11;SI
+31/10/2017;Jesus Villa Guerrero;Conveyor;HT 270 TK 271;2;Otra;Correctivo ;no corren skids en flash de primer;11;SI
+31/10/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skid se quedan pegados por cadena desgastada;11;SI
+31/10/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Correctivo ;se larma estacion de lectura de la zona de enfriamineto;10;SI
+31/10/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;11;SI
+31/10/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;10;SI
+01/11/2017;Humberto Barraza Villanueva;Conveyor;SK170 SP171 LS170;1;Mecanica;Correctivo ;Se me alarma mesa en 2 ocasiones.;5;SI
+03/11/2017;Jorge Ramirez;Robots Base Coat;BC3 - Robot de Base;1;Electrica;Correctivo ;Falla de alto voltaje;30;SI
+03/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;10;SI
+03/11/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skid pegado por cadena desgastada;10;SI
+03/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver;10;SI
+04/11/2017;Jorge Ramirez;Conveyor;TK 065;1;Electrica;Correctivo ;Operador daña paro de emergencia ;20;SI
+04/11/2017;Jorge Ramirez;Robots Base Coat;BC2 - Robot de Base;1;Electrica;Correctivo ;Path no puede restablecer robot;30;SI
+04/11/2017;Jorge Ramirez;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skid se atora ;10;SI
+04/11/2017;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;2;Neumatica;Correctivo ;alto voltaje;15;SI
+04/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;10;SI
+04/11/2017;Jesus Villa Guerrero;Conveyor;TK 590;2;Otra;Correctivo ;mesa alarmada;5;SI
+04/11/2017;Jesus Villa Guerrero;Conveyor;TK 560;2;Otra;Correctivo ;skid no llega a posicion;5;SI
+04/11/2017;Jesus Villa Guerrero;Otro;Otro;2;Otra;Correctivo ;se activa red contra incendio por alta temperatura en flama;45;SI
+04/11/2017;Jesus Villa Guerrero;Otro;Otro;2;Electrica;Correctivo ;se apaga proceso y servidor;90;SI
+04/11/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;no reset of hand shake;10;SI
+05/11/2017;Jorge Ramirez;Conveyor;HT 130 TK 131;1;Electrica;Correctivo ;Se montan Skid;25;SI
+05/11/2017;Jorge Ramirez;Conveyor;HT 710 TK 711;1;Mecanica;Correctivo ;skid se atora ;5;SI
+06/11/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;2;Mecanica;Correctivo ;no llega a posicion final;5;SI
+06/11/2017;Jesus Villa Guerrero;Conveyor;VW 690 TK 691;2;Otra;Apoyo;piezas urgentes;5;SI
+06/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC4 - Robot de Clara;3;Neumatica;Correctivo ;tiempo extra;240;SI
+06/11/2017;Fernando Rosales;Robots Clear Coat;CC4 - Robot de Clara;2;Neumatica;Correctivo ;speed turbina;240;SI
+06/11/2017;Fernando Rosales;Robots Flameo ;FL2 - Robot de Flama;3;Mecanica;Correctivo ;soporte del quemador se le salen los tornillos ;37;SI
+06/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver,  error 14.1;11;SI
+06/11/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skids se quedan pegados por cadena desgastada;17;SI
+07/11/2017;Jorge Ramirez;Conveyor;HT 710 TK 711;1;Mecanica;Correctivo ;se atoran skid ;5;SI
+07/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;10;SI
+07/11/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;2;Otra;Correctivo ;se van condiciones de cabinas;20;SI
+07/11/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skid se queda atorado por cadena desgastada;10;SI
+07/11/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;3;Electrica;Correctivo ;estacion de lectura alarmada;11;SI
+07/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;11;SI
+08/11/2017;Jorge Ramirez;Robots Base Coat;BC4 - Robot de Base;1;Neumatica;Correctivo ;Baja presion en salida de la bomba;60;SI
+08/11/2017;Jorge Ramirez;Servidor - Win CC;Servidor - Win CC;1;Electrica;Correctivo ;Servidor no prende;20;SI
+08/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;set point not reached resin pump;90;SI
+08/11/2017;Isay Sanchez Mejia;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;no reset of hand shake;23;SI
+08/11/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skid se queda atorado por cadena desgastada;11;SI
+08/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;11;SI
+09/11/2017;Jorge Ramirez;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;falla de speed drive;10;SI
+09/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;2;Mecanica;Correctivo ;mesa alarmada;10;SI
+09/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm 14.1;10;SI
+09/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma variador error 16;60;SI
+09/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+09/11/2017;Fernando Rosales;Conveyor;HT 550 TK 551;3;Mecanica;Correctivo ;skid cae mal en la mesa ;15;SI
+10/11/2017;Jorge Ramirez;Robots Clear Coat;CC3 - Robot de Clara;1;Electrica;Correctivo ;speed drive alarm 14.1;15;SI
+10/11/2017;Jorge Ramirez;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;Cadenas desgastadas, se atoran SKID;10;SI
+10/11/2017;Jesus Villa Guerrero;Robots Base Coat;BC4 - Robot de Base;2;Otra;Correctivo ;alto voltaje;90;SI
+10/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm 14.1;5;SI
+10/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm 12.0;5;SI
+10/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+10/11/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;10;SI
+10/11/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skid se queda pegado por cadena desgastada ;15;SI
+10/11/2017;Fernando Rosales;Robots Primer;PR2 - Caja de purga;3;Mecanica;Correctivo ;manguera de recuperacion de solvente a la entrada del venturi desconectada;30;SI
+11/11/2017;Jorge Ramirez;Servidor - Win CC;Servidor - Win CC;1;Electrica;Correctivo ;No corren ordenes;25;SI
+11/11/2017;Jorge Ramirez;Conveyor;HT 710 TK 711;1;Mecanica;Correctivo ;skid se atora ;10;SI
+11/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;2;Otra;Correctivo ;speed drive alarm 14.1;11;SI
+11/11/2017;Fernando Rosales;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skid se queda pegado por cadena desgastada ;15;SI
+11/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;se alarma por speed driver, error 14.1;15;SI
+11/11/2017;Fernando Rosales;Robots Base Coat;BC2 - Robot de Base;3;Electrica;Correctivo ;se alarma por etel driver ;20;SI
+11/11/2017;Fernando Rosales;Conveyor;VW 620 TK 621;3;Electrica;Correctivo ;se  alarma motor ;15;SI
+11/11/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;11;SI
+11/11/2017;Fernando Rosales;Conveyor;DT 055 TK 056;3;Mecanica;Correctivo ;skid no llega a posicion;11;SI
+13/11/2017;Jesus Villa Guerrero;Conveyor;TK 030;1;Mecanica;Correctivo ;no llega a posicion;5;SI
+13/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm resin 12.0;5;SI
+13/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm resin 14.1;10;SI
+13/11/2017;Jesus Villa Guerrero;Conveyor;HT 710 TK 711;1;Mecanica;Correctivo ;mesa alarmada;10;SI
+13/11/2017;Isay Sanchez Mejia;Servidor - Win CC;Servidor - Win CC;1;PLC/Automatizacion;Correctivo ;no abre pantalla de ordenes;25;SI
+13/11/2017;Humberto Barraza Villanueva;Robots Base Coat;BC2 - Robot de Base;2;Electrica;Correctivo ;Se alarman variadores del Etel y uno de ellos marca la alarma Traking error y posteriormente, la alarma de Overtorque. Ya no deja vaciar el aplicador y llenado.;120;SI
+13/11/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;Ordenes no abre.;120;SI
+13/11/2017;Isay Sanchez Mejia;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;;no abre pantalla de ordenes;180;SI
+13/11/2017;Jorge Ramirez;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;speed driver;10;SI
+13/11/2017;Jorge Ramirez;Conveyor;VW 620 TK 621;3;Electrica;Correctivo ;Se alarma mesa 620;5;SI
+13/11/2017;Jorge Ramirez;Conveyor;HT 710 TK 711;3;Mecanica;Correctivo ;skid se atora ;5;SI
+13/11/2017;Fernando Rosales;Conveyor;SK 700 SP 701;Mixto ;Mecanica;Correctivo ;skid se quedan pegados por cadena desgastada;10;SI
+13/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;Mixto ;Electrica;Correctivo ;se alarma por speed driver error, 14.1;5;SI
+14/11/2017;Jesus Villa Guerrero;Conveyor;TK 400;1;Otra;Correctivo ;no entran skids a cabina;10;SI
+14/11/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;1;Mecanica;Correctivo ;error de ocupacion;5;SI
+14/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;mesa alarmada;10;SI
+14/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 14.1;10;SI
+14/11/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;1;Mecanica;Correctivo ;mesa alarmada;10;SI
+14/11/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;1;Electrica;Correctivo ;mesa no referenciada;17;SI
+14/11/2017;Fernando Rosales;Robots Clear Coat;CC3 - Robot de Clara;Mixto ;Electrica;Correctivo ;se alarma por speed driver, error 14.1;5;SI
+14/11/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;Se alarma robot por baja presion a la salida de la bomba.;30;SI
+14/11/2017;Humberto Barraza Villanueva;Conveyor;SK 700 SP 701;2;Operacion;Correctivo ;Mesa se atora por desgaste de cadena.;5;SI
+14/11/2017;Jorge Ramirez;Conveyor;VW 620 TK 621;3;Electrica;Correctivo ;Mesa pierde posicion;10;SI
+14/11/2017;Jorge Ramirez;Conveyor;TK 050;3;Electrica;Correctivo ;No hay ocupacion;10;SI
+15/11/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;1;Otra;Correctivo ;sensor ocupation invalid;5;SI
+15/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Otra;Correctivo ;mesa alarmada;5;SI
+15/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC1 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 12.0;5;SI
+15/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;mesa alarmada;10;SI
+15/11/2017;Humberto Barraza Villanueva;Conveyor;VW 640 TK 641;2;Otra;Correctivo ;Pieza refaccion delantera GP se cae en transferencia de mesa.;10;SI
+15/11/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;2;Electrica;Correctivo ;Se alarma speed drive en 2 ocasiones .;5;SI
+15/11/2017;Jorge Ramirez;Conveyor;TK 050;3;Electrica;Correctivo ;skid no llega a posicion;5;SI
+16/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;mesa alarmada;10;SI
+16/11/2017;Jesus Villa Guerrero;Conveyor;DT 040 TK 041;1;Mecanica;Correctivo ;skid montado en guias;12;SI
+16/11/2017;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;2;Mecanica;Correctivo ;Se alarma en mesa de tranferencia ;5;SI
+16/11/2017;Jorge Ramirez;Conveyor;TK 560;3;Electrica;Correctivo ;mesa alarmada;5;SI
+16/11/2017;Jorge Ramirez;Robots Primer;PR2 - Robot de Primer;3;Neumatica;Correctivo ;Aire de atomizacion;60;SI
+17/11/2017;Jesus Villa Guerrero;Conveyor;TK 050;1;Otra;Correctivo ;skid no llega a posicion;5;SI
+17/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;mesa alarmada;10;SI
+17/11/2017;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;1;Otra;Correctivo ;se apaga durante limpieza;15;SI
+17/11/2017;Jesus Villa Guerrero;Conveyor;TK 590;1;Otra;Correctivo ;barrrera interrumpida;5;SI
+17/11/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;2;Operacion;Correctivo ;Se alarma en varias ocasiones.;10;SI
+17/11/2017;Humberto Barraza Villanueva;Conveyor;TK 590;2;Operacion;Correctivo ;falta señal de ocupacion de skid.;5;SI
+17/11/2017;Humberto Barraza Villanueva;Conveyor;HT 240 TK 241;2;Operacion;Correctivo ;Skid cae en mala posicion en mesa.;5;SI
+17/11/2017;Jorge Ramirez;Conveyor;SK 720 SP 721 LS720;3;Operacion;Correctivo ;Se alarma en varias ocasiones.;5;SI
+17/11/2017;Jorge Ramirez;Estacion CO2;Estacion CO2;3;Electrica;Correctivo ;Falta de CO2;15;SI
+18/11/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;1;PLC/Automatizacion;Correctivo ;se cierra servidor;10;SI
+18/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;mesa alarmada;5;SI
+18/11/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;1;Mecanica;Correctivo ;mesa alarmada;5;SI
+21/11/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;Se Alarma  servidor por no connection server, y error de comunicacion en todas las cabinas.;35;SI
+21/11/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Correctivo ;Se pegan skids en mesa.;10;SI
+21/11/2017;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;2;Operacion;Correctivo ;Error de ocupacion en mesa.;5;SI
+21/11/2017;Humberto Barraza Villanueva;Conveyor;HS 660 TK 661;2;Otra;Correctivo ;Se cae pieza refaccion trasera Rline obstruyendo barrera.;12;SI
+21/11/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;No conection server por segunda ocacion.;13;SI
+21/11/2017;Jorge Ramirez;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;Cabinas se alarman;13;SI
+22/11/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;1;Otra;Correctivo ;mesa alarmada;5;SI
+22/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Otra;Correctivo ;mesa alarmada;5;SI
+22/11/2017;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;1;Otra;Correctivo ;se apaga robot en limpieza;5;SI
+22/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Correctivo ;speed drive alarm 14.1;5;SI
+22/11/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;1;Otra;Correctivo ;error de ocupacion;5;SI
+22/11/2017;Jesus Villa Guerrero;Conveyor;HT 360 TK 361;1;Otra;Correctivo ;skid se sale de mesa;10;SI
+22/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;1;Otra;Apoyo;reportan gotas desolventeen piezas;10;SI
+22/11/2017;Jesus Villa Guerrero;Robots Base Coat;BC1 - Robot de Base;1;Neumatica;Correctivo ;etel alarm;70;SI
+22/11/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;Se reinicia solo el servidor.;13;SI
+22/11/2017;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;1;Otra;Correctivo ;error de ocupacion;5;SI
+22/11/2017;Jorge Ramirez;Conveyor;VW 620 TK 621;3;Otra;Correctivo ;error de ocupacion;5;SI
+22/11/2017;Jorge Ramirez;Servidor - Win CC;Servidor - Win CC;3;PLC/Automatizacion;Correctivo ;servidor apagado;13;SI
+22/11/2017;Jorge Ramirez;Conveyor;HT 410 TK 411;3;PLC/Automatizacion;Correctivo ;no entran skids a cabina;5;SI
+23/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;mesa alarmada;10;SI
+23/11/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;2;Operacion;Correctivo ;Conveyor se atora por cadena desgastada.;5;SI
+23/11/2017;Jorge Ramirez;Robots Flameo ;FL1 - Robot de Flama;3;Mecanica;Correctivo ;Cable de balancin se troza;24;SI
+23/11/2017;Jorge Ramirez;Robots Base Coat;BC4 - Robot de Base;3;Neumatica;Correctivo ;Caja de purga no funciona;14;SI
+23/11/2017;Jorge Ramirez;Conveyor;VW 620 TK 621;3;Operacion;Correctivo ;Barrera obstruida;11;SI
+23/11/2017;Jorge Ramirez;Conveyor;SK 700 SP 701;3;Mecanica;Correctivo ;skid se atora ;5;SI
+24/11/2017;Isay Sanchez Mejia;Conveyor;SK 700 SP 701;1;Mecanica;Correctivo ;skids se atora ;5;SI
+24/11/2017;Isay Sanchez Mejia;Servidor - Win CC;Servidor - Win CC;1;PLC/Automatizacion;Correctivo ;no reset of hand shake;11;SI
+24/11/2017;Humberto Barraza Villanueva;Conveyor;TK 740;2;Electrica;Correctivo ;Se cae chip siemens, solo se coloca y se renombra.;10;SI
+24/11/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;1;Otra;Correctivo ;mesa alarmada;10;SI
+25/11/2017;jorge ramirez;Robots Base Coat;BC3 - Robot de Base;3;Neumatica;Correctivo ;Color nigh blue no aplica;10;si
+27/11/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;1;Problemas con tacky;Apoyo;Skids se quedan pegados por exceso de taky.;10;SI
+27/11/2017;Fernando Rosales;Conveyor;HT 550 TK 551;2;Mecanica;Correctivo ;skid cae mal en la mesa ;10;SI
+27/11/2017;Fernando Rosales;Servidor - Win CC;Servidor - Win CC;2;PLC/Automatizacion;Correctivo ;se alarma por no reset hanshake win cc;25;SI
+27/11/2017;Fernando Rosales;Conveyor;DT 055 TK 056;2;Mecanica;Correctivo ;skid no llega a posicion;10;SI
+27/11/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;3;Problemas con tacky;Apoyo;mesa alarmada por skids pegados;10;SI
+27/11/2017;Jesus Villa Guerrero;Conveyor;TK 560;3;Otra;Correctivo ;skid se sale de mesa;5;SI
+27/11/2017;Jesus Villa Guerrero;Conveyor;TK 590;3;Otra;Correctivo ;mesa alarmada;5;SI
+27/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Otra;Correctivo ;fuga de hardener;30;SI
+28/11/2017;Humberto Barraza Villanueva;Conveyor;SK 720 SP 721 LS720;1;Mecanica;Apoyo;Se pegan skids en mesa.;10;SI
+28/11/2017;Humberto Barraza Villanueva;Conveyor;TK 740;1;Electrica;Correctivo ;Se cae chip siemens, solo se coloca y se renombra. Numero de skid 21.;10;SI
+29/11/2017;Fernando Rosales;Conveyor;DT 055 TK 056;2;Mecanica;Correctivo ;skid no llega a posicion;10;SI
+29/11/2017;Fernando Rosales;Conveyor;HT 410 TK 411;2;Mecanica;Correctivo ;skid cae mal en la mesa ;18;SI
+29/11/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;3;Otra;Correctivo ;skid no llega a posicion;5;SI
+29/11/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Electrica;Correctivo ;alto voltaje;10;SI
+30/11/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC3 - Robot de Clara;1;Neumatica;Correctivo ;Fuga de solvente en aplicador.;30;SI
+30/11/2017;Fernando Rosales;Conveyor;VW 620 TK 621;2;Electrica;Correctivo ;se alarma por barrera interrumpida;11;SI
+30/11/2017;Fernando Rosales;Conveyor;TK 590;2;Mecanica;Correctivo ;se alarma por barrera interrumpida;10;SI
+30/11/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;3;Otra;Correctivo ;mesa alarmada;5;SI
+01/12/2017;Fernando Rosales;Conveyor;TK 590;2;Mecanica;Correctivo ;fotocelda interrumpida;11;SI
+01/12/2017;Jesus Villa Guerrero;Conveyor;TK 560;3;otra;Correctivo ;skid no llega a posicon final;5;SI
+01/12/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;3;otra;Correctivo ;no reset of hand shake;5;SI
+02/12/2017;Fernando Rosales;Conveyor;TK 050;2;Mecanica;Correctivo ;skid no llega a posicion se atora con soporte de guardas;11;SI
+04/12/2017;Humberto Barraza Villanueva;Conveyor;TK 495;1;Mecanica;Correctivo ;Tope flojo cae mal skid y se alarma.;5;SI
+04/12/2017;Fernando Rosales;Conveyor;HT 410 TK 411;2;Mecanica;Correctivo ;skid  cae mal en la mesa;10;SI
+04/12/2017;Fernando Rosales;Conveyor;VW 620 TK 621;2;Electrica;Correctivo ;se alarma por fotocelda interrumpida;30;SI
+04/12/2017;Fernando Rosales;Conveyor;DT 055 TK 056;2;Mecanica;Correctivo ;skid no llega aposicon ;5;SI
+04/12/2017;Jesus Villa Guerrero;Conveyor;VW 620 TK 621;3;otra;Correctivo ;mesa alarmada;10;SI
+04/12/2017;Jesus Villa Guerrero;Conveyor;TK 630;3;otra;Correctivo ;mesa alarmada;18;SI
+04/12/2017;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;3;otra;Correctivo ;se apaga robot;10;SI
+04/12/2017;Jesus Villa Guerrero;Conveyor;TK 590;3;otra;Correctivo ;skid se pasa de posicion;5;SI
+04/12/2017;Humberto Barraza Villanueva;Conveyor;TK 560;1;Mecanica;Correctivo ;Skid en mala posicion, se alarma zona.;5;SI
+04/12/2017;Humberto Barraza Villanueva;Conveyor;VW 620 TK 621;1;Operacion;Correctivo ;Se alarma mesa de tranferencia.;5;SI
+05/12/2017;Fernando Rosales;Conveyor;VW 620 TK 621;2;Electrica;Correctivo ;mesa alarmada;14;SI
+05/12/2017;Jesus Villa Guerrero;Conveyor;TK 050;3;otra;Correctivo ;skids sobre guias;5;SI
+05/12/2017;Jesus Villa Guerrero;Robots Clear Coat;CC3 - Robot de Clara;3;Neumatica;Correctivo ;shaping air no llega a set point;14;SI
+06/12/2017;Humberto Barraza Villanueva;Conveyor;TK 560;1;Mecanica;Correctivo ;Skid atorado alarma mesa.;5;SI
+06/12/2017;Humberto Barraza Villanueva;Conveyor;DT 055 TK 056;1;Mecanica;Apoyo;Se atoran skids en mesa de transferencia.;5;SI
+06/12/2017;Fernando Rosales;Conveyor;DT 040 TK 041;2;Mecanica;Correctivo ;skid se queda a media transferencia de la 30 a la 40;5;SI
+06/12/2017;Fernando Rosales;CPA 622 - Clara;620C - Heck;2;Electrica;Correctivo ;reporta path que no hay condicones en cabina;13;SI
+06/12/2017;Jesus Villa Guerrero;Robots Primer;PR2 - Robot de Primer;3;otra;Correctivo ;tema de gotas ppcm y claddings;14;SI
+06/12/2017;Jesus Villa Guerrero;Robots Base Coat;BC6 - Robot de Base;3;otra;Correctivo ;tema de gotas ppcm y claddings;13;SI
+06/12/2017;Jesus Villa Guerrero;Robots Primer;PR1 - Robot de Primer;3;otra;Correctivo ;robot se apaga;10;SI
+07/12/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC2 - Robot de Clara;1;Neumatica;Correctivo ;Fuga de material en aplicador.;40;SI
+07/12/2017;Humberto Barraza Villanueva;Conveyor;TK 740;1;Electrica;Apoyo;Paro de emergencia.;5;SI
+07/12/2017;Humberto Barraza Villanueva;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Correctivo ;Fuga de aire en manguera de trigger en zona de oruga.;14;SI
+07/12/2017;Fernando Rosales;Conveyor;SK 720 SP 721 LS720;2;Mecanica;Apoyo;skid no avanza se atora con los cepillos de limpieza;5;SI
+07/12/2017;Fernando Rosales;Conveyor;TK 050;2;Electrica;Apoyo;Se alarma mesa ;5;SI
+07/12/2017;Fernando Rosales;Robots Base Coat;BC5 - Robot de Base;2;Neumatica;Correctivo ;robot se apaga en 2 ocasiones;30;SI
+07/12/2017;Jesus Villa Guerrero;Conveyor;TK 050;3;Otra;Correctivo ;mesa alarmada;5;SI
+07/12/2017;Jesus Villa Guerrero;Robots Primer;PR2 - Robot de Primer;3;Neumatica;Correctivo ;problemas gotas cladding;12;SI
+07/12/2017;Jesus Villa Guerrero;Robots Flameo ;FL1 - Robot de Flama;3;Electrica;Correctivo ;reportan piezas contaminadas;10;SI
+08/12/2017;Humberto Barraza Villanueva;Robots Base Coat;BC5 - Robot de Base;1;Mecanica;Correctivo ;Se apaga robot en 4 ocaciones.;19;SI
+08/12/2017;Jesus Villa Guerrero;Conveyor;DT 055 TK 056;3;Mecanica;Correctivo ;no llega a posicion;5;SI
+08/12/2017;Jesus Villa Guerrero;Robots Base Coat;BC6 - Robot de Base;3;Neumatica;Correctivo ;reportan que ppcm tiene gotas;25;SI
+08/12/2017;Jesus Villa Guerrero;Conveyor;TK 590;3;otra;Correctivo ;mesa alarmada;5;SI
+09/12/2017;Humberto Barraza Villanueva;Conveyor;TK 050;1;Mecanica;Correctivo ;Mesa durante el turno se alarma en varias ocaciones.;100;SI
+09/12/2017;Jorge Ramirez;Servidor - Win CC;Servidor - Win CC;2;Electrica;Correctivo ;Se alamar servidor;20;SI
+11/12/2017;Fernando Rosales;Conveyor;HT 670 TK 671;1;Electrica;Correctivo ;barrera alarmada;5;SI
+13/12/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;Mixto ;PLC/Automatizacion;Correctivo ;no carga ordenes;11;SI
+13/12/2017;Jesus Villa Guerrero;Conveyor;HT 020 TK 021;Mixto ;Otra;Correctivo ;Error de ocupacion.;5;SI
+13/12/2017;Jesus Villa Guerrero;Conveyor;HS 660 TK 661;Mixto ;otra;Correctivo ;barrera interrumpida;5;SI
+13/12/2017;Jorge Ramirez;Conveyor;TK 610;2;Electrica;Correctivo ;fotocelda interrumpida;5;SI
+13/12/2017;Humberto Barraza Villanueva;Conveyor;TK 220 LS220;3;PLC/Automatizacion;Correctivo ;No entran skid a cabina de primer.;10;SI
+14/12/2017;Jesus Villa Guerrero;Conveyor;TK 590;Mixto ;Otra;Correctivo ;mesa alarmada;5;SI
+14/12/2017;Fernando Rosales;Robots Flameo ;FL1 - Robot de Flama;1;Mecanica;Correctivo ;cable de tierra pega con piezas;5;SI
+14/12/2017;Fernando Rosales;Conveyor;HT 110 TK 111;1;Electrica;Correctivo ;barrera interrumpida;5;SI
+14/12/2017;Jorge Ramirez;Robots Base Coat;BC5 - Robot de Base;2;Neumatica;Correctivo ;Fuga de solvente el el conector rapido;16;SI
+14/12/2017;Humberto Barraza Villanueva;Robots Base Coat;BC5 - Robot de Base;3;Neumatica;Correctivo ;Atomizacion no controlla lo que se le pide.;15;SI
+14/12/2017;Humberto Barraza Villanueva;Conveyor;Conveyor;3;Skids ;Apoyo;Sensor siemens se cae, en zona de enfriamiento.  Skid 120.;10;SI
+14/12/2017;Humberto Barraza Villanueva;Conveyor;HT 070 TK 071;3;Electrica;Apoyo;Barrera electrica interrumpida.;5;SI
+14/12/2017;Humberto Barraza Villanueva;Conveyor;TK 010;3;Operacion;Apoyo;Se cae pieza y se atora en mesa.;10;SI
+15/12/2017;Jesus Villa Guerrero;Conveyor;SK 680 SP 681;Mixto ;Otra;Apoyo;pieza caida;5;SI
+15/12/2017;jorge Ramirez;Conveyor;VW 620 TK 621;2;Electrica;Correctivo ;Motor alarmado por not reference;15;SI
+15/12/2017;Humberto Barraza Villanueva;Conveyor;TK 740;3;Operacion;Apoyo;Se caen sensores de skids 139 y 51.;10;SI
+16/12/2017;Fernando Rosales;Conveyor;VW 090 TK 091;1;Electrica;Correctivo ;barrera alarmada;5;SI
+16/12/2017;Fernando Rosales;Conveyor;TK 590;1;Electrica;Correctivo ;motor alarmado;10;SI
+16/12/2017;Fernando Rosales;Robots Clear Coat;CC1 - Robot de Clara;1;Electrica;Correctivo ;se alarma por alto voltaje estando en casa y en varios job;90;SI
+18/12/2017;Fernando Rosales;Conveyor;SK170 SP171 LS170;1;Mecanica;Correctivo ;se alarma tope mecanico;15;SI
+18/12/2017;Fernando Rosales;Robots Primer;PR1 - Robot de Primer;1;Neumatica;Correctivo ;robot se apaga ;15;SI
+18/12/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;1;Neumatica;Correctivo ;transductor no marca presion ala salida de la bomba ;15;SI
+18/12/2017;Fernando Rosales;Robots Base Coat;BC3 - Robot de Base;1;Neumatica;Correctivo ;shaping air osila en 30 y 120  cuando esta en casa lo cual deberia marcar 0 ;15;SI
+18/12/2017;Jesus Villa Guerrero;CPA 622 - Clara;CPA 622 - Clara;Mixto ;Electrica;Correctivo ;no hay condiciones;5;SI
+18/12/2017;Humberto Barraza Villanueva;Robots Primer;PR1 - Robot de Primer;3;Neumatica;Apoyo;Durante la limpieza en cambio de fundas se apaga robot.;10;SI
+19/12/2017;Jesus Villa Guerrero;Conveyor;SK 700 SP 701;Mixto ;Problemas con tacky;Apoyo;mesa alarmada;5;SI
+19/12/2017;Jesus Villa Guerrero;Servidor - Win CC;Servidor - Win CC;Mixto ;PLC/Automatizacion;Correctivo ;no reset of hand shake;5;si
+19/12/2017;Humberto Barraza Villanueva;Robots Clear Coat;CC4 - Robot de Clara;3;Electrica;Correctivo ;Problema de alto voltaje  con mayor eventos durante el turno.;10;SI
+20/12/2017;Fernando Rosales;Robots Clear Coat;CC4 - Robot de Clara;1;Electrica;Correctivo ;Problema de alto voltaje  ;15;SI
+20/12/2017;Fernando Rosales;Robots Clear Coat;CC2 - Robot de Clara;1;Electrica;Correctivo ;Problema de alto voltaje  ;15;SI
+20/12/2017;Jesus Villa Guerrero;Robots Clear Coat;CC2 - Robot de Clara;Mixto ;Electrica;Correctivo ;Problema de alto voltaje  ;20;si
+20/12/2017;Humberto Barraza Villanueva;Servidor - Win CC;Servidor - Win CC;3;Operacion;Correctivo ;Se congela pantalla de ordenes.;5;SI
+20/12/2017;Humberto Barraza Villanueva;Flashoff Clara;Flashoff Clara;3;Operacion;Correctivo ;Se cae pieza trasera bora refaccion en horno.;13;SI
+21/12/2017;Fernando Rosales;Conveyor;VW 620 TK 621;1;Electrica;Correctivo ;motor alarmado;5;SI
+21/12/2017;Jesus Villa Guerrero;Conveyor;HS 600 TK 601;Mixto ;Otra;Correctivo ;mesa alarmada;5;SI
+23/12/2017;Fernando Rosales;Conveyor;HT 130 TK 131;1;Electrica;Correctivo ;sensor alarmado;5;SI
+23/12/2017;Fernando Rosales;Conveyor;VW 620 TK 621;1;Electrica;Correctivo ;motor alarmado;5;SI
+23/12/2017;Fernando Rosales;Conveyor;VW 620 TK 621;1;Electrica;Correctivo ;barrera alarmada;15;SI
