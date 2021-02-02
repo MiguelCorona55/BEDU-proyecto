@@ -4,6 +4,7 @@ setwd(wd)
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
+library(modeest)
 
 df_runnin <- lapply(list.files('data', full.names = TRUE, pattern = 'RUNNIN*'), read.csv, sep = ';')
 df_runnin <- do.call(bind_rows, df_runnin)
@@ -21,22 +22,88 @@ df_fallas <- lapply(list.files('data', full.names = TRUE, pattern = 'FALLAS*'), 
 df_fallas <- do.call(rbind, df_fallas)
 
 df_fallas <- df_fallas %>%
-            mutate(PARO = tolower(PARO),
-                   Ã¯..FECHA = as.Date(Ã¯..FECHA, '%d/%m/%Y'),
-                   DIA = strftime(Ã¯..FECHA, '%d'),
-                   SEMANA = strftime(Ã¯..FECHA, '%V'),
-                   AÃ‘O = strftime(Ã¯..FECHA, '%Y')) %>%
-            rename(FECHA = Ã¯..FECHA) %>%
-            subset(PARO == 'si') %>%
-            drop_na(FECHA) %>%
-            select(FECHA, AÃ‘O, SEMANA, DIA,  ENCARGADO:PARO)
+              mutate(PARO = tolower(PARO),
+                     ENCARGADO = tolower(ENCARGADO),
+                     ï..FECHA = as.Date(ï..FECHA, '%d/%m/%Y'),
+                     DIA = strftime(ï..FECHA, '%d'),
+                     SEMANA = strftime(ï..FECHA, '%V'),
+                     AÑO = strftime(ï..FECHA, '%Y')) %>%
+              rename(FECHA = ï..FECHA) %>%
+              subset(PARO == 'si') %>%
+              drop_na(FECHA) %>%
+              select(FECHA, AÑO, SEMANA, DIA,  ENCARGADO:PARO)
+              
+df_fallas <- df_fallas[df_fallas$TIEMPO > 10, ]
 
+df_fallas$ENCARGADO <- df_fallas$ENCARGADO %>%
+                        replace(. == 'humberto barraza', 'humberto barraza villanueva') %>%
+                        replace(. == 'isay sã¡nchez mejã­a', 'isay sanchez mejia') %>%
+                        str_to_title(.)
 
 head(df_fallas)
 tail(df_fallas)
 names(df_fallas)
 
 df_fallas <- merge(df_fallas, df_runnin, by = 'FECHA')
+
+
+
+
+# Indicadores
+fallas_semana <- df_fallas %>%
+                        group_by(AÑO, SEMANA) %>%
+                        tally(name = 'FALLAS')
+
+indicadores <- df_fallas %>%
+                     group_by(AÑO, SEMANA, DIA) %>%
+                     summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+                     group_by(AÑO, SEMANA) %>%
+                     summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+                     add_column(FALLAS = fallas_semana$FALLAS,
+                               MTBF = .$RUNNING_HOURS / fallas_semana$FALLAS,
+                               MTTR = .$TIEMPO_DE_FALLAS / fallas_semana$FALLAS,
+                               BREAKDOWN = (.$TIEMPO_DE_FALLAS/60) / .$RUNNING_HOURS)
+
+
+indicadores_turno <- df_fallas %>%
+                      group_by(AÑO, SEMANA, DIA, TURNO) %>%
+                      summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+                      group_by(AÑO, SEMANA, TURNO) %>%
+                      summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+                      merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+                      add_column(MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
+
+
+indicadores_encargado <- df_fallas %>%
+                      group_by(AÑO, SEMANA, DIA, ENCARGADO) %>%
+                      summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+                      group_by(AÑO, SEMANA, ENCARGADO) %>%
+                      summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+                      merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+                      add_column(MTBF = .$RUNNING_HOURS / .$FALLAS,
+                                 MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
+
+indicadores_encargado <- indicadores_encargado %>%
+  replace(is.na(.) | . == Inf, 0)
+
+indicadores_equipo <- df_fallas %>%
+  group_by(AÑO, SEMANA, DIA, ENCARGADO) %>%
+  summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+  group_by(AÑO, SEMANA, ENCARGADO) %>%
+  summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+  merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+  add_column(MTBF = .$RUNNING_HOURS / .$FALLAS,
+             MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
+
+
+encargado_prom <- indicadores_encargado %>%
+                  group_by(AÑO, ENCARGADO) %>%
+                  summarise(PROM = mean(MTTR))
+
+
+indicadores <- indicadores %>%
+                replace(is.na(.) | . == Inf, 0)
+
 
 
 #Distribucion del tiempo
@@ -52,18 +119,21 @@ ggplot(df_fallas, aes(y = TIEMPO)) +
 
 # Tiempo promedio de Falla por equipo
 equipo_tiempo <- df_fallas %>% 
-                  group_by(EQUIPO) %>%
-                  summarise(TIEMPO_PROM = mean(TIEMPO))  
+  group_by(EQUIPO) %>%
+  summarise(TIEMPO_PROM = mean(TIEMPO))  
 
-ggplot(equipo_tiempo, aes(x = EQUIPO, y = TIEMPO_PROM)) +
+ggplot(equipo_tiempo, aes(x = reorder(EQUIPO, -TIEMPO_PROM), y = TIEMPO_PROM)) +
   geom_col(fill = 'lightblue', color = 'darkblue') +
   labs(x='Equipo', y = 'Tiempo', title = 'Tiempo promedio de Falla por equipo') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5))
 
+qqnorm(equipo_tiempo$TIEMPO_PROM,main="QQ plot of normal data",pch=19)
+qqline(equipo_tiempo$TIEMPO_PROM)
+
 equipo_freq <- df_fallas %>% 
-                count(EQUIPO, name = 'FREQ')
-                
+  count(EQUIPO, name = 'FREQ')
+
 # Fallas por equipo
 ggplot(equipo_freq, aes(x = reorder(EQUIPO, -FREQ), y = FREQ)) +
   geom_col(fill = 'lightblue', color = 'darkblue') +
@@ -71,23 +141,56 @@ ggplot(equipo_freq, aes(x = reorder(EQUIPO, -FREQ), y = FREQ)) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5))
 
-# Indicadores
-fallas_semana <- df_fallas %>%
-                        group_by(AÃ‘O, SEMANA) %>%
-                        tally(name = 'FALLAS')
+# MTTR por encargado
+ggplot(indicadores_encargado, aes(x = ENCARGADO, y = MTTR, fill = ENCARGADO)) +
+  geom_boxplot() +
+  labs(x='Encargado', y = 'MTTR', title = 'Tiempo medio de falla por encargado') +
+  theme(axis.text.x = element_text(angle = 90,
+        vjust = 0.5, hjust=1), 
+        plot.title = element_text(hjust = 0.5),
+        legend.position = 'none')
 
-indicadores <- df_fallas %>%
-                     group_by(AÃ‘O, SEMANA, DIA) %>%
-                     summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-                     group_by(AÃ‘O, SEMANA) %>%
-                     summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
-                     add_column(MBTF = .$RUNNING_HOURS / fallas_semana$FALLAS,
-                               MTTR = .$TIEMPO_DE_FALLAS / fallas_semana$FALLAS,
-                               BREAKDOWN = (.$TIEMPO_DE_FALLAS/60) / .$RUNNING_HOURS)
+# MTBF y MTTR histogramas
+ggplot(indicadores, aes(x = MTBF)) +
+  geom_histogram() +
+  facet_wrap(~AÑO) +
+  labs(x='MTBF', y = 'Frecuencia', title = 'MTBF') +
+  theme(axis.text.x = element_text(angle = 90,
+                                   vjust = 0.5, hjust=1), 
+        plot.title = element_text(hjust = 0.5),
+        legend.position = 'none')
 
-indicadores <- indicadores %>%
-                replace(is.na(.) | . == Inf, 0)
+ggplot(indicadores, aes(x = MTTR)) +
+  geom_histogram() +
+  facet_wrap(~AÑO) +
+  labs(x='MTTR', y = 'Frecuencia', title = 'MTTR') +
+  theme(axis.text.x = element_text(angle = 90,
+                                   vjust = 0.5, hjust=1), 
+        plot.title = element_text(hjust = 0.5),
+        legend.position = 'none')
 
+
+# MTTR Semanal
+ggplot(indicadores, aes(x = SEMANA, y = MTTR)) +
+  geom_point() +
+  facet_wrap(~AÑO) +
+  labs(x='Semana', y = 'MTTR', title = 'MTTR anual') +
+  theme(axis.text.x = element_text(angle = 90,
+                                   vjust = 0.5, hjust=1), 
+        plot.title = element_text(hjust = 0.5),
+        legend.position = 'none')
+
+# Histograma del Breakdown
+ggplot(indicadores, aes(x = BREAKDOWN)) +
+  geom_histogram() +
+  facet_wrap(~AÑO) +
+  labs(x='Breakdown', y = 'Frecuencia', title = 'Breakdown') +
+  theme(axis.text.x = element_text(angle = 90,
+                                   vjust = 0.5, hjust=1), 
+        plot.title = element_text(hjust = 0.5),
+        legend.position = 'none')
+
+df2020 <- indicadores[indicadores$AÑO == '2018', ]
 
 indicadores<- as.data.frame(indicadores)
 class(indicadores)
