@@ -15,7 +15,7 @@ df_runnin <- df_runnin %>%
                 rename(FECHA = DATE)
 
 
-head(df_runnin,(15))
+head(df_runnin)
 tail(df_runnin)
 
 df_fallas <- lapply(list.files('data', full.names = TRUE, pattern = 'FALLAS*'), read.csv, sep = ';')
@@ -24,20 +24,20 @@ df_fallas <- do.call(rbind, df_fallas)
 df_fallas <- df_fallas %>%
               mutate(PARO = tolower(PARO),
                      ENCARGADO = tolower(ENCARGADO),
-                     ï..FECHA = as.Date(ï..FECHA, '%d/%m/%Y'),
-                     DIA = strftime(ï..FECHA, '%d'),
-                     SEMANA = strftime(ï..FECHA, '%V'),
-                     AÑO = strftime(ï..FECHA, '%Y')) %>%
-              rename(FECHA = ï..FECHA) %>%
+                     Ã¯..FECHA = as.Date(Ã¯..FECHA, '%d/%m/%Y'),
+                     DIA = strftime(Ã¯..FECHA, '%d'),
+                     SEMANA = strftime(Ã¯..FECHA, '%V'),
+                     AÃ‘O = strftime(Ã¯..FECHA, '%Y')) %>%
+              rename(FECHA = Ã¯..FECHA) %>%
               subset(PARO == 'si') %>%
               drop_na(FECHA) %>%
-              select(FECHA, AÑO, SEMANA, DIA,  ENCARGADO:PARO)
+              select(FECHA, AÃ‘O, SEMANA, DIA,  ENCARGADO:PARO)
               
 df_fallas <- df_fallas[df_fallas$TIEMPO > 10, ]
 
 df_fallas$ENCARGADO <- df_fallas$ENCARGADO %>%
                         replace(. == 'humberto barraza', 'humberto barraza villanueva') %>%
-                        replace(. == 'isay sã¡nchez mejã­a', 'isay sanchez mejia') %>%
+                        replace(. == 'isay s??nchez mej??a', 'isay sanchez mejia') %>%
                         str_to_title(.)
 
 head(df_fallas)
@@ -51,13 +51,13 @@ df_fallas <- merge(df_fallas, df_runnin, by = 'FECHA')
 
 # Indicadores
 fallas_semana <- df_fallas %>%
-                        group_by(AÑO, SEMANA) %>%
+                        group_by(AÃ‘O, SEMANA) %>%
                         tally(name = 'FALLAS')
 
 indicadores <- df_fallas %>%
-                     group_by(AÑO, SEMANA, DIA) %>%
+                     group_by(AÃ‘O, SEMANA, DIA) %>%
                      summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-                     group_by(AÑO, SEMANA) %>%
+                     group_by(AÃ‘O, SEMANA) %>%
                      summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
                      add_column(FALLAS = fallas_semana$FALLAS,
                                MTBF = .$RUNNING_HOURS / fallas_semana$FALLAS,
@@ -66,20 +66,20 @@ indicadores <- df_fallas %>%
 
 
 indicadores_turno <- df_fallas %>%
-                      group_by(AÑO, SEMANA, DIA, TURNO) %>%
+                      group_by(A?O, SEMANA, DIA, TURNO) %>%
                       summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-                      group_by(AÑO, SEMANA, TURNO) %>%
+                      group_by(A?O, SEMANA, TURNO) %>%
                       summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
-                      merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+                      merge(fallas_semana, by = c('A?O', 'SEMANA')) %>%
                       add_column(MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
 
 
 indicadores_encargado <- df_fallas %>%
-                      group_by(AÑO, SEMANA, DIA, ENCARGADO) %>%
+                      group_by(AÃ‘O, SEMANA, DIA, ENCARGADO) %>%
                       summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-                      group_by(AÑO, SEMANA, ENCARGADO) %>%
+                      group_by(AÃ‘O, SEMANA, ENCARGADO) %>%
                       summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
-                      merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+                      merge(fallas_semana, by = c('A?O', 'SEMANA')) %>%
                       add_column(MTBF = .$RUNNING_HOURS / .$FALLAS,
                                  MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
 
@@ -87,17 +87,17 @@ indicadores_encargado <- indicadores_encargado %>%
   replace(is.na(.) | . == Inf, 0)
 
 indicadores_equipo <- df_fallas %>%
-  group_by(AÑO, SEMANA, DIA, ENCARGADO) %>%
+  group_by(A?O, SEMANA, DIA, ENCARGADO) %>%
   summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-  group_by(AÑO, SEMANA, ENCARGADO) %>%
+  group_by(A?O, SEMANA, ENCARGADO) %>%
   summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
-  merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+  merge(fallas_semana, by = c('A?O', 'SEMANA')) %>%
   add_column(MTBF = .$RUNNING_HOURS / .$FALLAS,
              MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
 
 
 encargado_prom <- indicadores_encargado %>%
-                  group_by(AÑO, ENCARGADO) %>%
+                  group_by(A?O, ENCARGADO) %>%
                   summarise(PROM = mean(MTTR))
 
 
@@ -153,7 +153,7 @@ ggplot(indicadores_encargado, aes(x = ENCARGADO, y = MTTR, fill = ENCARGADO)) +
 # MTBF y MTTR histogramas
 ggplot(indicadores, aes(x = MTBF)) +
   geom_histogram() +
-  facet_wrap(~AÑO) +
+  facet_wrap(~A?O) +
   labs(x='MTBF', y = 'Frecuencia', title = 'MTBF') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
@@ -162,7 +162,7 @@ ggplot(indicadores, aes(x = MTBF)) +
 
 ggplot(indicadores, aes(x = MTTR)) +
   geom_histogram() +
-  facet_wrap(~AÑO) +
+  facet_wrap(~A?O) +
   labs(x='MTTR', y = 'Frecuencia', title = 'MTTR') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
@@ -173,7 +173,7 @@ ggplot(indicadores, aes(x = MTTR)) +
 # MTTR Semanal
 ggplot(indicadores, aes(x = SEMANA, y = MTTR)) +
   geom_point() +
-  facet_wrap(~AÑO) +
+  facet_wrap(~A?O) +
   labs(x='Semana', y = 'MTTR', title = 'MTTR anual') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
@@ -183,14 +183,14 @@ ggplot(indicadores, aes(x = SEMANA, y = MTTR)) +
 # Histograma del Breakdown
 ggplot(indicadores, aes(x = BREAKDOWN)) +
   geom_histogram() +
-  facet_wrap(~AÑO) +
+  facet_wrap(~A?O) +
   labs(x='Breakdown', y = 'Frecuencia', title = 'Breakdown') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5),
         legend.position = 'none')
 
-df2020 <- indicadores[indicadores$AÑO == '2018', ]
+df2020 <- indicadores[indicadores$A?O == '2018', ]
 
 indicadores<- as.data.frame(indicadores)
 class(indicadores)
@@ -206,9 +206,9 @@ str(indicadores)
 head(indicadores)
 tail(indicadores)
 
-MBTF.ts <- ts(indicadores[,5], start = 2016, freq = 51)
-MTTR.ts <- ts(indicadores[, 6], start = 2016, freq = 51)
-BREAKDOWN.ts <- ts(indicadores[,7], start = 2016, freq = 51)
+MBTF.ts <- ts(indicadores[,6], start = 2016, freq = 52)
+MTTR.ts <- ts(indicadores[, 7], start = 2016, freq = 52)
+BREAKDOWN.ts <- ts(indicadores[,8], start = 2016, freq = 52)
 
 MBTF <- MBTF.ts
 MTTR <- MTTR.ts
@@ -221,15 +221,24 @@ plot(cbind(MBTF,MTTR, BREAKDOWN),
 
 #DescomposiciÃ³n de series (BREAKDOWN)
 
-
-BREAKDOWN.ts <- ts(indicadores[, 3], start = 2016, freq = 51)
+MBTF.ts <- ts(indicadores[,6], start = 2016, freq = 52)
+MTTR.ts <- ts(indicadores[, 7], start = 2016, freq = 52)
+BREAKDOWN.ts <- ts(indicadores[, 8], start = 2016, freq = 52)
 
 #Modelo Aditivo
 
 BREAKDOWN.decom.A <- decompose(BREAKDOWN.ts)
+MBTF.decom.A <- decompose(MBTF.ts)
+MTTR.decom.A <- decompose(MTTR.ts)
 
 plot(BREAKDOWN.decom.A, xlab = "Tiempo", 
      sub = "DescomposiciÃ³n del BREAKDOWN")
+
+plot(MBTF.decom.A, xlab = "Tiempo", 
+     sub = "DescomposiciÃ³n del MBTF")
+
+plot(MTTR.decom.A, xlab = "Tiempo", 
+     sub = "DescomposiciÃ³n del MTTR")
 
 Componentes
 
@@ -254,9 +263,9 @@ library(forecast)
 
 head(indicadores)
 
-BREAKDOWN.ts <- ts(indicadores[,7], start = 2016, freq = 51)
+BREAKDOWN.ts <- ts(indicadores[,8], start = 2016, freq = 52)
 adf.test(BREAKDOWN.ts)     #Segun la prueba de Dickey-Fuller el p-value esta por debajo de 0.05, por lo que se puede especular que es un modelo estacionario
-ndiffs(BREAKDOWN.ts)       #Aun asi se sugiere hacer una diferenciacion para acercarnos mas a un modelo estacionario.
+ndiffs(BREAKDOWN.ts)      #Aun asi se sugiere hacer una diferenciacion para acercarnos mas a un modelo estacionario.
 
 plot(BREAKDOWN.ts, 
      main = "BREAKDOWN", 
@@ -285,13 +294,15 @@ adf.test(seriedif, alternative= "stationary") #Esto se confirma al realizar de n
 par(mfrow=c(2,1), mar=c(4,4,4,1)+.1)
 acf(seriedif)
 pacf(seriedif)
-acf(ts(seriedif, frequency=1))             #Presenta 2 media moviles (rezagos)              
-pacf(ts(seriedif, frequency=1))            #Presenta 6 autoregresivos
+acf(ts(seriedif, frequency=1))             #Presenta 1 media moviles (rezagos)              
+pacf(ts(seriedif, frequency=1))            #Presenta 3 autoregresivos
 dev.off()
 
-modelo1<- arima(BREAKDOWN.ts,order=c(3,2,2))     #Ajustamos nuestro modelo de acuerdo a los valores obtenidos anteriormente
+modelo1<- arima(BREAKDOWN.ts,order=c(3,2,1))     #Ajustamos nuestro modelo de acuerdo a los valores obtenidos anteriormente
 summary(modelo1)
+
 tsdiag(modelo1)                                  #Existe ruido blanco, ya que el p-value en la prueba Ljung Box es mayor a 0.5, por lo que existe ruido blanco
+
 Box.test(residuals(modelo1),type="Ljung-Box")   #Comprobamos que el p-value>0.05
 
 
@@ -301,8 +312,68 @@ plot(error)                                     #La media del error es 0, por lo
 #Pronosticos Arima
 
 install.packages("quantmod")
-library(quantmod)
+library(forecast)
 
 pronostico<- forecast::forecast(modelo1, h=51)
 pronostico
 plot(pronostico)
+
+####HCONTRASTE DE HIPOTESIS###
+
+indicadores_turno <- df_fallas %>%
+  group_by(AÃ‘O, SEMANA, DIA, TURNO) %>%
+  summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+  group_by(AÃ‘O, SEMANA, TURNO) %>%
+  summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+  merge(fallas_semana, by = c('AÃ‘O', 'SEMANA')) %>%
+  add_column(MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
+
+head(indicadores_turno)
+tail(indicadores_turno)
+
+indicadores_turno<-indicadores_turno %>%
+  select(TURNO, MTTR) %>%
+  filter(TURNO %in% c("1","3"), MTTR<24)
+  
+boxplot.stats(indicadores_turno$MTTR)
+
+
+ggplot(indicadores_turno, aes(TURNO,MTTR, fill = TURNO, color = TURNO)) +
+  geom_boxplot(alpha=0.4)
+
+ggplot(indicadores_turno, aes(MTTR, fill = TURNO, color = TURNO)) +
+  geom_density(alpha=0.2)
+
+qqnorm(indicadores_turno$MTTR)
+qqline(indicadores_turno$MTTR, col = "red")
+
+shapiro.test(indicadores_turno$MTTR)
+
+######################
+
+indicadores_fallas <- df_fallas %>%
+  group_by(AÃ‘O, SEMANA, DIA, TIPO_MTTO) %>%
+  summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+  group_by(AÃ‘O, SEMANA, TIPO_MTTO) %>%
+  summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+  merge(fallas_semana, by = c('AÃ‘O', 'SEMANA')) %>%
+  add_column(MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
+
+head(indicadores_MTTO)
+tail(indicadores_MTTO)
+
+indicadores_MTTO<-indicadores_MTTO %>%
+  select(TIPO_MTTO, MTTR) %>%
+  filter(TIPO_MTTO %in% c("Correctivo curativo","Correctivo paulatino"))
+
+boxplot.stats(indicadores_MTTO$MTTR)
+
+ggplot(indicadores_MTTO, aes(TIPO_MTTO,MTBF, fill = TIPO_MTTO, color = TIPO_MTTO)) +
+  geom_boxplot(alpha=0.4)
+
+ggplot(indicadores_MTTO, aes(MTTR, fill = TIPO_MTTO, color = TIPO_MTTO)) +
+  geom_density(alpha=0.2)
+
+shapiro.test(indicadores_MTTO$MTTR)
+
+rm(indicadores_falla)
