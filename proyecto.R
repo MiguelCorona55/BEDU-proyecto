@@ -6,6 +6,8 @@ library(ggplot2)
 library(tidyverse)
 library(modeest)
 
+
+# Limpieza de datos
 df_runnin <- lapply(list.files('data', full.names = TRUE, pattern = 'RUNNIN*'), read.csv, sep = ';')
 df_runnin <- do.call(bind_rows, df_runnin)
 
@@ -14,16 +16,13 @@ df_runnin <- df_runnin %>%
                 mutate(DATE = as.Date(DATE, '%d/%m/%Y')) %>%
                 rename(FECHA = DATE)
 
-
-head(df_runnin,(15))
-tail(df_runnin)
-
 df_fallas <- lapply(list.files('data', full.names = TRUE, pattern = 'FALLAS*'), read.csv, sep = ';')
 df_fallas <- do.call(rbind, df_fallas)
 
 df_fallas <- df_fallas %>%
               mutate(PARO = tolower(PARO),
                      ENCARGADO = tolower(ENCARGADO),
+                     TIPO_FALLA = str_to_sentence(TIPO_FALLA),
                      ï..FECHA = as.Date(ï..FECHA, '%d/%m/%Y'),
                      DIA = strftime(ï..FECHA, '%d'),
                      SEMANA = strftime(ï..FECHA, '%V'),
@@ -39,10 +38,6 @@ df_fallas$ENCARGADO <- df_fallas$ENCARGADO %>%
                         replace(. == 'humberto barraza', 'humberto barraza villanueva') %>%
                         replace(. == 'isay sã¡nchez mejã­a', 'isay sanchez mejia') %>%
                         str_to_title(.)
-
-head(df_fallas)
-tail(df_fallas)
-names(df_fallas)
 
 df_fallas <- merge(df_fallas, df_runnin, by = 'FECHA')
 
@@ -64,15 +59,8 @@ indicadores <- df_fallas %>%
                                MTTR = .$TIEMPO_DE_FALLAS / fallas_semana$FALLAS,
                                BREAKDOWN = (.$TIEMPO_DE_FALLAS/60) / .$RUNNING_HOURS)
 
-
-indicadores_turno <- df_fallas %>%
-                      group_by(AÑO, SEMANA, DIA, TURNO) %>%
-                      summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-                      group_by(AÑO, SEMANA, TURNO) %>%
-                      summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
-                      merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
-                      add_column(MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
-
+indicadores <- indicadores %>%
+  replace(is.na(.) | . == Inf, 0)
 
 indicadores_encargado <- df_fallas %>%
                       group_by(AÑO, SEMANA, DIA, ENCARGADO) %>%
@@ -86,28 +74,68 @@ indicadores_encargado <- df_fallas %>%
 indicadores_encargado <- indicadores_encargado %>%
   replace(is.na(.) | . == Inf, 0)
 
-indicadores_equipo <- df_fallas %>%
-  group_by(AÑO, SEMANA, DIA, ENCARGADO) %>%
-  summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
-  group_by(AÑO, SEMANA, ENCARGADO) %>%
-  summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
-  merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
-  add_column(MTBF = .$RUNNING_HOURS / .$FALLAS,
-             MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
-
 
 encargado_prom <- indicadores_encargado %>%
                   group_by(AÑO, ENCARGADO) %>%
                   summarise(PROM = mean(MTTR))
 
+indicadores_mtto <- df_fallas %>%
+                    group_by(AÑO, SEMANA, DIA, TIPO_MTTO) %>%
+                    summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+                    group_by(AÑO, SEMANA, TIPO_MTTO) %>%
+                    summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+                    merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+                    add_column(MTBF = .$RUNNING_HOURS / .$FALLAS,
+                               MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
 
-indicadores <- indicadores %>%
-                replace(is.na(.) | . == Inf, 0)
+indicadores_mtto <- indicadores_mtto %>%
+  replace(is.na(.) | . == Inf, 0)
+
+indicadores_turno <- df_fallas %>%
+                    group_by(AÑO, SEMANA, DIA, TURNO) %>%
+                    summarise(HORAS = mean(RUNNING_HOURS), TIEMPO_DE_FALLAS = sum(TIEMPO)) %>%
+                    group_by(AÑO, SEMANA, TURNO) %>%
+                    summarise(RUNNING_HOURS = sum(HORAS), TIEMPO_DE_FALLAS = sum(TIEMPO_DE_FALLAS)) %>%
+                    merge(fallas_semana, by = c('AÑO', 'SEMANA')) %>%
+                    add_column(MTBF = .$RUNNING_HOURS / .$FALLAS,
+                               MTTR = .$TIEMPO_DE_FALLAS / .$FALLAS)
+
+indicadores_turno <- indicadores_turno %>%
+  replace(is.na(.) | . == Inf, 0)
 
 
+# Hipotesis de turno
+indicadores_turno <- indicadores_turno %>%
+                      filter(TURNO %in% c('1', '3')) %>%
+                      filter(MTTR < 24)
+
+boxplot.stats(indicadores_turno$MTTR)
+ggplot(indicadores_turno, aes(x = TURNO, y = MTTR)) +
+  geom_boxplot(fill = 'lightblue', color = 'darkblue') +
+  labs(x='Turno', y = 'Minutos', title = 'Distribucion del MTTR por turno')
+
+shapiro.test(indicadores_turno$MTBF)
+wilcox.test(indicadores_turno$MTBF ~ indicadores_turno$TURNO)
+
+# Hipotesis de mantenimiento
+indicadores_mtto <- indicadores_mtto %>%
+                    filter(TIPO_MTTO %in% c("Correctivo curativo", "Correctivo paulatino")) %>%
+                    filter(MTBF < 16)
+
+
+wilcox.test(indicadores_mtto$MTBF ~ indicadores_mtto$TIPO_MTTO, alternative='greater')
+shapiro.test(indicadores_mtto$MTB)
+
+ggplot(indicadores_mtto, aes(x = MTBF), ) +
+  facet_wrap(~TIPO_MTTO) +
+  geom_histogram(fill = 'lightblue', color = 'darkblue') +
+  labs(x='Horas', y = 'Frecuencia', title = 'Distribucion del MTBF por tipo de mantenimiento')
+
+ggplot(indicadores_mtto, aes(x = TIPO_MTTO, y = MTBF)) +
+  geom_boxplot(fill = 'lightblue', color = 'darkblue') +
+  labs(x='Tipo de mantenimiento', y = 'Horas', title = 'Distribucion del MTBF por tipo de mantenimiento')
 
 #Distribucion del tiempo
-
 ggplot(df_fallas, aes(x = TIEMPO)) +
   geom_histogram(fill = 'lightblue', color = 'darkblue') +
   labs(x='Tiempo', y = 'Frecuencia', title = 'Distribucion del tiempo de fallas')
@@ -128,13 +156,11 @@ ggplot(equipo_tiempo, aes(x = reorder(EQUIPO, -TIEMPO_PROM), y = TIEMPO_PROM)) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5))
 
-qqnorm(equipo_tiempo$TIEMPO_PROM,main="QQ plot of normal data",pch=19)
-qqline(equipo_tiempo$TIEMPO_PROM)
 
+# Fallas por equipo
 equipo_freq <- df_fallas %>% 
   count(EQUIPO, name = 'FREQ')
 
-# Fallas por equipo
 ggplot(equipo_freq, aes(x = reorder(EQUIPO, -FREQ), y = FREQ)) +
   geom_col(fill = 'lightblue', color = 'darkblue') +
   labs(x='Equipo', y = 'Frecuencia', title = 'Fallas por equipo') +
@@ -144,26 +170,26 @@ ggplot(equipo_freq, aes(x = reorder(EQUIPO, -FREQ), y = FREQ)) +
 # MTTR por encargado
 ggplot(indicadores_encargado, aes(x = ENCARGADO, y = MTTR, fill = ENCARGADO)) +
   geom_boxplot() +
-  labs(x='Encargado', y = 'MTTR', title = 'Tiempo medio de falla por encargado') +
+  labs(x='Encargado', y = 'Minutos', title = 'Tiempo medio de respuesta (MTTR) por encargado') +
   theme(axis.text.x = element_text(angle = 90,
         vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5),
         legend.position = 'none')
 
 # MTBF y MTTR histogramas
-ggplot(indicadores, aes(x = MTBF)) +
+ggplot(indicadores, aes(x = MTBF, fill = AÑO)) +
   geom_histogram() +
   facet_wrap(~AÑO) +
-  labs(x='MTBF', y = 'Frecuencia', title = 'MTBF') +
+  labs(x='Horas', y = 'Frecuencia', title = 'MTBF Anual') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5),
         legend.position = 'none')
 
-ggplot(indicadores, aes(x = MTTR)) +
+ggplot(indicadores, aes(x = MTTR, fill = AÑO)) +
   geom_histogram() +
   facet_wrap(~AÑO) +
-  labs(x='MTTR', y = 'Frecuencia', title = 'MTTR') +
+  labs(x='Minutos', y = 'Frecuencia', title = 'MTTR Anual') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5),
@@ -171,10 +197,10 @@ ggplot(indicadores, aes(x = MTTR)) +
 
 
 # MTTR Semanal
-ggplot(indicadores, aes(x = SEMANA, y = MTTR)) +
+ggplot(indicadores, aes(x = SEMANA, y = MTTR, color = AÑO)) +
   geom_point() +
   facet_wrap(~AÑO) +
-  labs(x='Semana', y = 'MTTR', title = 'MTTR anual') +
+  labs(x='Semana', y = 'Minutos', title = 'MTTR anual') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5),
@@ -190,7 +216,19 @@ ggplot(indicadores, aes(x = BREAKDOWN)) +
         plot.title = element_text(hjust = 0.5),
         legend.position = 'none')
 
-df2020 <- indicadores[indicadores$AÑO == '2018', ]
+# Top tipo de falla
+tipo_falla <- df_fallas %>%
+              count(TIPO_FALLA, name = 'FREQ') %>%
+              filter(TIPO_FALLA != 'NA')
+
+ggplot(tipo_falla, aes(x = reorder(TIPO_FALLA, -FREQ), y = FREQ)) +
+  geom_col(fill = 'lightblue', color = 'darkblue') +
+  labs(x='Falla', y = 'Frecuencia', title = 'Tipos de falla') +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
+        plot.title = element_text(hjust = 0.5))
+
+
+
 
 indicadores<- as.data.frame(indicadores)
 class(indicadores)
