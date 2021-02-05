@@ -109,41 +109,50 @@ indicadores_turno <- indicadores_turno %>%
   filter(TURNO %in% c('1', '3')) %>%
   filter(MTTR < 24)
 
-boxplot.stats(indicadores_turno$MTTR)
+boxplot.stats(indicadores_turno$MTTR)       #Eliminamos los outliers para un mejor analisis de las distribuciones
+
+ggplot(indicadores_turno, aes(x = MTTR), ) +
+  facet_wrap(~TURNO) +
+  geom_histogram(fill = '#038C7F', color = '#3034BC') +
+  labs(x='Horas', y = 'Frecuencia', title = 'Distribucion del MTTR por turno')
+
 ggplot(indicadores_turno, aes(x = TURNO, y = MTTR)) +
-  geom_boxplot(fill = 'lightblue', color = 'darkblue') +
+  geom_boxplot(fill = '#038C7F', color = '#3034BC') +
   labs(x='Turno', y = 'Minutos', title = 'Distribucion del MTTR por turno')
 
-shapiro.test(indicadores_turno$MTBF)
-wilcox.test(indicadores_turno$MTBF ~ indicadores_turno$TURNO)
+shapiro.test(indicadores_turno$MTTR)      #Distribucion no es normal, p-value<.05
+
+wilcox.test(indicadores_turno$MTTR ~ indicadores_turno$TURNO)    #Test para distribuciones no normales
 
 # Hipotesis de mantenimiento
 indicadores_mtto <- indicadores_mtto %>%
   filter(TIPO_MTTO %in% c("Correctivo curativo", "Correctivo paulatino")) %>%
   filter(MTBF < 16)
 
-boxplot.stats(indicadores_mtto$MTBF)
-
-wilcox.test(indicadores_mtto$MTBF ~ indicadores_mtto$TIPO_MTTO, alternative='greater')
-shapiro.test(indicadores_mtto$MTB)
+boxplot.stats(indicadores_mtto$MTBF)                  #Eliminamos los outliers para un mejor analisis de las distribuciones
 
 ggplot(indicadores_mtto, aes(x = MTBF), ) +
   facet_wrap(~TIPO_MTTO) +
-  geom_histogram(fill = 'lightblue', color = 'darkblue') +
+  geom_histogram(fill = '#038C7F', color = '#3034BC') +
   labs(x='Horas', y = 'Frecuencia', title = 'Distribucion del MTBF por tipo de mantenimiento')
 
 ggplot(indicadores_mtto, aes(x = TIPO_MTTO, y = MTBF)) +
-  geom_boxplot(fill = 'lightblue', color = 'darkblue') +
+  geom_boxplot(fill = '#038C7F', color = '#3034BC') +
   labs(x='Tipo de mantenimiento', y = 'Horas', title = 'Distribucion del MTBF por tipo de mantenimiento')
 
+shapiro.test(indicadores_mtto$MTB)                          #Distribucion no es normal, p-value<.05
+
+wilcox.test(indicadores_mtto$MTBF ~ indicadores_mtto$TIPO_MTTO, alternative='greater')  #Test para distribuciones no normales
+
 #Distribucion del tiempo
+
 ggplot(df_fallas, aes(x = TIEMPO)) +
-  geom_histogram(fill = 'lightblue', color = 'darkblue') +
-  labs(x='Tiempo', y = 'Frecuencia', title = 'Distribucion del tiempo de fallas')
+  geom_histogram(fill = '#038C7F', color = '#3034BC') +
+  labs(x='Tiempo (min)', y = 'Frecuencia', title = 'Distribucion del tiempo de fallas')
 
 ggplot(df_fallas, aes(y = TIEMPO)) +
-  geom_boxplot(fill = 'lightblue', color = 'darkblue') +
-  labs(x='Tiempo', y = 'Frecuencia', title = 'Distribucion del tiempo de fallas')
+  geom_boxplot(fill = '#038C7F', color = '#3034BC') +
+  labs(x='Tiempo (min)', y = 'Frecuencia', title = 'Distribucion del tiempo de fallas')
 
 
 # Tiempo promedio de Falla por equipo
@@ -152,18 +161,17 @@ equipo_tiempo <- df_fallas %>%
   summarise(TIEMPO_PROM = mean(TIEMPO))  
 
 ggplot(equipo_tiempo, aes(x = reorder(EQUIPO, -TIEMPO_PROM), y = TIEMPO_PROM)) +
-  geom_col(fill = 'lightblue', color = 'darkblue') +
-  labs(x='Equipo', y = 'Tiempo', title = 'Tiempo promedio de Falla por equipo') +
+  geom_col(fill = '#038C7F', color = '#3034BC') +
+  labs(x='Equipo', y = 'Tiempo (min)', title = 'Tiempo promedio de Falla por equipo') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5))
-
 
 # Fallas por equipo
 equipo_freq <- df_fallas %>% 
   count(EQUIPO, name = 'FREQ')
 
 ggplot(equipo_freq, aes(x = reorder(EQUIPO, -FREQ), y = FREQ)) +
-  geom_col(fill = 'lightblue', color = 'darkblue') +
+  geom_col(fill = '#038C7F', color = '#3034BC') +
   labs(x='Equipo', y = 'Frecuencia', title = 'Fallas por equipo') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5))
@@ -197,11 +205,20 @@ ggplot(indicadores, aes(x = MTTR, fill = AÑO)) +
         legend.position = 'none')
 
 
-# MTTR Semanal
+# MTTR y MTBF Semanal
 ggplot(indicadores, aes(x = SEMANA, y = MTTR, color = AÑO)) +
   geom_point() +
   facet_wrap(~AÑO) +
   labs(x='Semana', y = 'Minutos', title = 'MTTR anual') +
+  theme(axis.text.x = element_text(angle = 90,
+                                   vjust = 0.5, hjust=1), 
+        plot.title = element_text(hjust = 0.5),
+        legend.position = 'none')
+
+ggplot(indicadores, aes(x = SEMANA, y = MTBF, color = AÑO)) +
+  geom_point() +
+  facet_wrap(~AÑO) +
+  labs(x='Semana', y = 'Minutos', title = 'MTBF anual') +
   theme(axis.text.x = element_text(angle = 90,
                                    vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5),
@@ -223,7 +240,7 @@ tipo_falla <- df_fallas %>%
   filter(TIPO_FALLA != 'NA')
 
 ggplot(tipo_falla, aes(x = reorder(TIPO_FALLA, -FREQ), y = FREQ)) +
-  geom_col(fill = 'lightblue', color = 'darkblue') +
+  geom_col(fill = '#038C7F', color = '#3034BC') +
   labs(x='Falla', y = 'Frecuencia', title = 'Tipos de falla') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
         plot.title = element_text(hjust = 0.5))
@@ -268,8 +285,7 @@ BREAKDOWN.ts <- ts(indicadores[,8], start = 2016, freq = 52)
 BREAKDOWN.decom.A <- decompose(BREAKDOWN.ts)
 
 plot(BREAKDOWN.decom.A, col = "#025951",
-      main = "Descomposición del BREAKDOWN",
-      sub = "Tiempo")
+      xlab = "Tiempo")
 
 Componentes
 
